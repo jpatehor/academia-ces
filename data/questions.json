@@ -6,7 +6,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "En una reacción exergónica, el valor de ΔG es:",
-    "opciones": ["Positivo, la energía libre aumenta", "Negativo, se libera energía", "Cero, equilibrio dinámico", "Depende del pH"],
+    "opciones": [
+      "Positivo, la energía libre aumenta",
+      "Negativo, se libera energía",
+      "Cero, equilibrio dinámico",
+      "Depende del pH"
+    ],
     "correcta": 1,
     "pista": "Exergónico significa que libera energía hacia el entorno.",
     "explicacion": "ΔG negativo indica que la reacción libera energía libre y ocurre de forma espontánea. ΔG = 0 corresponde al equilibrio y ΔG positivo a una reacción endergónica que requiere aporte de energía."
@@ -18,7 +23,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "En un medio con aumento de la forma básica en la ecuación de Henderson-Hasselbalch, el pH:",
-    "opciones": ["Disminuye", "Se mantiene igual", "Aumenta", "Se neutraliza"],
+    "opciones": [
+      "Disminuye",
+      "Se mantiene igual",
+      "Aumenta",
+      "Se neutraliza"
+    ],
     "correcta": 2,
     "pista": "Más base conjugada desplaza el equilibrio hacia alcalinidad.",
     "explicacion": "pH = pKa + log([base]/[ácido]). Si aumenta la forma básica, el logaritmo crece y el pH aumenta. Es la base del manejo del equilibrio ácido-base con bicarbonato."
@@ -30,7 +40,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Paciente con acidosis metabólica. ¿Qué sistema buffer extracelular actúa principalmente para compensar el cambio de pH?",
-    "opciones": ["Fosfato", "Bicarbonato", "Proteínas plasmáticas", "Hemoglobina"],
+    "opciones": [
+      "Fosfato",
+      "Bicarbonato",
+      "Proteínas plasmáticas",
+      "Hemoglobina"
+    ],
     "correcta": 1,
     "pista": "Es el buffer del plasma, medido en la gasometría.",
     "explicacion": "El sistema bicarbonato/ácido carbónico es el buffer extracelular principal por su concentración y por estar acoplado a la ventilación. El fosfato y las proteínas son buffers intracelulares y urinarios relevantes, pero minoritarios en plasma."
@@ -42,7 +57,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "La energía de activación representa:",
-    "opciones": ["Energía liberada por la reacción", "Energía necesaria para alcanzar el estado de transición", "Energía final del producto", "Energía de enlace"],
+    "opciones": [
+      "Energía liberada por la reacción",
+      "Energía necesaria para alcanzar el estado de transición",
+      "Energía final del producto",
+      "Energía de enlace"
+    ],
     "correcta": 1,
     "pista": "Es la barrera que la enzima ayuda a bajar.",
     "explicacion": "La energía de activación es la energía mínima necesaria para que los reactivos alcancen el estado de transición. Las enzimas la disminuyen sin alterar el ΔG global de la reacción."
@@ -54,7 +74,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Paciente con hiperlipidemia tipo IIb (VLDL y LDL elevadas). La dieta más recomendada debe ser:",
-    "opciones": ["Alta en carbohidratos complejos", "Alta en lípidos monoinsaturados", "Baja en carbohidratos", "Rica en proteínas"],
+    "opciones": [
+      "Alta en carbohidratos complejos",
+      "Alta en lípidos monoinsaturados",
+      "Baja en carbohidratos",
+      "Rica en proteínas"
+    ],
     "correcta": 2,
     "pista": "El exceso de carbohidratos es sustrato directo para sintetizar VLDL.",
     "explicacion": "En la dislipidemia mixta tipo IIb la restricción de carbohidratos reduce la producción hepática de VLDL y triglicéridos. Los carbohidratos refinados son el principal inductor de hipertrigliceridemia."
@@ -66,7 +91,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Niño con aumento de volumen escrotal transiluminable. Estructura comprometida:",
-    "opciones": ["Fascia espermática externa", "Túnica vaginal (parietal y visceral)", "Músculo cremáster", "Dartos"],
+    "opciones": [
+      "Fascia espermática externa",
+      "Túnica vaginal (parietal y visceral)",
+      "Músculo cremáster",
+      "Dartos"
+    ],
     "correcta": 1,
     "pista": "Transiluminar indica contenido líquido libre entre capas serosas.",
     "explicacion": "El hidrocele es la acumulación de líquido entre las hojas parietal y visceral de la túnica vaginal. Transilumina porque el líquido es claro; un hematocele o una hernia no transiluminan igual."
@@ -78,7 +108,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Germen catalasa y coagulasa negativos, más probable en una infección urinaria nosocomial:",
-    "opciones": ["Staphylococcus saprophyticus", "E. coli", "Enterococcus faecalis", "Pseudomonas aeruginosa"],
+    "opciones": [
+      "Staphylococcus saprophyticus",
+      "E. coli",
+      "Enterococcus faecalis",
+      "Pseudomonas aeruginosa"
+    ],
     "correcta": 2,
     "pista": "Cocos gram positivos en cadenas, catalasa negativos.",
     "explicacion": "Enterococcus faecalis es catalasa y coagulasa negativo y causa ITU asociada a catéter y a hospitalización. E. coli y Pseudomonas son catalasa positivos, y S. saprophyticus es coagulasa negativa pero típica de ITU comunitaria en mujeres jóvenes."
@@ -90,7 +125,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "En el músculo liso, a diferencia del estriado, está ausente:",
-    "opciones": ["Actina", "Miosina", "Troponina", "SERCA"],
+    "opciones": [
+      "Actina",
+      "Miosina",
+      "Troponina",
+      "SERCA"
+    ],
     "correcta": 2,
     "pista": "El liso regula el calcio con calmodulina.",
     "explicacion": "El músculo liso carece de troponina; la contracción se regula por el complejo calcio-calmodulina que activa la miosina cinasa. Actina, miosina y SERCA están presentes en ambos tipos."
@@ -102,7 +142,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Durante la fase gástrica de la digestión, la secreción de HCl aumenta por acción de:",
-    "opciones": ["Motilina", "Somatostatina", "Histamina", "CCK"],
+    "opciones": [
+      "Motilina",
+      "Somatostatina",
+      "Histamina",
+      "CCK"
+    ],
     "correcta": 2,
     "pista": "Las células ECL la liberan y actúa sobre receptores H2.",
     "explicacion": "La histamina liberada por células enterocromafines estimula los receptores H2 de la célula parietal y aumenta el HCl. La somatostatina inhibe y la CCK actúa más en la fase intestinal."
@@ -114,7 +159,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Paciente con afasia y pérdida de memoria de hechos recientes tras ACV. Tipo de memoria afectada:",
-    "opciones": ["Memoria de trabajo", "Implícita", "Episódica", "Procedimental"],
+    "opciones": [
+      "Memoria de trabajo",
+      "Implícita",
+      "Episódica",
+      "Procedimental"
+    ],
     "correcta": 2,
     "pista": "Es la memoria de eventos con contexto de tiempo y lugar.",
     "explicacion": "La memoria episódica almacena hechos y experiencias con contexto temporal y espacial; depende del hipocampo y circuitos temporales mediales. La procedimental es motora y la de trabajo es operativa de corto plazo."
@@ -126,7 +176,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Estructura cerebral irrigada por arterias coroideas anteriores y posteriores:",
-    "opciones": ["Hipotálamo", "Hipocampo", "Tálamo", "Cuerpo calloso"],
+    "opciones": [
+      "Hipotálamo",
+      "Hipocampo",
+      "Tálamo",
+      "Cuerpo calloso"
+    ],
     "correcta": 1,
     "pista": "Forma parte del lóbulo temporal medial.",
     "explicacion": "El hipocampo y la formación del hipocampo reciben aporte de las arterias coroideas anterior y posterior. Su lesión isquémica produce amnesia anterógrada."
@@ -138,7 +193,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "IAM con bloqueo del nodo AV. Arteria comprometida:",
-    "opciones": ["Descendente anterior", "Circunfleja", "Coronaria derecha (descendente posterior)", "Marginal obtusa"],
+    "opciones": [
+      "Descendente anterior",
+      "Circunfleja",
+      "Coronaria derecha (descendente posterior)",
+      "Marginal obtusa"
+    ],
     "correcta": 2,
     "pista": "En el 85-90% de las personas el nodo AV depende de esta arteria.",
     "explicacion": "La coronaria derecha origina la descendente posterior en la mayoría de la población y de ella nace la rama del nodo AV. Su oclusión explica el bloqueo AV completo en el infarto inferior."
@@ -150,7 +210,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Padres sanos con múltiples familiares con síndrome de Down. Cariotipo más probable en un progenitor:",
-    "opciones": ["46 XY normal", "47 XY +21", "45 XY, t(14;21)", "46 XY inv(21)"],
+    "opciones": [
+      "46 XY normal",
+      "47 XY +21",
+      "45 XY, t(14;21)",
+      "46 XY inv(21)"
+    ],
     "correcta": 2,
     "pista": "La recurrencia familiar sugiere un portador equilibrado.",
     "explicacion": "Un progenitor portador de una translocación robertsoniana equilibrada t(14;21) tiene 45 cromosomas y fenotipo normal, pero puede transmitir un cromosoma 21 extra, generando Down recurrente en la familia."
@@ -162,7 +227,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "En hepatopatía alcohólica, ¿cuál de los siguientes NO es un cambio fisiopatológico característico?",
-    "opciones": ["Aumento de ADH", "Activación del sistema renina-angiotensina-aldosterona", "Hipotensión portal", "Vasodilatación esplácnica"],
+    "opciones": [
+      "Aumento de ADH",
+      "Activación del sistema renina-angiotensina-aldosterona",
+      "Hipotensión portal",
+      "Vasodilatación esplácnica"
+    ],
     "correcta": 2,
     "pista": "En cirrosis la presión portal sube, no baja.",
     "explicacion": "La cirrosis produce hipertensión portal por aumento de resistencia intrahepática. La vasodilatación esplácnica, la activación del RAA y el aumento de ADH sí son característicos y explican ascitis e hiponatremia."
@@ -174,7 +244,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Enzima deficitaria en síndrome de Lesch-Nyhan:",
-    "opciones": ["Adenina fosforribosil transferasa", "Hipoxantina-guanina fosforribosil transferasa", "Xantina oxidasa", "Adenosina desaminasa"],
+    "opciones": [
+      "Adenina fosforribosil transferasa",
+      "Hipoxantina-guanina fosforribosil transferasa",
+      "Xantina oxidasa",
+      "Adenosina desaminasa"
+    ],
     "correcta": 1,
     "pista": "Su déficit produce hiperuricemia, coreoatetosis y automutilación.",
     "explicacion": "El síndrome de Lesch-Nyhan se debe al déficit de HGPRT, enzima de la vía de recuperación de purinas, ligado al cromosoma X. Cursa con hiperuricemia, retraso, coreoatetosis y automutilación."
@@ -186,7 +261,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Secuencia de ADN 3'-TAC-5' en la hebra molde. ¿Cuál es el anticodón correspondiente?",
-    "opciones": ["5'-AUG-3'", "5'-UAC-3'", "3'-UAC-5'", "3'-AUG-5'"],
+    "opciones": [
+      "5'-AUG-3'",
+      "5'-UAC-3'",
+      "3'-UAC-5'",
+      "3'-AUG-5'"
+    ],
     "correcta": 2,
     "pista": "El anticodón es antiparalelo al codón del mRNA.",
     "explicacion": "De la hebra molde 3'-TAC-5' se transcribe el codón 5'-AUG-3'. El anticodón del tRNA que lo reconoce es complementario y antiparalelo: 3'-UAC-5'. El 5'-AUG-3' es el codón, no el anticodón."
@@ -198,7 +278,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Tipo celular diploide de la espermatogénesis:",
-    "opciones": ["Espermátide", "Espermatozoide", "Espermatocito II", "Espermatogonia"],
+    "opciones": [
+      "Espermátide",
+      "Espermatozoide",
+      "Espermatocito II",
+      "Espermatogonia"
+    ],
     "correcta": 3,
     "pista": "La meiosis I aún no ha ocurrido en esta célula.",
     "explicacion": "La espermatogonia es diploide (2n). El espermatocito I también lo es, pero no aparece entre las opciones; el espermatocito II, la espermátide y el espermatozoide son haploides tras la meiosis."
@@ -210,7 +295,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Cariotipo más común en la mola completa:",
-    "opciones": ["46 XY", "46 XX", "69 XXX", "47 XXY"],
+    "opciones": [
+      "46 XY",
+      "46 XX",
+      "69 XXX",
+      "47 XXY"
+    ],
     "correcta": 1,
     "pista": "Proviene de un óvulo sin material nuclear fecundado por un espermatozoide que duplica su ADN.",
     "explicacion": "La mola completa suele ser 46,XX (aprox. 90%): un espermatozoide haploide fecunda un óvulo sin núcleo y duplica su genoma. El 69,XXX corresponde a una mola parcial triploide."
@@ -222,7 +312,12 @@
     "fuente": "CES 2018 · reconstruido",
     "anio": 2018,
     "enunciado": "Mecanismo antioxidante de la vitamina E:",
-    "opciones": ["Aumento de la peroxidación lipídica", "Inhibición de fosfolipasa A2 y de especies reactivas de oxígeno", "Activación de prostaglandinas", "Estimulación de NADPH oxidasa"],
+    "opciones": [
+      "Aumento de la peroxidación lipídica",
+      "Inhibición de fosfolipasa A2 y de especies reactivas de oxígeno",
+      "Activación de prostaglandinas",
+      "Estimulación de NADPH oxidasa"
+    ],
     "correcta": 1,
     "pista": "Protege las membranas de la peroxidación lipídica.",
     "explicacion": "El α-tocoferol es liposoluble y actúa en la membrana celular neutralizando radicales libres e inhibiendo la peroxidación lipídica y la fosfolipasa A2."
@@ -234,7 +329,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "Dos portadores sanos de fibrosis quística (autosómica recesiva) tienen un hijo. ¿Cuál es la probabilidad de que el hijo esté afectado?",
-    "opciones": ["0%", "25%", "50%", "75%"],
+    "opciones": [
+      "0%",
+      "25%",
+      "50%",
+      "75%"
+    ],
     "correcta": 1,
     "pista": "Cruza Aa × Aa.",
     "explicacion": "En herencia autosómica recesiva, dos portadores (Aa × Aa) tienen 25% de descendencia afectada (aa), 50% portadora (Aa) y 25% sana no portadora (AA)."
@@ -246,7 +346,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "El segmento de la nefrona donde se reabsorbe aproximadamente el 65% del sodio filtrado es:",
-    "opciones": ["Túbulo contorneado proximal", "Rama ascendente gruesa de Henle", "Túbulo contorneado distal", "Conducto colector"],
+    "opciones": [
+      "Túbulo contorneado proximal",
+      "Rama ascendente gruesa de Henle",
+      "Túbulo contorneado distal",
+      "Conducto colector"
+    ],
     "correcta": 0,
     "pista": "Es el segmento con mayor carga reabsorbida y mayor consumo de ATP.",
     "explicacion": "El túbulo proximal reabsorbe cerca del 65% del Na+ y del agua filtrados, de forma isosmótica. La rama ascendente gruesa reabsorbe ~25% y es el sitio de acción de los diuréticos de asa."
@@ -258,7 +363,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "El gasto cardíaco se calcula como:",
-    "opciones": ["Frecuencia cardíaca × volumen sistólico", "Presión arterial media / resistencia periférica", "Volumen sistólico / frecuencia cardíaca", "Presión arterial sistólica − diastólica"],
+    "opciones": [
+      "Frecuencia cardíaca × volumen sistólico",
+      "Presión arterial media / resistencia periférica",
+      "Volumen sistólico / frecuencia cardíaca",
+      "Presión arterial sistólica − diastólica"
+    ],
     "correcta": 0,
     "pista": "Dos factores: uno por minuto y otro por latido.",
     "explicacion": "GC = FC × VS. La presión arterial media se relaciona con GC × resistencia vascular periférica, pero no define el gasto cardíaco."
@@ -270,7 +380,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "¿Cuál es el biomarcador más específico de necrosis miocárdica?",
-    "opciones": ["CK total", "Troponina I ultrasensible", "LDH", "Mioglobina"],
+    "opciones": [
+      "CK total",
+      "Troponina I ultrasensible",
+      "LDH",
+      "Mioglobina"
+    ],
     "correcta": 1,
     "pista": "Su elevación define el infarto en la cuarta definición universal.",
     "explicacion": "La troponina I o T ultrasensible es el marcador de elección por su alta especificidad miocárdica. La mioglobina sube antes pero es inespecífica; la CK-MB se usa para reinfarto."
@@ -282,7 +397,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "En un paciente con neumonía adquirida en la comunidad, el microorganismo más frecuente es:",
-    "opciones": ["Mycoplasma pneumoniae", "Streptococcus pneumoniae", "Haemophilus influenzae", "Legionella pneumophila"],
+    "opciones": [
+      "Mycoplasma pneumoniae",
+      "Streptococcus pneumoniae",
+      "Haemophilus influenzae",
+      "Legionella pneumophila"
+    ],
     "correcta": 1,
     "pista": "Diplococo gram positivo, alfa hemolítico.",
     "explicacion": "Streptococcus pneumoniae sigue siendo la causa más frecuente de NAC en cualquier ámbito. Mycoplasma es más común en jóvenes y Legionella en brotes asociados a agua."
@@ -294,7 +414,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "En la meningitis bacteriana aguda, el líquido cefalorraquídeo típicamente muestra:",
-    "opciones": ["Leucocitos mononucleares, glucosa normal", "Neutrófilos, glucosa baja y proteinorraquia elevada", "Leucocitos normales, glucosa alta", "Ausencia de células, proteinorraquia normal"],
+    "opciones": [
+      "Leucocitos mononucleares, glucosa normal",
+      "Neutrófilos, glucosa baja y proteinorraquia elevada",
+      "Leucocitos normales, glucosa alta",
+      "Ausencia de células, proteinorraquia normal"
+    ],
     "correcta": 1,
     "pista": "Compara con el perfil viral, que es linfocitario con glucosa normal.",
     "explicacion": "El perfil bacteriano es: pleocitosis neutrofílica, glucosa baja (glucosa LCR/sérica < 0,4) y proteínas elevadas. El perfil viral es linfocitario con glucosa normal."
@@ -306,7 +431,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "Perfil hormonal esperado en hipertiroidismo primario:",
-    "opciones": ["TSH alta, T4 libre baja", "TSH baja, T4 libre alta", "TSH alta, T4 libre alta", "TSH normal, T4 libre normal"],
+    "opciones": [
+      "TSH alta, T4 libre baja",
+      "TSH baja, T4 libre alta",
+      "TSH alta, T4 libre alta",
+      "TSH normal, T4 libre normal"
+    ],
     "correcta": 1,
     "pista": "El eje se frena por retroalimentación negativa.",
     "explicacion": "En el hipertiroidismo primario el exceso de hormona tiroidea suprime la TSH por retroalimentación. TSH alta con T4 alta sugiere adenoma hipofisario (hipertiroidismo central), mucho menos frecuente."
@@ -318,7 +448,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "¿Cuál es el mejor parámetro para confirmar ferropenia en un paciente con anemia microcítica?",
-    "opciones": ["Hemoglobina", "Ferritina sérica baja", "VCM elevado", "Reticulocitos altos"],
+    "opciones": [
+      "Hemoglobina",
+      "Ferritina sérica baja",
+      "VCM elevado",
+      "Reticulocitos altos"
+    ],
     "correcta": 1,
     "pista": "Es el depósito de hierro y baja antes que la hemoglobina.",
     "explicacion": "La ferritina baja es el marcador más específico de déficit de hierro. Puede elevarse por inflamación, por lo que en contexto inflamatorio se apoya con saturación de transferrina."
@@ -330,7 +465,12 @@
     "fuente": "CES 2023 · reconstruido",
     "anio": 2023,
     "enunciado": "En la enfermedad de Parkinson, el núcleo basal más frecuentemente estimulado con neuroestimulación profunda para los síntomas motores es:",
-    "opciones": ["Núcleo subtalámico", "Sustancia negra", "Núcleo caudado", "Putamen"],
+    "opciones": [
+      "Núcleo subtalámico",
+      "Sustancia negra",
+      "Núcleo caudado",
+      "Putamen"
+    ],
     "correcta": 0,
     "pista": "Es el blanco clásico para temblor y rigidez refractarios.",
     "explicacion": "El núcleo subtalámico es el blanco más usado en estimulación cerebral profunda para Parkinson avanzado. En distonía primaria el blanco habitual es el globo pálido interno."
@@ -342,7 +482,12 @@
     "fuente": "CES 2023 · reconstruido",
     "anio": 2023,
     "enunciado": "¿Cuál es el núcleo basal que se suele seleccionar para el neuroestimulador en pacientes con distonía primaria?",
-    "opciones": ["Núcleo subtalámico", "Sustancia negra", "Globo pálido interno", "Núcleo caudado"],
+    "opciones": [
+      "Núcleo subtalámico",
+      "Sustancia negra",
+      "Globo pálido interno",
+      "Núcleo caudado"
+    ],
     "correcta": 2,
     "pista": "Diferente al blanco del Parkinson.",
     "explicacion": "En la distonía primaria el blanco de elección es el segmento interno del globo pálido (GPi), por su efecto sobre la distonía y menor tasa de efectos adversos cognitivos."
@@ -354,7 +499,12 @@
     "fuente": "CES 2023 · reconstruido",
     "anio": 2023,
     "enunciado": "Paciente con dificultad para nombrar objetos y errores semánticos, con sospecha de alteración del procesamiento semántico. Región más probablemente afectada:",
-    "opciones": ["Giro temporal superior derecho", "Giro temporal medio y posterior izquierdo", "Giro frontal inferior izquierdo", "Núcleo caudado"],
+    "opciones": [
+      "Giro temporal superior derecho",
+      "Giro temporal medio y posterior izquierdo",
+      "Giro frontal inferior izquierdo",
+      "Núcleo caudado"
+    ],
     "correcta": 1,
     "pista": "El giro frontal inferior izquierdo es Broca; aquí el problema es el significado.",
     "explicacion": "La afasia semántica se asocia a lesiones del giro temporal medio y posterior del hemisferio dominante (izquierdo). El giro frontal inferior izquierdo corresponde al área de Broca (afasia motora)."
@@ -366,7 +516,12 @@
     "fuente": "CES 2023 · reconstruido",
     "anio": 2023,
     "enunciado": "Infarto por oclusión de la arteria cerebral media izquierda. ¿Qué área es MENOS probable que se afecte directamente?",
-    "opciones": ["Corteza motora lateral del lóbulo frontal", "Área de Broca", "Corteza sensorial del lóbulo parietal", "Lóbulo occipital"],
+    "opciones": [
+      "Corteza motora lateral del lóbulo frontal",
+      "Área de Broca",
+      "Corteza sensorial del lóbulo parietal",
+      "Lóbulo occipital"
+    ],
     "correcta": 3,
     "pista": "Ese lóbulo depende de la circulación posterior.",
     "explicacion": "La ACM irriga la cara lateral de los hemisferios (frontal, parietal y temporal superior). El lóbulo occipital depende de la arteria cerebral posterior, por lo que es el menos afectado en una oclusión de ACM."
@@ -378,7 +533,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "El hallazgo cristalográfico característico de la gota es:",
-    "opciones": ["Cristales de pirofosfato cálcico, birrefringencia positiva", "Cristales de urato monosódico, aguja y birrefringencia negativa", "Cristales de colesterol", "Cristales de hidroxiapatita"],
+    "opciones": [
+      "Cristales de pirofosfato cálcico, birrefringencia positiva",
+      "Cristales de urato monosódico, aguja y birrefringencia negativa",
+      "Cristales de colesterol",
+      "Cristales de hidroxiapatita"
+    ],
     "correcta": 1,
     "pista": "Aguja, amarillos, birrefringencia negativa.",
     "explicacion": "La gota muestra cristales de urato monosódico en forma de aguja con birrefringencia negativa al microscopio de luz polarizada. El pirofosfato cálcico (pseudogota) es romboidal y con birrefringencia positiva."
@@ -390,7 +550,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "La preeclampsia se define por hipertensión arterial después de las 20 semanas asociada a:",
-    "opciones": ["Proteinuria o disfunción de órgano blanco", "Fiebre y leucocitosis", "Hipoglucemia", "Bradicardia fetal"],
+    "opciones": [
+      "Proteinuria o disfunción de órgano blanco",
+      "Fiebre y leucocitosis",
+      "Hipoglucemia",
+      "Bradicardia fetal"
+    ],
     "correcta": 0,
     "pista": "Ya no se exige proteinuria si hay daño orgánico.",
     "explicacion": "Preeclampsia = HTA ≥ 140/90 tras 20 semanas más proteinuria o disfunción de órgano blanco (renal, hepática, neurológica, hematológica o pulmonar)."
@@ -402,7 +567,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "El síntoma cardinal de la enfermedad por reflujo gastroesofágico es:",
-    "opciones": ["Disfagia progresiva", "Pirosis retroesternal", "Dolor abdominal cólico", "Melena"],
+    "opciones": [
+      "Disfagia progresiva",
+      "Pirosis retroesternal",
+      "Dolor abdominal cólico",
+      "Melena"
+    ],
     "correcta": 1,
     "pista": "Ardor que sube del epigastrio al cuello.",
     "explicacion": "La pirosis es el síntoma típico de ERGE. La disfagia progresiva obliga a descartar cáncer esofágico y la disfagia intermitente sugiere trastorno motor."
@@ -414,7 +584,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "¿Por debajo de qué recuento de CD4 se recomienda profilaxis contra Pneumocystis jirovecii?",
-    "opciones": ["500 células/mm³", "350 células/mm³", "200 células/mm³", "50 células/mm³"],
+    "opciones": [
+      "500 células/mm³",
+      "350 células/mm³",
+      "200 células/mm³",
+      "50 células/mm³"
+    ],
     "correcta": 2,
     "pista": "Es también el umbral de definición de sida en muchas guías.",
     "explicacion": "La profilaxis con trimetoprim-sulfametoxazol se inicia con CD4 < 200 células/mm³ (o candidiasis orofaríngea). Por debajo de 50 se añade profilaxis para Mycobacterium avium."
@@ -426,7 +601,12 @@
     "fuente": "Banco propio · v1",
     "anio": 2026,
     "enunciado": "El anticuerpo con mayor especificidad para artritis reumatoide es:",
-    "opciones": ["Factor reumatoide", "Anti-CCP (anti péptido citrulinado)", "ANA", "Anti-DNA de doble cadena"],
+    "opciones": [
+      "Factor reumatoide",
+      "Anti-CCP (anti péptido citrulinado)",
+      "ANA",
+      "Anti-DNA de doble cadena"
+    ],
     "correcta": 1,
     "pista": "Tiene especificidad cercana al 95%.",
     "explicacion": "El anti-CCP tiene alta especificidad (≈95%) y valor pronóstico en artritis reumatoide. El factor reumatoide es sensible pero menos específico y positivo en otras enfermedades y en ancianos sanos."
@@ -439,7 +619,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En el músculo esquelético, la relajación depende principalmente de:",
-    "opciones": ["Aumento del calcio citosólico", "Consumo de ATP", "Entrada de sodio", "Disminución de potasio"],
+    "opciones": [
+      "Aumento del calcio citosólico",
+      "Consumo de ATP",
+      "Entrada de sodio",
+      "Disminución de potasio"
+    ],
     "correcta": 1,
     "pista": "Una bomba necesita energía para devolver el calcio al retículo.",
     "explicacion": "La relajación exige recaptar el Ca²⁺ hacia el retículo sarcoplásmico mediante la SERCA, una ATPasa que consume ATP. Sin ATP el músculo queda en rigor; la entrada de sodio y el potasio no son el mecanismo principal de relajación."
@@ -452,7 +637,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Estructura que equilibra las presiones del oído medio con el exterior:",
-    "opciones": ["Martillo", "Trompa de Eustaquio", "Músculo estapedio", "Ventana oval"],
+    "opciones": [
+      "Martillo",
+      "Trompa de Eustaquio",
+      "Músculo estapedio",
+      "Ventana oval"
+    ],
     "correcta": 1,
     "pista": "Comunica la nasofaringe con la caja timpánica.",
     "explicacion": "La trompa de Eustaquio (auditiva) ventila el oído medio y equilibra su presión con la atmosférica. Su disfunción produce otitis media con efusión y barotrauma."
@@ -465,7 +655,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Las células de Leydig se estimulan principalmente por:",
-    "opciones": ["FSH", "LH", "Testosterona", "Inhibina B"],
+    "opciones": [
+      "FSH",
+      "LH",
+      "Testosterona",
+      "Inhibina B"
+    ],
     "correcta": 1,
     "pista": "Es la gonadotropina que actúa sobre el compartimento intersticial.",
     "explicacion": "La LH estimula las células de Leydig para producir testosterona. La FSH actúa sobre las células de Sertoli, la inhibina B frena la FSH y la testosterona ejerce retroalimentación negativa."
@@ -478,7 +673,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "La hormona o citocina que estimula la diferenciación de los osteoclastos es:",
-    "opciones": ["PTH", "Calcitonina", "Osteoprotegerina", "RANKL"],
+    "opciones": [
+      "PTH",
+      "Calcitonina",
+      "Osteoprotegerina",
+      "RANKL"
+    ],
     "correcta": 3,
     "pista": "Su nombre viene del receptor activador del factor nuclear κB.",
     "explicacion": "RANKL, producido por osteoblastos y estroma, se une a RANK en precursores y promueve su diferenciación a osteoclastos. La osteoprotegerina es el receptor señuelo que lo neutraliza y la calcitonina inhibe al osteoclasto maduro."
@@ -491,7 +691,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Agente etiológico más frecuente del ectima gangrenoso:",
-    "opciones": ["Streptococcus pyogenes", "Pseudomonas aeruginosa", "Klebsiella pneumoniae", "Enterococcus faecium"],
+    "opciones": [
+      "Streptococcus pyogenes",
+      "Pseudomonas aeruginosa",
+      "Klebsiella pneumoniae",
+      "Enterococcus faecium"
+    ],
     "correcta": 1,
     "pista": "Bacilo gram negativo no fermentador, típico en neutropenia.",
     "explicacion": "El ectima gangrenoso es una lesión necrótica por invasión vascular, clásicamente causada por Pseudomonas aeruginosa en pacientes neutropénicos o inmunosuprimidos. Requiere antibiótico antipseudomónico intravenoso."
@@ -504,7 +709,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Si una persona respira solo con la capacidad residual funcional (CRF), la presión elástica del pulmón es:",
-    "opciones": ["Positiva, el pulmón tiende a colapsar", "Negativa, el pulmón tiende a expandirse", "Igual a la presión pleural", "Aumentada por hiperinsuflación"],
+    "opciones": [
+      "Positiva, el pulmón tiende a colapsar",
+      "Negativa, el pulmón tiende a expandirse",
+      "Igual a la presión pleural",
+      "Aumentada por hiperinsuflación"
+    ],
     "correcta": 0,
     "pista": "El pulmón siempre quiere vaciarse; la caja torácica lo frena.",
     "explicacion": "En la CRF la presión de retroceso elástico del pulmón es positiva (tiende a colapsar) y se equilibra con la tendencia expansiva de la caja torácica; por eso la presión alveolar es cero. Es el punto de equilibrio del sistema respiratorio en reposo."
@@ -517,7 +727,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Vitamina esencial para el metabolismo de los aminoácidos y necesaria para la síntesis de AST y ALT:",
-    "opciones": ["Vitamina B2 (riboflavina)", "Vitamina B6 (piridoxina)", "Vitamina B12 (cobalamina)", "Vitamina B1 (tiamina)"],
+    "opciones": [
+      "Vitamina B2 (riboflavina)",
+      "Vitamina B6 (piridoxina)",
+      "Vitamina B12 (cobalamina)",
+      "Vitamina B1 (tiamina)"
+    ],
     "correcta": 1,
     "pista": "Es la coenzima del fosfato de piridoxal.",
     "explicacion": "La vitamina B6 (piridoxina) genera piridoxal-5-fosfato, cofactor de las transaminasas AST y ALT en el metabolismo de aminoácidos. Su déficit puede elevar transaminasas sin enfermedad hepática."
@@ -530,7 +745,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En la úlcera duodenal posterior, la arteria comprometida con mayor riesgo de sangrado es:",
-    "opciones": ["Gastroduodenal", "Esplénica", "Gastroepiploica", "Pancreática inferior"],
+    "opciones": [
+      "Gastroduodenal",
+      "Esplénica",
+      "Gastroepiploica",
+      "Pancreática inferior"
+    ],
     "correcta": 0,
     "pista": "Pasa por detrás del bulbo duodenal.",
     "explicacion": "La arteria gastroduodenal (rama de la hepática común) discurre posterior al primer segmento duodenal y es la que se erosiona en la úlcera duodenal posterior, causa clásica de hemorragia digestiva alta masiva."
@@ -543,7 +763,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer de 52 años con pancreatitis aguda de novo, sin consumo de alcohol ni litiasis biliar conocida. Primera conducta diagnóstica:",
-    "opciones": ["TAC abdominal con contraste", "Colangioresonancia", "Ecografía abdominal", "CPRE terapéutica"],
+    "opciones": [
+      "TAC abdominal con contraste",
+      "Colangioresonancia",
+      "Ecografía abdominal",
+      "CPRE terapéutica"
+    ],
     "correcta": 2,
     "pista": "Es el primer estudio imagenológico recomendado para buscar cálculos.",
     "explicacion": "La ecografía abdominal es el estudio inicial de elección en pancreatitis aguda para identificar litiasis biliar, que es la causa más frecuente. La TAC se reserva para casos graves o duda diagnóstica después de 72 h."
@@ -556,7 +781,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Hombre de 63 años con IAM hace 2 semanas, ahora con disnea y taquicardia. ¿Qué medicamento reduce la mortalidad post-IAM?",
-    "opciones": ["Nitroglicerina", "Betabloqueadores", "Antagonistas del calcio", "Digoxina"],
+    "opciones": [
+      "Nitroglicerina",
+      "Betabloqueadores",
+      "Antagonistas del calcio",
+      "Digoxina"
+    ],
     "correcta": 1,
     "pista": "Reduce reinfarto y muerte, además de la remodelación ventricular.",
     "explicacion": "Los betabloqueadores reducen mortalidad y reinfarto tras un IAM, además de mejorar la remodelación y la función ventricular. Nitratos y calcioantagonistas alivian síntomas pero no reducen la mortalidad en ese contexto."
@@ -569,7 +799,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con trauma lumbar y retención urinaria que refiere anestesia en “silla de montar”. El tipo de lesión neurológica es:",
-    "opciones": ["Motoneurona superior", "Motoneurona inferior", "Lesión bulbar", "Lesión medular completa"],
+    "opciones": [
+      "Motoneurona superior",
+      "Motoneurona inferior",
+      "Lesión bulbar",
+      "Lesión medular completa"
+    ],
     "correcta": 1,
     "pista": "Afecta raíces sacras S2-S4.",
     "explicacion": "La anestesia en silla de montar con retención urinaria indica síndrome de cauda equina: lesión de raíces lumbosacras, es decir, motoneurona inferior (arreflexia, hipotonía, atonía vesical). Es una urgencia quirúrgica."
@@ -582,7 +817,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer de 39 años con sangrado uterino anovulatorio. Conducta inicial:",
-    "opciones": ["Observación", "Anticonceptivos combinados", "Legrado diagnóstico", "Ablación endometrial"],
+    "opciones": [
+      "Observación",
+      "Anticonceptivos combinados",
+      "Legrado diagnóstico",
+      "Ablación endometrial"
+    ],
     "correcta": 1,
     "pista": "Se busca regular el ciclo y estabilizar el endometrio.",
     "explicacion": "El sangrado anovulatorio sin causa orgánica se maneja inicialmente con anticonceptivos combinados, que estabilizan el endometrio y regulan el ciclo. El legrado y la ablación se reservan para fracaso del tratamiento médico o sospecha de patología endometrial."
@@ -595,7 +835,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer de 17 años con citología ASC-US. Conducta inicial según guías actuales:",
-    "opciones": ["Colposcopia inmediata", "Repetir citología en 12 meses", "Biopsia dirigida", "Tipificación de HPV"],
+    "opciones": [
+      "Colposcopia inmediata",
+      "Repetir citología en 12 meses",
+      "Biopsia dirigida",
+      "Tipificación de HPV"
+    ],
     "correcta": 1,
     "pista": "En menores de 25 años se prefiere no intervenir.",
     "explicacion": "En menores de 25 años el ASC-US se maneja con citología de control a los 12 meses, porque la mayoría de las infecciones por HPV son transitorias. La colposcopia inmediata se reserva para ASC-H, HSIL o alteraciones persistentes."
@@ -608,7 +853,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Según metas AHA 2024, la presión arterial objetivo en pacientes con riesgo cardiovascular elevado es:",
-    "opciones": ["<140/90 mmHg", "<135/85 mmHg", "<130/80 mmHg", "<125/75 mmHg"],
+    "opciones": [
+      "<140/90 mmHg",
+      "<135/85 mmHg",
+      "<130/80 mmHg",
+      "<125/75 mmHg"
+    ],
     "correcta": 2,
     "pista": "Es la misma cifra que define hipertensión en la clasificación AHA.",
     "explicacion": "Las guías AHA/ACC fijan como objetivo <130/80 mmHg en la mayoría de adultos, incluidos los de alto riesgo cardiovascular, siempre que se tolere. Cifras más estrictas se individualizan."
@@ -621,7 +871,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En la resonancia cardíaca del paciente con enfermedad de Chagas se observa:",
-    "opciones": ["Dilatación del ventrículo izquierdo y fibrosis apical", "Hipertrofia concéntrica", "Aneurisma basal septal", "Engrosamiento pericárdico"],
+    "opciones": [
+      "Dilatación del ventrículo izquierdo y fibrosis apical",
+      "Hipertrofia concéntrica",
+      "Aneurisma basal septal",
+      "Engrosamiento pericárdico"
+    ],
     "correcta": 0,
     "pista": "La lesión típica es apical y con realce tardío.",
     "explicacion": "La miocardiopatía chagásica crónica se caracteriza por dilatación ventricular, disfunción sistólica y fibrosis con aneurisma apical, con realce tardío en la RM. Es un patrón distintivo frente a otras miocardiopatías dilatadas."
@@ -634,7 +889,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Niño con urocultivo de 50.000 UFC y sin síntomas urinarios. Conducta:",
-    "opciones": ["Tratar con antibiótico", "Repetir cultivo en 48 h", "Observar y buscar otros focos infecciosos", "Solicitar urocultivo por sonda"],
+    "opciones": [
+      "Tratar con antibiótico",
+      "Repetir cultivo en 48 h",
+      "Observar y buscar otros focos infecciosos",
+      "Solicitar urocultivo por sonda"
+    ],
     "correcta": 2,
     "pista": "Bacteriuria asintomática: no se trata.",
     "explicacion": "La bacteriuria asintomática no se trata con antibióticos porque no mejora el pronóstico y favorece resistencia. Se debe descartar otro foco de fiebre y evitar el cateterismo innecesario."
@@ -647,7 +907,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con úlcera gástrica de bordes levantados y centro necrótico. Clasificación de Borrmann:",
-    "opciones": ["I", "II", "III", "IV"],
+    "opciones": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
     "correcta": 1,
     "pista": "Ulcerada, con márgenes elevados pero bien delimitados.",
     "explicacion": "Borrmann II es el carcinoma ulcerado con márgenes elevados y bien delimitados. El tipo I es polipoideo, el III es ulcerado infiltrante de bordes mal definidos y el IV es difusamente infiltrante (linitis plástica)."
@@ -660,7 +925,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Lactante con signos leves de deshidratación según AIEPI. ¿Cuál es el manejo inicial recomendado?",
-    "opciones": ["Solución oral cada vez que vomite", "Hidratación oral con SRO en casa", "Hospitalización inmediata", "Suspender la lactancia temporalmente"],
+    "opciones": [
+      "Solución oral cada vez que vomite",
+      "Hidratación oral con SRO en casa",
+      "Hospitalización inmediata",
+      "Suspender la lactancia temporalmente"
+    ],
     "correcta": 1,
     "pista": "Plan A: tratar en casa y continuar alimentando.",
     "explicacion": "Ante deshidratación leve el AIEPI indica plan A: sales de rehidratación oral en casa, continuación de la lactancia y control en 3-5 días. La hospitalización se reserva para deshidratación moderada o grave (planes B y C)."
@@ -673,7 +943,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer con leucorrea, sin bacterias al Gram pero con abundantes polimorfonucleares. Diagnóstico probable:",
-    "opciones": ["Vaginosis bacteriana", "Tricomoniasis", "Candidiasis", "Gonorrea"],
+    "opciones": [
+      "Vaginosis bacteriana",
+      "Tricomoniasis",
+      "Candidiasis",
+      "Gonorrea"
+    ],
     "correcta": 1,
     "pista": "El agente no es una bacteria y produce secreción inflamatoria.",
     "explicacion": "La tricomoniasis produce flujo inflamatorio con abundantes polimorfonucleares y ausencia de bacterias en la tinción de Gram, porque el agente es un protozoo. La vaginosis bacteriana muestra células clave y flora alterada, y la gonorrea diplococos gramnegativos intracelulares."
@@ -686,7 +961,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Hombre con úlcera indolora en el pene cuya pareja presenta dolor abdominal y flujo vaginal. Germen más probable:",
-    "opciones": ["Treponema pallidum", "Chlamydia trachomatis", "Haemophilus ducreyi", "Herpes simplex"],
+    "opciones": [
+      "Treponema pallidum",
+      "Chlamydia trachomatis",
+      "Haemophilus ducreyi",
+      "Herpes simplex"
+    ],
     "correcta": 0,
     "pista": "Chancro duro, indoloro, único.",
     "explicacion": "La úlcera indolora única con bordes indurados corresponde al chancro sifilítico por Treponema pallidum. Haemophilus ducreyi produce chancro blando doloroso y el herpes lesiones vesiculosas recurrentes muy dolorosas."
@@ -699,7 +979,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer de 24 años con retraso menstrual, sangrado vaginal y β-hCG en descenso. Cuello cerrado al examen. Diagnóstico más probable:",
-    "opciones": ["Aborto incompleto", "Aborto completo", "Aborto retenido", "Embarazo ectópico"],
+    "opciones": [
+      "Aborto incompleto",
+      "Aborto completo",
+      "Aborto retenido",
+      "Embarazo ectópico"
+    ],
     "correcta": 1,
     "pista": "El tejido ya salió y la hormona está cayendo.",
     "explicacion": "El aborto completo cursa con sangrado, cuello cerrado y β-hCG descendente tras la expulsión del tejido. En el incompleto el cuello suele estar abierto y la hCG se estanca; en el retenido no hay sangrado y la hCG se mantiene."
@@ -712,7 +997,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente estable con trauma abdominal y neumoperitoneo en la radiografía. Conducta siguiente:",
-    "opciones": ["Laparotomía inmediata", "TAC abdominal con contraste", "Observación", "Lavado peritoneal diagnóstico"],
+    "opciones": [
+      "Laparotomía inmediata",
+      "TAC abdominal con contraste",
+      "Observación",
+      "Lavado peritoneal diagnóstico"
+    ],
     "correcta": 0,
     "pista": "Aire libre en cavidad con trauma significa víscera hueca rota.",
     "explicacion": "El neumoperitoneo en trauma cerrado indica perforación de víscera hueca y obliga a laparotomía, incluso con el paciente estable. La TAC solo se plantea en casos seleccionados sin signos de irritación peritoneal."
@@ -725,7 +1015,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con obstrucción intestinal parcial y hemodinámicamente estable. Conducta más adecuada:",
-    "opciones": ["Laparotomía exploratoria", "TAC abdominal", "Colonoscopia", "Enema baritado"],
+    "opciones": [
+      "Laparotomía exploratoria",
+      "TAC abdominal",
+      "Colonoscopia",
+      "Enema baritado"
+    ],
     "correcta": 1,
     "pista": "Necesitas saber el nivel y la causa antes de operar.",
     "explicacion": "En la obstrucción parcial estable se realiza TAC con contraste para definir nivel, causa y signos de sufrimiento vascular; el manejo inicial es médico (líquidos, sonda, ayuno). El enema baritado está contraindicado por riesgo de perforación."
@@ -738,7 +1033,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer de 36 años con bocio, pérdida de peso y taquicardia. Diagnóstico más probable de tirotoxicosis:",
-    "opciones": ["Tiroiditis de Hashimoto", "Bocio multinodular tóxico", "Hipotiroidismo subclínico", "Tiroiditis postparto"],
+    "opciones": [
+      "Tiroiditis de Hashimoto",
+      "Bocio multinodular tóxico",
+      "Hipotiroidismo subclínico",
+      "Tiroiditis postparto"
+    ],
     "correcta": 1,
     "pista": "Es la única opción que cursa con hipertiroidismo.",
     "explicacion": "Entre las opciones, el bocio multinodular tóxico es la única causa de tirotoxicosis; Hashimoto y la tiroiditis postparto suelen cursar con hipotiroidismo (la postparto puede tener una fase tirotóxica transitoria) y el hipotiroidismo subclínico tiene TSH alta."
@@ -751,7 +1051,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Alimentación complementaria adecuada según AIEPI:",
-    "opciones": ["Papillas líquidas hasta el año", "Papillas espesas e integración a la alimentación familiar desde los 6 meses", "Dieta exclusiva con fórmulas", "Iniciar alimentos sólidos a los 9 meses"],
+    "opciones": [
+      "Papillas líquidas hasta el año",
+      "Papillas espesas e integración a la alimentación familiar desde los 6 meses",
+      "Dieta exclusiva con fórmulas",
+      "Iniciar alimentos sólidos a los 9 meses"
+    ],
     "correcta": 1,
     "pista": "Empieza a los 6 meses y debe ser espesa, no líquida.",
     "explicacion": "La alimentación complementaria inicia a los 6 meses con papillas espesas y avanza a la comida familiar, manteniendo la lactancia hasta los 2 años. Las preparaciones líquidas aportan poca energía y retrasan la transición."
@@ -764,7 +1069,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente de 45 años con epigastralgia intensa, vómito y signos de irritación peritoneal. Radiografía con neumoperitoneo. Diagnóstico más probable:",
-    "opciones": ["Perforación gástrica", "Úlcera duodenal perforada", "Colecistitis aguda", "Pancreatitis aguda"],
+    "opciones": [
+      "Perforación gástrica",
+      "Úlcera duodenal perforada",
+      "Colecistitis aguda",
+      "Pancreatitis aguda"
+    ],
     "correcta": 1,
     "pista": "La localización más frecuente de la úlcera péptica perforada es duodenal.",
     "explicacion": "La úlcera duodenal es la causa más frecuente de neumoperitoneo por perforación de víscera hueca en un paciente con dolor epigástrico súbito e irritación peritoneal. La colecistitis y la pancreatitis no producen aire libre subdiafragmático."
@@ -777,7 +1087,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con neumonía grave en UCI tratada con piperacilina-tazobactam y cefepime que reingresa con nueva neumonía nosocomial. ¿Cuál es el germen MENOS probable?",
-    "opciones": ["Acinetobacter baumannii", "Klebsiella pneumoniae", "Pseudomonas aeruginosa", "Borrelia burgdorferi"],
+    "opciones": [
+      "Acinetobacter baumannii",
+      "Klebsiella pneumoniae",
+      "Pseudomonas aeruginosa",
+      "Borrelia burgdorferi"
+    ],
     "correcta": 3,
     "pista": "Uno de ellos se transmite por garrapatas, no en la UCI.",
     "explicacion": "Acinetobacter, Klebsiella y Pseudomonas son los bacilos gramnegativos clásicos de la neumonía asociada a ventilación mecánica. Borrelia burgdorferi causa la enfermedad de Lyme y se transmite por garrapatas, sin relación con la UCI."
@@ -790,7 +1105,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Si en el caso anterior se sospecha un germen multirresistente, la combinación antibiótica más apropiada sería:",
-    "opciones": ["Meropenem + colistina", "Ceftriaxona + ampicilina", "Azitromicina + levofloxacina", "Cefepime + amikacina"],
+    "opciones": [
+      "Meropenem + colistina",
+      "Ceftriaxona + ampicilina",
+      "Azitromicina + levofloxacina",
+      "Cefepime + amikacina"
+    ],
     "correcta": 0,
     "pista": "Cubrir bacilos gramnegativos productores de carbapenemasas.",
     "explicacion": "En sospecha de gramnegativos multirresistentes (BLEE o carbapenemasas) se usa un carbapenémico asociado a colistina o a un inhibidor de betalactamasas de nueva generación. Ceftriaxona, azitromicina y cefepime no cubren esos perfiles."
@@ -803,7 +1123,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con quemadura química en mucosa oral tras ingerir una sustancia doméstica. ¿Cuál produce la lesión más deformante?",
-    "opciones": ["Ácido sulfúrico", "Álcali (hidróxido de sodio)", "Ácido acético", "Alcohol etílico"],
+    "opciones": [
+      "Ácido sulfúrico",
+      "Álcali (hidróxido de sodio)",
+      "Ácido acético",
+      "Alcohol etílico"
+    ],
     "correcta": 1,
     "pista": "Produce necrosis por licuefacción y penetra más profundo.",
     "explicacion": "Los álcalis provocan necrosis por licuefacción, penetran profundamente y generan estenosis esofágicas graves. Los ácidos causan necrosis por coagulación, que habitualmente limita la profundidad de la lesión."
@@ -816,7 +1141,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Tratamiento de elección para la paciente con leucorrea inflamatoria por tricomoniasis:",
-    "opciones": ["Metronidazol 500 mg cada 12 h por 7 días", "Fluconazol 150 mg dosis única", "Doxiciclina 100 mg cada 12 h", "Azitromicina 1 g dosis única"],
+    "opciones": [
+      "Metronidazol 500 mg cada 12 h por 7 días",
+      "Fluconazol 150 mg dosis única",
+      "Doxiciclina 100 mg cada 12 h",
+      "Azitromicina 1 g dosis única"
+    ],
     "correcta": 0,
     "pista": "Es un protozoo; el tratamiento es el mismo de la vaginosis.",
     "explicacion": "La tricomoniasis se trata con metronidazol u otro nitroimidazol, y deben tratarse también las parejas. Fluconazol es para Candida, doxiciclina para Chlamydia y azitromicina para gonorrea o clamidia."
@@ -829,7 +1159,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer con sangrado tras la inserción de un DIU y ecografía normal. Manejo inicial:",
-    "opciones": ["Retirar el DIU", "Administrar ácido tranexámico", "Realizar histeroscopia", "Usar progestágenos orales"],
+    "opciones": [
+      "Retirar el DIU",
+      "Administrar ácido tranexámico",
+      "Realizar histeroscopia",
+      "Usar progestágenos orales"
+    ],
     "correcta": 1,
     "pista": "Con dispositivo bien posicionado, primero se controla el sangrado.",
     "explicacion": "Si la ecografía descarta malposición, el sangrado posinserción se maneja de forma sintomática con antifibrinolíticos o AINE. La extracción se reserva para sangrado persistente o intolerable, y la histeroscopia para sospecha de perforación."
@@ -842,7 +1177,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer con cardiopatía congénita e hipertensión pulmonar severa. Categoría de riesgo de la OMS para el embarazo:",
-    "opciones": ["I", "II", "III", "IV"],
+    "opciones": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
     "correcta": 3,
     "pista": "Es la categoría en la que el embarazo está contraindicado.",
     "explicacion": "La hipertensión pulmonar severa se clasifica como OMS IV: el embarazo está contraindicado por una mortalidad materna muy alta. Se debe ofrecer anticoncepción segura y consejería preconcepcional."
@@ -855,7 +1195,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con trauma abdominal y epiplocele visible en la herida. Conducta indicada:",
-    "opciones": ["Dejar exteriorizado", "Lavar, suturar y cerrar", "Resección intestinal", "Colocar drenaje abierto"],
+    "opciones": [
+      "Dejar exteriorizado",
+      "Lavar, suturar y cerrar",
+      "Resección intestinal",
+      "Colocar drenaje abierto"
+    ],
     "correcta": 1,
     "pista": "El epiplón viable se reduce, no se deja afuera.",
     "explicacion": "El epiplocele con tejido viable se irriga, se reduce y se cierra la pared. Dejar el epiplón exteriorizado favorece infección y evisceración; la resección solo se hace si está necrótico."
@@ -868,7 +1213,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Para evidenciar neumoperitoneo, la proyección radiológica más sensible es:",
-    "opciones": ["Abdomen acostado", "Tórax en bipedestación", "Abdomen lateral", "Abdomen en decúbito"],
+    "opciones": [
+      "Abdomen acostado",
+      "Tórax en bipedestación",
+      "Abdomen lateral",
+      "Abdomen en decúbito"
+    ],
     "correcta": 1,
     "pista": "El aire sube y se ve bajo el diafragma.",
     "explicacion": "La radiografía de tórax en bipedestación permite ver el aire libre subdiafragmático, signo más sensible de neumoperitoneo. El decúbito supino solo muestra el signo de Rigler en casos con gran volumen de aire."
@@ -881,7 +1231,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En el hidrocele, el líquido se acumula:",
-    "opciones": ["Entre la fascia espermática interna y el testículo", "Entre la túnica vaginal parietal y visceral", "Entre el cremáster y el dartos", "En la cavidad peritoneal"],
+    "opciones": [
+      "Entre la fascia espermática interna y el testículo",
+      "Entre la túnica vaginal parietal y visceral",
+      "Entre el cremáster y el dartos",
+      "En la cavidad peritoneal"
+    ],
     "correcta": 1,
     "pista": "Es la misma capa serosa que en el hidrocele comunicante.",
     "explicacion": "El hidrocele es la acumulación de líquido entre las hojas parietal y visceral de la túnica vaginal. Cuando se comunica con la cavidad peritoneal por un conducto peritoneovaginal permeable se denomina hidrocele comunicante."
@@ -894,7 +1249,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con hematuria intermitente izquierda y dolor lumbar sin litiasis. Diagnóstico más probable:",
-    "opciones": ["Síndrome de cascanueces", "Glomerulonefritis", "Reflujo vesicoureteral", "Compresión ureteral extrínseca"],
+    "opciones": [
+      "Síndrome de cascanueces",
+      "Glomerulonefritis",
+      "Reflujo vesicoureteral",
+      "Compresión ureteral extrínseca"
+    ],
     "correcta": 0,
     "pista": "La vena renal izquierda queda comprimida entre la aorta y la arteria mesentérica superior.",
     "explicacion": "El síndrome de cascanueces ocurre por compresión de la vena renal izquierda entre la aorta y la arteria mesentérica superior, y produce hematuria y dolor lumbar por hipertensión venosa renal."
@@ -907,7 +1267,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Mujer joven con antecedente de nefrectomía que consulta por disnea y ascitis; la ecografía muestra derrame pericárdico. Causa más probable:",
-    "opciones": ["Síndrome de Dressler", "Insuficiencia cardiaca", "Uremia", "Tuberculosis pericárdica"],
+    "opciones": [
+      "Síndrome de Dressler",
+      "Insuficiencia cardiaca",
+      "Uremia",
+      "Tuberculosis pericárdica"
+    ],
     "correcta": 2,
     "pista": "La pérdida de masa renal lleva a falla renal y acumulación de toxinas.",
     "explicacion": "Tras una nefrectomía puede desarrollarse enfermedad renal crónica avanzada; la pericarditis urémica es una complicación clásica y explica el derrame con disnea y ascitis. Es indicación de diálisis urgente si hay inestabilidad."
@@ -920,7 +1285,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con fiebre y disuria; el urocultivo reporta Klebsiella pneumoniae multirresistente. Mecanismo de resistencia más frecuente:",
-    "opciones": ["Alteración de la diana ribosomal", "β-lactamasa de espectro extendido (BLEE)", "Mutación del gen rpoB", "Disminución de la captación del fármaco"],
+    "opciones": [
+      "Alteración de la diana ribosomal",
+      "β-lactamasa de espectro extendido (BLEE)",
+      "Mutación del gen rpoB",
+      "Disminución de la captación del fármaco"
+    ],
     "correcta": 1,
     "pista": "Afecta penicilinas y cefalosporinas de tercera generación.",
     "explicacion": "La producción de betalactamasas de espectro extendido es el mecanismo principal de resistencia en Klebsiella. La alteración ribosomal se asocia a macrólidos, la mutación de rpoB a rifampicina y la baja captación a aminoglucósidos."
@@ -933,7 +1303,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Hombre de 40 años con hidrocele unilateral. Conducta quirúrgica habitual:",
-    "opciones": ["Orquiectomía parcial", "Punción y drenaje", "Hidrocelectomía", "Observación"],
+    "opciones": [
+      "Orquiectomía parcial",
+      "Punción y drenaje",
+      "Hidrocelectomía",
+      "Observación"
+    ],
     "correcta": 2,
     "pista": "Se reseca la túnica vaginal; el testículo se conserva.",
     "explicacion": "El tratamiento definitivo del hidrocele sintomático es la hidrocelectomía (técnica de Jaboulay o Lord), que reseca o evagina la túnica vaginal conservando el testículo. La punción recidiva y no se recomienda."
@@ -946,7 +1321,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En el estudio REDUCE se evaluó la relación entre accidente cerebrovascular criptogénico y el cierre de:",
-    "opciones": ["Comunicación interauricular", "Comunicación interventricular", "Foramen oval permeable", "Ninguna de las anteriores"],
+    "opciones": [
+      "Comunicación interauricular",
+      "Comunicación interventricular",
+      "Foramen oval permeable",
+      "Ninguna de las anteriores"
+    ],
     "correcta": 2,
     "pista": "Es el defecto septal más frecuente y se asocia a embolia paradójica.",
     "explicacion": "El estudio REDUCE demostró que el cierre del foramen oval permeable reduce la recurrencia de ACV criptogénico en pacientes seleccionados (18-60 años con embolia paradójica documentada)."
@@ -959,7 +1339,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En la estenosis mitral, el índice de Wilkins se utiliza para evaluar:",
-    "opciones": ["Riesgo quirúrgico anestésico", "Grado de calcificación valvular", "Severidad y elegibilidad para valvuloplastia", "Tamaño de la aurícula izquierda"],
+    "opciones": [
+      "Riesgo quirúrgico anestésico",
+      "Grado de calcificación valvular",
+      "Severidad y elegibilidad para valvuloplastia",
+      "Tamaño de la aurícula izquierda"
+    ],
     "correcta": 2,
     "pista": "Puntúa movilidad, engrosamiento, calcificación y afectación subvalvular.",
     "explicacion": "El índice de Wilkins (o score de Abascal) puntúa cuatro características morfológicas de la válvula mitral y predice el éxito de la valvuloplastia percutánea con balón: a menor puntaje, mejor resultado."
@@ -972,7 +1357,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "¿Cuál es una indicación de cirugía urgente en endocarditis infecciosa?",
-    "opciones": ["Endocarditis sobre válvula protésica", "Absceso perivalvular o insuficiencia cardiaca", "Fiebre persistente", "Bacteriemia por enterococo sensible"],
+    "opciones": [
+      "Endocarditis sobre válvula protésica",
+      "Absceso perivalvular o insuficiencia cardiaca",
+      "Fiebre persistente",
+      "Bacteriemia por enterococo sensible"
+    ],
     "correcta": 1,
     "pista": "La complicación que mata es la falla hemodinámica por destrucción valvular.",
     "explicacion": "La insuficiencia cardiaca por disfunción valvular grave y las complicaciones perivalvulares (absceso, fístula) son indicaciones de cirugía urgente. La fiebre persistente aislada y la bacteriemia sensible se manejan con antibiótico."
@@ -985,7 +1375,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Durante la lactancia materna se recomienda:",
-    "opciones": ["Suplementar con agua y jugos", "Ofrecer solo leche materna exclusiva hasta los 6 meses", "Introducir papillas desde los 3 meses", "Evitar amamantar por la noche"],
+    "opciones": [
+      "Suplementar con agua y jugos",
+      "Ofrecer solo leche materna exclusiva hasta los 6 meses",
+      "Introducir papillas desde los 3 meses",
+      "Evitar amamantar por la noche"
+    ],
     "correcta": 1,
     "pista": "La leche materna cubre agua y nutrientes en el primer semestre.",
     "explicacion": "La OMS y el AIEPI recomiendan lactancia materna exclusiva hasta los 6 meses, sin agua ni otros líquidos, y luego alimentación complementaria manteniendo la lactancia hasta los 2 años."
@@ -998,7 +1393,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "La clasificación de la crisis asmática se basa principalmente en:",
-    "opciones": ["Pérdida de peso y saturación", "PEF y frecuencia respiratoria", "Tipo de sibilancias únicamente", "Edad del paciente"],
+    "opciones": [
+      "Pérdida de peso y saturación",
+      "PEF y frecuencia respiratoria",
+      "Tipo de sibilancias únicamente",
+      "Edad del paciente"
+    ],
     "correcta": 1,
     "pista": "Se usan parámetros objetivos de función pulmonar y esfuerzo respiratorio.",
     "explicacion": "La gravedad de la crisis asmática se clasifica con el flujo espiratorio máximo (PEF), la frecuencia respiratoria, el uso de músculos accesorios, la saturación y la capacidad de hablar. Las sibilancias aisladas no reflejan gravedad."
@@ -1011,7 +1411,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Tumor mamario HER2 positivo. Tratamiento dirigido específico contra el receptor:",
-    "opciones": ["Tamoxifeno", "Trastuzumab", "Letrozol", "Fulvestrant"],
+    "opciones": [
+      "Tamoxifeno",
+      "Trastuzumab",
+      "Letrozol",
+      "Fulvestrant"
+    ],
     "correcta": 1,
     "pista": "Es un anticuerpo monoclonal anti-HER2.",
     "explicacion": "El trastuzumab (y otros anti-HER2 como pertuzumab) es el tratamiento dirigido en cáncer de mama HER2 positivo. Tamoxifeno, letrozol y fulvestrant actúan sobre el receptor hormonal, no sobre HER2."
@@ -1024,7 +1429,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Niño con cetoacidosis diabética y signos de infección urinaria. Conducta:",
-    "opciones": ["Tratar primero la infección", "Corregir acidosis y glucemia", "Restringir líquidos", "Usar antibióticos de amplio espectro sin hidratar"],
+    "opciones": [
+      "Tratar primero la infección",
+      "Corregir acidosis y glucemia",
+      "Restringir líquidos",
+      "Usar antibióticos de amplio espectro sin hidratar"
+    ],
     "correcta": 1,
     "pista": "La cetoacidosis es la emergencia que amenaza la vida.",
     "explicacion": "La prioridad en la cetoacidosis diabética es la reanimación con líquidos, insulina y corrección del potasio; el antibiótico se inicia en paralelo una vez asegurada la estabilidad. Restringir líquidos agrava la deshidratación y el estado hiperosmolar."
@@ -1037,7 +1447,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Entre los pólipos colónicos, los de mayor potencial maligno son los:",
-    "opciones": ["Hiperplásicos", "Serrados", "Tubulares", "Vellosos"],
+    "opciones": [
+      "Hiperplásicos",
+      "Serrados",
+      "Tubulares",
+      "Vellosos"
+    ],
     "correcta": 3,
     "pista": "A mayor componente velloso, mayor riesgo de carcinoma.",
     "explicacion": "Los adenomas vellosos tienen el mayor potencial de transformación maligna (hasta 40%), seguidos de los tubulovellosos y luego los tubulares. Los hiperplásicos son de bajo riesgo."
@@ -1050,7 +1465,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En el cáncer gástrico, cuando el tumor alcanza la serosa, el tipo de diseminación predominante es:",
-    "opciones": ["Hematógena", "Linfática", "Por contigüidad y siembra peritoneal", "Transcelómica únicamente"],
+    "opciones": [
+      "Hematógena",
+      "Linfática",
+      "Por contigüidad y siembra peritoneal",
+      "Transcelómica únicamente"
+    ],
     "correcta": 2,
     "pista": "Al atravesar la serosa el tumor siembra la cavidad peritoneal.",
     "explicacion": "La infiltración de la serosa permite la diseminación por contigüidad a órganos vecinos y la siembra peritoneal (carcinomatosis, tumor de Krukenberg). La vía linfática predomina en estadios más tempranos y la hematógena en hígado y pulmón."
@@ -1063,7 +1483,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Paciente con cáncer localmente infiltrado en quien el tratamiento curativo ya no es posible. La indicación es:",
-    "opciones": ["Cirugía radical", "Radioterapia curativa", "Tratamiento paliativo", "Hormonoterapia preventiva"],
+    "opciones": [
+      "Cirugía radical",
+      "Radioterapia curativa",
+      "Tratamiento paliativo",
+      "Hormonoterapia preventiva"
+    ],
     "correcta": 2,
     "pista": "El objetivo pasa a ser calidad de vida, no curación.",
     "explicacion": "Cuando la enfermedad es irresecable o metastásica, el objetivo es paliativo: control de síntomas, soporte nutricional y psicosocial, y tratamiento oncológico dirigido a prolongar y mejorar la calidad de vida."
@@ -1076,7 +1501,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Seis semanas después de un cuadro de enfermedad inflamatoria pélvica, el seguimiento ecográfico busca descartar:",
-    "opciones": ["Endometriosis", "Absceso tubo-ovárico", "Miomatosis uterina", "Adenomiosis"],
+    "opciones": [
+      "Endometriosis",
+      "Absceso tubo-ovárico",
+      "Miomatosis uterina",
+      "Adenomiosis"
+    ],
     "correcta": 1,
     "pista": "Es la complicación supurada de la EIP.",
     "explicacion": "La EIP puede evolucionar a absceso tubo-ovárico, que requiere seguimiento imagenológico y, si persiste o se rompe, drenaje quirúrgico. También se vigila la hidrosálpinx y la infertilidad posterior."
@@ -1089,7 +1519,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Un ECG con infarto en la descendente anterior antes de las ramas septales y diagonales indica compromiso de:",
-    "opciones": ["Porción proximal de la DA", "Porción media de la DA", "Circunfleja", "Coronaria derecha"],
+    "opciones": [
+      "Porción proximal de la DA",
+      "Porción media de la DA",
+      "Circunfleja",
+      "Coronaria derecha"
+    ],
     "correcta": 0,
     "pista": "Afecta territorio anterior extenso más ramas septales.",
     "explicacion": "La oclusión proximal de la descendente anterior (antes de septales y diagonales) produce un infarto anterior extenso con compromiso del tabique y de la pared anterolateral. Es el territorio de mayor riesgo de shock cardiogénico."
@@ -1102,7 +1537,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "En la infección respiratoria por virus sincitial respiratorio (VRS), el aislamiento indicado es:",
-    "opciones": ["Respiratorio con mascarilla N95", "Contacto y gotas", "Aislamiento estricto individual", "No requiere aislamiento"],
+    "opciones": [
+      "Respiratorio con mascarilla N95",
+      "Contacto y gotas",
+      "Aislamiento estricto individual",
+      "No requiere aislamiento"
+    ],
     "correcta": 1,
     "pista": "Se transmite por secreciones y fómites.",
     "explicacion": "El VRS requiere precauciones de contacto y de gotas: el virus sobrevive en superficies y se transmite por manos y secreciones. La mascarilla N95 se reserva para aerosoles (tuberculosis, sarampión, varicela)."
@@ -1114,7 +1554,12 @@
     "fuente": "Curso cultura general · Día 20",
     "anio": 2024,
     "enunciado": "¿Quién pintó «El nacimiento de Venus»?",
-    "opciones": ["Leonardo da Vinci", "Sandro Botticelli", "Miguel Ángel", "Rafael"],
+    "opciones": [
+      "Leonardo da Vinci",
+      "Sandro Botticelli",
+      "Miguel Ángel",
+      "Rafael"
+    ],
     "correcta": 1,
     "pista": "Obra emblemática del Quattrocento florentino, en la Galería Uffizi.",
     "explicacion": "«El nacimiento de Venus» es de Sandro Botticelli y se conserva en la Galería Uffizi (Florencia). Leonardo pintó «La Gioconda», Miguel Ángel la Capilla Sixtina y Rafael «La escuela de Atenas»."
@@ -1126,7 +1571,12 @@
     "fuente": "Curso cultura general · Día 20",
     "anio": 2024,
     "enunciado": "«La creación de Adán» es obra de:",
-    "opciones": ["Miguel Ángel", "Rafael", "Donatello", "Tiziano"],
+    "opciones": [
+      "Miguel Ángel",
+      "Rafael",
+      "Donatello",
+      "Tiziano"
+    ],
     "correcta": 0,
     "pista": "Está en el techo de la Capilla Sixtina.",
     "explicacion": "Miguel Ángel Buonarroti pintó «La creación de Adán» entre 1511 y 1512 en el techo de la Capilla Sixtina, dentro del encargo global de la bóveda."
@@ -1138,7 +1588,12 @@
     "fuente": "Curso cultura general · Día 2",
     "anio": 2024,
     "enunciado": "La Puerta de Brandeburgo se encuentra en:",
-    "opciones": ["Viena", "Berlín", "Praga", "Múnich"],
+    "opciones": [
+      "Viena",
+      "Berlín",
+      "Praga",
+      "Múnich"
+    ],
     "correcta": 1,
     "pista": "Monumento neoclásico símbolo de la reunificación alemana.",
     "explicacion": "La Puerta de Brandeburgo está en Berlín, construida entre 1788 y 1791. Fue símbolo de la división durante la Guerra Fría y de la reunificación en 1989."
@@ -1150,7 +1605,12 @@
     "fuente": "Curso cultura general · Día 17",
     "anio": 2024,
     "enunciado": "La Ópera de Sídney fue diseñada por:",
-    "opciones": ["Jørn Utzon", "Frank Gehry", "Le Corbusier", "Norman Foster"],
+    "opciones": [
+      "Jørn Utzon",
+      "Frank Gehry",
+      "Le Corbusier",
+      "Norman Foster"
+    ],
     "correcta": 0,
     "pista": "Arquitecto danés; obra inaugurada en 1973.",
     "explicacion": "El danés Jørn Utzon diseñó la Ópera de Sídney, inaugurada en 1973 y Patrimonio de la Humanidad. Sus cubiertas en forma de velas son un ícono de la arquitectura del siglo XX."
@@ -1162,7 +1622,12 @@
     "fuente": "Literatura · temario",
     "anio": 2024,
     "enunciado": "«Cien años de soledad» se asocia al género:",
-    "opciones": ["Realismo mágico", "Novela negra", "Ciencia ficción", "Costumbrismo"],
+    "opciones": [
+      "Realismo mágico",
+      "Novela negra",
+      "Ciencia ficción",
+      "Costumbrismo"
+    ],
     "correcta": 0,
     "pista": "Macondo y los Buendía.",
     "explicacion": "Gabriel García Márquez, colombiano nacido en Aracataca, escribió «Cien años de soledad», obra cumbre del realismo mágico latinoamericano y Premio Nobel de Literatura 1982."
@@ -1174,7 +1639,12 @@
     "fuente": "Historia · temario",
     "anio": 2024,
     "enunciado": "La Revolución Francesa inició en el año:",
-    "opciones": ["1776", "1789", "1804", "1815"],
+    "opciones": [
+      "1776",
+      "1789",
+      "1804",
+      "1815"
+    ],
     "correcta": 1,
     "pista": "Toma de la Bastilla.",
     "explicacion": "Comenzó en 1789 con la toma de la Bastilla el 14 de julio. 1776 corresponde a la independencia de EE. UU., 1804 a la coronación de Napoleón y 1815 al Congreso de Viena tras Waterloo."
@@ -1186,7 +1656,12 @@
     "fuente": "Historia · temario",
     "anio": 2024,
     "enunciado": "La caída del Muro de Berlín ocurrió en:",
-    "opciones": ["1961", "1979", "1989", "1991"],
+    "opciones": [
+      "1961",
+      "1979",
+      "1989",
+      "1991"
+    ],
     "correcta": 2,
     "pista": "Dos años antes de la disolución de la URSS.",
     "explicacion": "El Muro cayó el 9 de noviembre de 1989. En 1961 se había construido y en 1991 se disolvió la Unión Soviética."
@@ -1198,7 +1673,12 @@
     "fuente": "Música clásica · temario",
     "anio": 2024,
     "enunciado": "«Las cuatro estaciones» es una obra de:",
-    "opciones": ["Johann Sebastian Bach", "Antonio Vivaldi", "Wolfgang Amadeus Mozart", "Ludwig van Beethoven"],
+    "opciones": [
+      "Johann Sebastian Bach",
+      "Antonio Vivaldi",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven"
+    ],
     "correcta": 1,
     "pista": "Conciertos para violín del Barroco italiano.",
     "explicacion": "Antonio Vivaldi compuso «Las cuatro estaciones», cuatro conciertos para violín que forman parte de «Il cimento dell'armonia e dell'inventione» (1725), ejemplo del Barroco italiano."
@@ -1210,7 +1690,12 @@
     "fuente": "Geografía · temario",
     "anio": 2024,
     "enunciado": "El desierto de Atacama, uno de los más áridos del mundo, se ubica en:",
-    "opciones": ["Perú", "Chile", "Argentina", "Bolivia"],
+    "opciones": [
+      "Perú",
+      "Chile",
+      "Argentina",
+      "Bolivia"
+    ],
     "correcta": 1,
     "pista": "Norte grande, entre la cordillera y el Pacífico.",
     "explicacion": "El desierto de Atacama está en el norte de Chile, entre la Cordillera de los Andes y el océano Pacífico. Es el desierto no polar más árido del planeta."
@@ -1222,7 +1707,12 @@
     "fuente": "Museos · temario",
     "anio": 2024,
     "enunciado": "El Museo del Prado se encuentra en:",
-    "opciones": ["Madrid", "París", "Londres", "San Petersburgo"],
+    "opciones": [
+      "Madrid",
+      "París",
+      "Londres",
+      "San Petersburgo"
+    ],
     "correcta": 0,
     "pista": "Allí están «Las meninas» y «El jardín de las delicias».",
     "explicacion": "El Museo del Prado está en Madrid y alberga obras de Velázquez, Goya y El Bosco. El Louvre está en París, la National Gallery en Londres y el Hermitage en San Petersburgo."
@@ -1234,7 +1724,12 @@
     "fuente": "Médicos · temario",
     "anio": 2024,
     "enunciado": "Edward Jenner es conocido por:",
-    "opciones": ["Descubrir la penicilina", "Desarrollar la primera vacuna contra la viruela", "Describir la circulación sanguínea", "Descubrir los rayos X"],
+    "opciones": [
+      "Descubrir la penicilina",
+      "Desarrollar la primera vacuna contra la viruela",
+      "Describir la circulación sanguínea",
+      "Descubrir los rayos X"
+    ],
     "correcta": 1,
     "pista": "1796, con material de lesiones de vaca.",
     "explicacion": "En 1796 Edward Jenner demostró la protección contra la viruela usando material de viruela bovina, origen del término «vacuna». La penicilina es de Fleming (1928) y la circulación de Harvey."
@@ -1246,7 +1741,12 @@
     "fuente": "ARQUITECTURA · temario",
     "anio": 2024,
     "enunciado": "La Basílica de San Pedro, en el Vaticano, tuvo aportes de:",
-    "opciones": ["Bramante, Miguel Ángel y Bernini", "Gaudí y Le Corbusier", "Brunelleschi únicamente", "Utzon y Gehry"],
+    "opciones": [
+      "Bramante, Miguel Ángel y Bernini",
+      "Gaudí y Le Corbusier",
+      "Brunelleschi únicamente",
+      "Utzon y Gehry"
+    ],
     "correcta": 0,
     "pista": "Cúpula de uno, planta de otro, baldaquino del tercero.",
     "explicacion": "Bramante inició el diseño, Miguel Ángel realizó la cúpula y Bernini el baldaquino y la columnata de la plaza. Es el edificio más representativo del Renacimiento y Barroco romanos."
@@ -1259,7 +1759,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Película dirigida por Francis Ford Coppola y basada en una novela de Mario Puzo:",
-    "opciones": ["El Padrino", "Buenos Muchachos", "Casino", "Scarface"],
+    "opciones": [
+      "El Padrino",
+      "Buenos Muchachos",
+      "Casino",
+      "Scarface"
+    ],
     "correcta": 0,
     "pista": "La familia Corleone.",
     "explicacion": "«El Padrino» (1972) fue dirigida por Francis Ford Coppola a partir de la novela homónima de Mario Puzo. «Buenos muchachos» y «Casino» son de Scorsese."
@@ -1272,7 +1777,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "La sede del Banco Mundial se encuentra en:",
-    "opciones": ["Nueva York", "Ginebra", "Washington D. C.", "Bruselas"],
+    "opciones": [
+      "Nueva York",
+      "Ginebra",
+      "Washington D. C.",
+      "Bruselas"
+    ],
     "correcta": 2,
     "pista": "Comparte ciudad con el Fondo Monetario Internacional.",
     "explicacion": "El Banco Mundial y el FMI tienen su sede en Washington D. C. La ONU está en Nueva York, la OMS en Ginebra y la Unión Europea en Bruselas."
@@ -1285,7 +1795,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Filósofo considerado el fundador del racionalismo moderno:",
-    "opciones": ["Aristóteles", "Descartes", "Leibniz", "Hume"],
+    "opciones": [
+      "Aristóteles",
+      "Descartes",
+      "Leibniz",
+      "Hume"
+    ],
     "correcta": 1,
     "pista": "«Pienso, luego existo».",
     "explicacion": "René Descartes inaugura el racionalismo moderno con el «cogito» y la duda metódica. Aristóteles es clásico, Leibniz racionalista posterior y Hume empirista."
@@ -1298,7 +1813,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Año de inicio de la Segunda Guerra Mundial:",
-    "opciones": ["1914", "1918", "1939", "1945"],
+    "opciones": [
+      "1914",
+      "1918",
+      "1939",
+      "1945"
+    ],
     "correcta": 2,
     "pista": "Invasión de Polonia.",
     "explicacion": "La Segunda Guerra Mundial comenzó en 1939 con la invasión alemana de Polonia y terminó en 1945. 1914 y 1918 corresponden a la Primera Guerra Mundial."
@@ -1311,7 +1831,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "El Premio Nobel de Medicina 2018 fue otorgado a:",
-    "opciones": ["Banting y Best", "James Allison y Tasuku Honjo", "Watson y Crick", "Barry Marshall y Robin Warren"],
+    "opciones": [
+      "Banting y Best",
+      "James Allison y Tasuku Honjo",
+      "Watson y Crick",
+      "Barry Marshall y Robin Warren"
+    ],
     "correcta": 1,
     "pista": "Por la inmunoterapia contra el cáncer.",
     "explicacion": "El Nobel de Medicina 2018 reconoció a James Allison y Tasuku Honjo por el descubrimiento de la terapia contra el cáncer mediante inhibición de puntos de control inmunitario. Banting y Best descubrieron la insulina (1923)."
@@ -1324,7 +1849,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Médico persa que escribió «El Canon de la Medicina»:",
-    "opciones": ["Averroes", "Avicena", "Al-Razi", "Galeno"],
+    "opciones": [
+      "Averroes",
+      "Avicena",
+      "Al-Razi",
+      "Galeno"
+    ],
     "correcta": 1,
     "pista": "Ibn Sina.",
     "explicacion": "Avicena (Ibn Sina, 980-1037) escribió «Al-Qanun fi al-Tibb» o «Canon de la Medicina», texto de referencia en Europa durante siglos. Al-Razi describió el sarampión y la viruela."
@@ -1337,7 +1867,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "El «Hombre de Vitruvio» de Leonardo da Vinci representa:",
-    "opciones": ["La simetría del universo", "Las proporciones ideales del cuerpo humano", "La evolución del hombre", "El equilibrio de los elementos"],
+    "opciones": [
+      "La simetría del universo",
+      "Las proporciones ideales del cuerpo humano",
+      "La evolución del hombre",
+      "El equilibrio de los elementos"
+    ],
     "correcta": 1,
     "pista": "Estudio de proporciones inspirado en Vitruvio.",
     "explicacion": "El dibujo ilustra las proporciones ideales del cuerpo humano descritas por el arquitecto romano Vitruvio, inscritas en un círculo y un cuadrado. Es un símbolo del humanismo renacentista."
@@ -1350,7 +1885,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Identifique la relación INCORRECTA entre artista y obra:",
-    "opciones": ["Picasso – Guernica", "Da Vinci – La última cena", "Miguel Ángel – La creación de Adán", "Miró – El jardín de las delicias"],
+    "opciones": [
+      "Picasso – Guernica",
+      "Da Vinci – La última cena",
+      "Miguel Ángel – La creación de Adán",
+      "Miró – El jardín de las delicias"
+    ],
     "correcta": 3,
     "pista": "Esa obra es de un pintor flamenco del Bosco.",
     "explicacion": "«El jardín de las delicias» es de El Bosco (Hieronymus Bosch), no de Joan Miró. Las otras tres asociaciones son correctas."
@@ -1363,7 +1903,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Pintora colombiana reconocida por sus desnudos femeninos y su crítica social:",
-    "opciones": ["Débora Arango", "Beatriz González", "Fanny Sanín", "Sofía Urrutia"],
+    "opciones": [
+      "Débora Arango",
+      "Beatriz González",
+      "Fanny Sanín",
+      "Sofía Urrutia"
+    ],
     "correcta": 0,
     "pista": "Antioqueña, censurada por la Iglesia en los años cuarenta.",
     "explicacion": "Débora Arango (1907-2005) desafió los cánones con desnudos femeninos y pintura política, y fue censurada por la jerarquía eclesiástica. Beatriz González es pop art colombiano y Fanny Sanín abstracción geométrica."
@@ -1376,7 +1921,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Pintor considerado iniciador del arte moderno con «Las señoritas de Avignon»:",
-    "opciones": ["Van Gogh", "Cézanne", "Picasso", "Monet"],
+    "opciones": [
+      "Van Gogh",
+      "Cézanne",
+      "Picasso",
+      "Monet"
+    ],
     "correcta": 2,
     "pista": "Obra cubista de 1907.",
     "explicacion": "«Las señoritas de Avignon» (1907) de Picasso inaugura el cubismo y se considera el punto de partida del arte moderno. Cézanne es un antecedente fundamental por su tratamiento de la forma."
@@ -1389,7 +1939,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Escritor estadounidense autor de «El resplandor» e «It»:",
-    "opciones": ["H. P. Lovecraft", "Stephen King", "Edgar Allan Poe", "Ray Bradbury"],
+    "opciones": [
+      "H. P. Lovecraft",
+      "Stephen King",
+      "Edgar Allan Poe",
+      "Ray Bradbury"
+    ],
     "correcta": 1,
     "pista": "Maestro del terror contemporáneo, nacido en Maine.",
     "explicacion": "Stephen King escribió «El resplandor» (1977) e «It» (1986), llevadas al cine. Lovecraft creó los mitos de Cthulhu, Poe el relato gótico moderno y Bradbury es ciencia ficción."
@@ -1402,7 +1957,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "La Mezquita-Catedral que combina arquitectura islámica y cristiana se encuentra en:",
-    "opciones": ["Córdoba", "Granada", "Estambul", "Sevilla"],
+    "opciones": [
+      "Córdoba",
+      "Granada",
+      "Estambul",
+      "Sevilla"
+    ],
     "correcta": 0,
     "pista": "Su bosque de columnas y arcos de herradura es inconfundible.",
     "explicacion": "La Mezquita-Catedral de Córdoba conserva el bosque de columnas omeya con la catedral cristiana insertada en su interior. En Granada está la Alhambra y en Sevilla la Giralda."
@@ -1415,7 +1975,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "El trofeo Jules Rimet corresponde a:",
-    "opciones": ["Primer premio de los Juegos Olímpicos", "Primera Copa Mundial de Fútbol", "Premio Nobel original", "Copa América"],
+    "opciones": [
+      "Primer premio de los Juegos Olímpicos",
+      "Primera Copa Mundial de Fútbol",
+      "Premio Nobel original",
+      "Copa América"
+    ],
     "correcta": 1,
     "pista": "Brasil se lo quedó definitivamente en 1970.",
     "explicacion": "El Jules Rimet fue el trofeo original de la Copa Mundial de Fútbol, entregado entre 1930 y 1970; Brasil lo conservó al ganar tres veces. Desde 1974 se entrega la Copa FIFA."
@@ -1428,7 +1993,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "La primera reconstrucción nasal documentada históricamente se realizó en:",
-    "opciones": ["Grecia", "Roma", "India", "Egipto"],
+    "opciones": [
+      "Grecia",
+      "Roma",
+      "India",
+      "Egipto"
+    ],
     "correcta": 2,
     "pista": "Sushruta y la técnica del colgajo frontal.",
     "explicacion": "La rinoplastia con colgajo frontal se describe en el «Sushruta Samhita» en la India hacia el siglo VI a. C. Es el antecedente de la cirugía reconstructiva moderna."
@@ -1441,7 +2011,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "¿Cuál de las siguientes obras NO pertenece a Shakespeare?",
-    "opciones": ["Macbeth", "Hamlet", "El mercader de Venecia", "El proceso"],
+    "opciones": [
+      "Macbeth",
+      "Hamlet",
+      "El mercader de Venecia",
+      "El proceso"
+    ],
     "correcta": 3,
     "pista": "Es una novela de Kafka.",
     "explicacion": "«El proceso» es una novela de Franz Kafka. «Macbeth», «Hamlet» y «El mercader de Venecia» son obras de William Shakespeare."
@@ -1454,7 +2029,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "Nombre del caballo del Cid Campeador en «El Cantar de mio Cid»:",
-    "opciones": ["Rocinante", "Pegaso", "Babieca", "Tornado"],
+    "opciones": [
+      "Rocinante",
+      "Pegaso",
+      "Babieca",
+      "Tornado"
+    ],
     "correcta": 2,
     "pista": "Rocinante es de otro personaje literario.",
     "explicacion": "El caballo del Cid es Babieca. Rocinante es el de don Quijote, Pegaso es mitológico y Tornado es el caballo del Zorro."
@@ -1467,7 +2047,12 @@
     "anio": 2018,
     "verificado": true,
     "enunciado": "El MOSSAD es:",
-    "opciones": ["Agencia espacial rusa", "Servicio de inteligencia israelí", "Grupo antiterrorista francés", "Policía internacional de la ONU"],
+    "opciones": [
+      "Agencia espacial rusa",
+      "Servicio de inteligencia israelí",
+      "Grupo antiterrorista francés",
+      "Policía internacional de la ONU"
+    ],
     "correcta": 1,
     "pista": "Instituto para la Inteligencia y Operaciones Especiales.",
     "explicacion": "El Mossad es el servicio de inteligencia exterior de Israel. La agencia espacial rusa es Roscosmos y la policía internacional es Interpol."
@@ -1480,7 +2065,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál de los siguientes factores de coagulación depende de la vitamina K para su síntesis hepática?",
-    "opciones": ["Factor VIII", "Factor II (protrombina)", "Factor XIII", "Factor XI"],
+    "opciones": [
+      "Factor VIII",
+      "Factor II (protrombina)",
+      "Factor XIII",
+      "Factor XI"
+    ],
     "correcta": 1,
     "pista": "Son cuatro: II, VII, IX y X.",
     "explicacion": "Los factores II, VII, IX y X, además de las proteínas C y S, requieren vitamina K para la gamma-carboxilación de residuos de glutamato. El factor VIII y el XI no dependen de ella."
@@ -1493,7 +2083,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál es la función principal de la enzima SERCA en la célula muscular?",
-    "opciones": ["Transportar calcio desde el retículo sarcoplásmico al citosol", "Almacenar calcio en la mitocondria", "Transportar calcio desde el citosol al retículo sarcoplásmico", "Liberar calcio al citosol durante la contracción"],
+    "opciones": [
+      "Transportar calcio desde el retículo sarcoplásmico al citosol",
+      "Almacenar calcio en la mitocondria",
+      "Transportar calcio desde el citosol al retículo sarcoplásmico",
+      "Liberar calcio al citosol durante la contracción"
+    ],
     "correcta": 2,
     "pista": "Es la bomba que permite la relajación.",
     "explicacion": "SERCA es una ATPasa que introduce Ca²⁺ del citosol al retículo sarcoplásmico, bajando la concentración citosólica y permitiendo la relajación. La liberación durante la contracción la hace el receptor de rianodina."
@@ -1506,7 +2101,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál es el rol principal de las proteínas STAT en la vía JAK-STAT?",
-    "opciones": ["Fosforilar los receptores de citocinas", "Activar directamente las JAK", "Translocar al núcleo y regular la transcripción", "Inducir la dimerización de los receptores"],
+    "opciones": [
+      "Fosforilar los receptores de citocinas",
+      "Activar directamente las JAK",
+      "Translocar al núcleo y regular la transcripción",
+      "Inducir la dimerización de los receptores"
+    ],
     "correcta": 2,
     "pista": "Su nombre viene de «signal transducer and activator of transcription».",
     "explicacion": "Las JAK fosforilan a STAT, que se dimeriza y transloca al núcleo para regular la transcripción de genes diana. La fosforilación del receptor la hacen las JAK, no las STAT."
@@ -1519,7 +2119,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "El término que describe la fracción de la dosis administrada que llega inalterada a la circulación sistémica es:",
-    "opciones": ["Metabolismo de primer paso", "Farmacodinamia", "Biodisponibilidad", "Excreción"],
+    "opciones": [
+      "Metabolismo de primer paso",
+      "Farmacodinamia",
+      "Biodisponibilidad",
+      "Excreción"
+    ],
     "correcta": 2,
     "pista": "Se expresa como porcentaje de la dosis.",
     "explicacion": "La biodisponibilidad es la fracción de fármaco que alcanza la circulación sin modificarse; la vía intravenosa es del 100%. El metabolismo de primer paso es uno de los factores que la reducen."
@@ -1532,7 +2137,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Qué estructura del pericarion neuronal es responsable de la síntesis de proteínas?",
-    "opciones": ["Inclusiones lipofuscina", "Aparato de Golgi", "Cuerpos de Nissl", "Microtúbulos"],
+    "opciones": [
+      "Inclusiones lipofuscina",
+      "Aparato de Golgi",
+      "Cuerpos de Nissl",
+      "Microtúbulos"
+    ],
     "correcta": 2,
     "pista": "Son acúmulos de retículo endoplásmico rugoso.",
     "explicacion": "Los cuerpos de Nissl son cisternas de retículo endoplásmico rugoso con ribosomas, donde ocurre la síntesis proteica. El Golgi procesa y empaqueta, los microtúbulos transportan."
@@ -1545,7 +2155,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál es el volumen de aire que permanece en los pulmones después de una espiración máxima y evita el colapso alveolar?",
-    "opciones": ["Volumen corriente (VT)", "Volumen de reserva inspiratorio (VRI)", "Volumen residual (VR)", "Volumen de reserva espiratorio (VRE)"],
+    "opciones": [
+      "Volumen corriente (VT)",
+      "Volumen de reserva inspiratorio (VRI)",
+      "Volumen residual (VR)",
+      "Volumen de reserva espiratorio (VRE)"
+    ],
     "correcta": 2,
     "pista": "No se puede medir con espirometría simple.",
     "explicacion": "El volumen residual es el aire que queda tras la espiración máxima (aproximadamente 1.200 mL) y mantiene la distensión alveolar. Solo se mide con pletismografía o dilución de helio."
@@ -1558,7 +2173,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál de los siguientes inhibidores de fosfodiesterasa se utiliza principalmente para el tratamiento de la hipertensión arterial pulmonar?",
-    "opciones": ["Sildenafil", "Roflumilast", "Milrinona", "Tadalafilo"],
+    "opciones": [
+      "Sildenafil",
+      "Roflumilast",
+      "Milrinona",
+      "Tadalafilo"
+    ],
     "correcta": 0,
     "pista": "También se usa para la disfunción eréctil, pero en HAP es terapia específica.",
     "explicacion": "El sildenafil inhibe la PDE5, aumenta el GMPc y produce vasodilatación pulmonar; es terapia aprobada en hipertensión arterial pulmonar. Roflumilast se usa en EPOC y milrinona en insuficiencia cardiaca."
@@ -1571,7 +2191,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "Hombre de 45 años con esquizofrenia, ingresado con fiebre de 40,5 °C, rigidez muscular, alteración del estado mental y CPK elevada tras iniciar antipsicótico. Diagnóstico más probable:",
-    "opciones": ["Síndrome serotoninérgico", "Hipertermia maligna", "Síndrome neuroléptico maligno", "Meningitis bacteriana"],
+    "opciones": [
+      "Síndrome serotoninérgico",
+      "Hipertermia maligna",
+      "Síndrome neuroléptico maligno",
+      "Meningitis bacteriana"
+    ],
     "correcta": 2,
     "pista": "Se asocia a bloqueadores dopaminérgicos, no a anestésicos.",
     "explicacion": "El síndrome neuroléptico maligno cursa con hipertermia, rigidez en rueda dentada, disautonomía y elevación de CPK tras iniciar o aumentar un antipsicótico. La hipertermia maligna se desencadena por anestésicos halogenados y succinilcolina."
@@ -1584,7 +2209,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál es el mecanismo de acción del denosumab en la osteoporosis?",
-    "opciones": ["Estimula la formación de osteoclastos", "Actúa como receptor señuelo para RANKL", "Se une a RANKL e inhibe su interacción con RANK", "Inhibe la síntesis de colágeno óseo"],
+    "opciones": [
+      "Estimula la formación de osteoclastos",
+      "Actúa como receptor señuelo para RANKL",
+      "Se une a RANKL e inhibe su interacción con RANK",
+      "Inhibe la síntesis de colágeno óseo"
+    ],
     "correcta": 2,
     "pista": "Es un anticuerpo monoclonal contra el ligando.",
     "explicacion": "Denosumab es un anticuerpo monoclonal que se une a RANKL e impide su interacción con RANK, bloqueando la diferenciación y actividad osteoclástica. El receptor señuelo es la osteoprotegerina."
@@ -1597,7 +2227,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál de los siguientes antibióticos se ha asociado con neumonía eosinofílica?",
-    "opciones": ["Ciprofloxacino", "Amoxicilina", "Daptomicina", "Azitromicina"],
+    "opciones": [
+      "Ciprofloxacino",
+      "Amoxicilina",
+      "Daptomicina",
+      "Azitromicina"
+    ],
     "correcta": 2,
     "pista": "Es un lipopéptido usado en infecciones por grampositivos resistentes.",
     "explicacion": "La daptomicina se ha asociado a neumonía eosinofílica, igual que nitrofurantoína, minociclina y sulfasalazina. Se manifiesta con infiltrados pulmonares, eosinofilia y mejoría al suspender el fármaco."
@@ -1610,7 +2245,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál hallazgo es característico del fondo de ojo en la oclusión de la arteria central de la retina?",
-    "opciones": ["Hemorragias retinianas en llama", "Mancha rojo cereza en la fóvea con palidez retiniana", "Exudados algodonosos en el área macular", "Dilatación venosa prominente"],
+    "opciones": [
+      "Hemorragias retinianas en llama",
+      "Mancha rojo cereza en la fóvea con palidez retiniana",
+      "Exudados algodonosos en el área macular",
+      "Dilatación venosa prominente"
+    ],
     "correcta": 1,
     "pista": "La fóvea conserva el color por la coroides subyacente.",
     "explicacion": "La oclusión de la arteria central de la retina produce palidez retiniana difusa con mancha rojo cereza en la fóvea y pérdida visual súbita e indolora. Las hemorragias en llama y la dilatación venosa son de la oclusión venosa."
@@ -1623,7 +2263,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál de los siguientes síntomas es común en un paciente con hematoma subdural?",
-    "opciones": ["Pérdida de visión súbita", "Dolor de cabeza persistente", "Pérdida auditiva unilateral", "Náuseas sin otros síntomas neurológicos"],
+    "opciones": [
+      "Pérdida de visión súbita",
+      "Dolor de cabeza persistente",
+      "Pérdida auditiva unilateral",
+      "Náuseas sin otros síntomas neurológicos"
+    ],
     "correcta": 1,
     "pista": "Evoluciona en días o semanas, con cefalea progresiva.",
     "explicacion": "El hematoma subdural, sobre todo el crónico del anciano, produce cefalea persistente, deterioro cognitivo fluctuante, hemiparesia y somnolencia. La pérdida visual súbita orienta a patología oftalmológica o vascular retiniana."
@@ -1636,7 +2281,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Qué nervio atraviesa la glándula parótida y da movilidad a los músculos de la cara?",
-    "opciones": ["Nervio trigémino", "Nervio glosofaríngeo", "Nervio facial", "Nervio hipogloso"],
+    "opciones": [
+      "Nervio trigémino",
+      "Nervio glosofaríngeo",
+      "Nervio facial",
+      "Nervio hipogloso"
+    ],
     "correcta": 2,
     "pista": "Su lesión produce parálisis facial periférica.",
     "explicacion": "El nervio facial (VII) atraviesa la glándula parótida y su lesión causa parálisis de la musculatura mímica (parálisis de Bell). El trigémino es sensitivo de la cara y el hipogloso mueve la lengua."
@@ -1649,7 +2299,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál alteración es más probable en una lesión de los cordones posteriores de la médula?",
-    "opciones": ["Pérdida de la sensación de dolor y temperatura", "Parálisis de los músculos por debajo de la lesión", "Pérdida de propiocepción y del sentido de vibración", "Pérdida de la sensación de tacto grueso"],
+    "opciones": [
+      "Pérdida de la sensación de dolor y temperatura",
+      "Parálisis de los músculos por debajo de la lesión",
+      "Pérdida de propiocepción y del sentido de vibración",
+      "Pérdida de la sensación de tacto grueso"
+    ],
     "correcta": 2,
     "pista": "Es el hallazgo típico de la tabes dorsal y del déficit de B12.",
     "explicacion": "Los cordones posteriores conducen propiocepción y sensibilidad vibratoria; su lesión produce marcha atáxica y signo de Romberg positivo. El dolor y la temperatura viajan por el haz espinotalámico lateral."
@@ -1662,7 +2317,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál mecanismo compensatorio se activa en la falla cardiaca descompensada sin tratamiento?",
-    "opciones": ["Activación del sistema renina-angiotensina-aldosterona", "Disminución de la frecuencia cardiaca", "Aumento de la perfusión renal", "Reducción de la resistencia vascular periférica"],
+    "opciones": [
+      "Activación del sistema renina-angiotensina-aldosterona",
+      "Disminución de la frecuencia cardiaca",
+      "Aumento de la perfusión renal",
+      "Reducción de la resistencia vascular periférica"
+    ],
     "correcta": 0,
     "pista": "Retiene sodio y agua, y empeora la congestión.",
     "explicacion": "La caída del gasto activa el SRAA y el simpático, que retienen sodio y agua y aumentan la poscarga, perpetuando el círculo vicioso. Por eso los IECAs, ARA II y antagonistas del aldosterona mejoran la mortalidad."
@@ -1675,7 +2335,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál condición se caracteriza por un aumento de la relación ventilación/perfusión (V/Q)?",
-    "opciones": ["Neumonía", "Tromboembolismo pulmonar", "Asma", "Edema pulmonar"],
+    "opciones": [
+      "Neumonía",
+      "Tromboembolismo pulmonar",
+      "Asma",
+      "Edema pulmonar"
+    ],
     "correcta": 1,
     "pista": "Hay ventilación pero no llega sangre.",
     "explicacion": "En el tromboembolismo pulmonar se obstruye el flujo sanguíneo y el alvéolo ventilado no se perfunde: efecto espacio muerto con V/Q elevado. Neumonía, asma y edema generan efecto shunt con V/Q bajo."
@@ -1688,7 +2353,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál tipo de cáncer se asocia con mayor frecuencia al síndrome de Lynch?",
-    "opciones": ["Cáncer de páncreas", "Cáncer colorrectal", "Cáncer de pulmón", "Cáncer de próstata"],
+    "opciones": [
+      "Cáncer de páncreas",
+      "Cáncer colorrectal",
+      "Cáncer de pulmón",
+      "Cáncer de próstata"
+    ],
     "correcta": 1,
     "pista": "Se debe a defectos de los genes de reparación del ADN (MMR).",
     "explicacion": "El síndrome de Lynch (cáncer colorrectal hereditario no polipósico) se debe a mutaciones en genes MMR y confiere alto riesgo de cáncer colorrectal, además de endometrio, ovario y estómago."
@@ -1701,7 +2371,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "En un paciente con VIH y coinfección por tuberculosis que recibe antirretrovirales, ¿qué fármaco se recomienda como alternativa a la rifampicina?",
-    "opciones": ["Isoniazida", "Rifabutina", "Etambutol", "Pirazinamida"],
+    "opciones": [
+      "Isoniazida",
+      "Rifabutina",
+      "Etambutol",
+      "Pirazinamida"
+    ],
     "correcta": 1,
     "pista": "Es un rifamicínico con menor inducción enzimática.",
     "explicacion": "La rifabutina induce menos el CYP3A4 que la rifampicina y permite coadministrar inhibidores de proteasa o inhibidores de integrasa. Isoniazida, etambutol y pirazinamida no sustituyen el papel de la rifampicina."
@@ -1714,7 +2389,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál es un signo característico de la fase aguda de la enfermedad de Chagas?",
-    "opciones": ["Uveítis bilateral", "Edema unilateral de párpado", "Ictericia generalizada", "Ulceración en mucosa oral"],
+    "opciones": [
+      "Uveítis bilateral",
+      "Edema unilateral de párpado",
+      "Ictericia generalizada",
+      "Ulceración en mucosa oral"
+    ],
     "correcta": 1,
     "pista": "Se llama signo de Romaña.",
     "explicacion": "El signo de Romaña es el edema palpebral unilateral indoloro por entrada del Trypanosoma cruzi en la conjuntiva. Se acompaña de chagoma de inoculación, fiebre y adenopatías."
@@ -1727,7 +2407,12 @@
     "anio": 2023,
     "verificado": true,
     "enunciado": "¿Cuál germen se asocia con mayor frecuencia a infecciones por mordedura de perro?",
-    "opciones": ["Escherichia coli", "Pasteurella multocida", "Staphylococcus epidermidis", "Streptococcus pneumoniae"],
+    "opciones": [
+      "Escherichia coli",
+      "Pasteurella multocida",
+      "Staphylococcus epidermidis",
+      "Streptococcus pneumoniae"
+    ],
     "correcta": 1,
     "pista": "Es un cocobacilo gramnegativo de la flora oral de animales.",
     "explicacion": "Pasteurella multocida forma parte de la flora oral de perros y gatos y causa celulitis de rápida progresión tras la mordedura. La profilaxis se hace con amoxicilina-clavulánico."
@@ -1740,7 +2425,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "¿Quién es el autor de «Orgullo y prejuicio», publicada en 1813?",
-    "opciones": ["Jane Austen", "Emily Brontë", "Louisa May Alcott", "Virginia Woolf"],
+    "opciones": [
+      "Jane Austen",
+      "Emily Brontë",
+      "Louisa May Alcott",
+      "Virginia Woolf"
+    ],
     "correcta": 0,
     "pista": "Novelista inglesa de la época georgiana.",
     "explicacion": "«Orgullo y prejuicio» es de Jane Austen. Emily Brontë escribió «Cumbres borrascosas», Louisa May Alcott «Mujercitas» y Virginia Woolf «La señora Dalloway»."
@@ -1753,7 +2443,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "El río Danubio atraviesa, entre otros, los siguientes países europeos:",
-    "opciones": ["Alemania, Austria y Hungría", "Francia, España y Portugal", "Noruega, Suecia y Finlandia", "Rusia, Bielorrusia y Ucrania"],
+    "opciones": [
+      "Alemania, Austria y Hungría",
+      "Francia, España y Portugal",
+      "Noruega, Suecia y Finlandia",
+      "Rusia, Bielorrusia y Ucrania"
+    ],
     "correcta": 0,
     "pista": "Nace en la Selva Negra y desemboca en el mar Negro.",
     "explicacion": "El Danubio nace en Alemania, pasa por Austria, Eslovaquia, Hungría, Croacia, Serbia, Rumanía, Bulgaria y Ucrania, y desemboca en el mar Negro. Es el segundo río más largo de Europa."
@@ -1766,7 +2461,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "El Consejo de la Unión Europea tiene actualmente su sede en:",
-    "opciones": ["Estrasburgo, Francia", "Bruselas, Bélgica", "Luxemburgo", "Viena, Austria"],
+    "opciones": [
+      "Estrasburgo, Francia",
+      "Bruselas, Bélgica",
+      "Luxemburgo",
+      "Viena, Austria"
+    ],
     "correcta": 1,
     "pista": "Comparte ciudad con la Comisión Europea.",
     "explicacion": "El Consejo de la UE y la Comisión Europea tienen sede en Bruselas. El Parlamento Europeo se reparte entre Bruselas, Estrasburgo y Luxemburgo, y el Tribunal de Justicia está en Luxemburgo."
@@ -1779,7 +2479,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "En 2024, el primer ministro del Reino Unido era:",
-    "opciones": ["Keir Starmer", "Rishi Sunak", "Boris Johnson", "Liz Truss"],
+    "opciones": [
+      "Keir Starmer",
+      "Rishi Sunak",
+      "Boris Johnson",
+      "Liz Truss"
+    ],
     "correcta": 0,
     "pista": "Laborista, asumió en julio de 2024.",
     "explicacion": "Keir Starmer asumió como primer ministro en julio de 2024 tras la victoria laborista. Rishi Sunak, Boris Johnson y Liz Truss fueron sus antecesores conservadores."
@@ -1792,7 +2497,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "¿En qué años NO se celebró la Copa Mundial de Fútbol debido a la Segunda Guerra Mundial?",
-    "opciones": ["1942 y 1946", "1938 y 1940", "1914 y 1918", "1950 y 1954"],
+    "opciones": [
+      "1942 y 1946",
+      "1938 y 1940",
+      "1914 y 1918",
+      "1950 y 1954"
+    ],
     "correcta": 0,
     "pista": "El torneo se reanudó en 1950.",
     "explicacion": "Los mundiales de 1942 y 1946 se cancelaron por la guerra; el siguiente fue Brasil 1950. La edición de 1938 sí se jugó y la de 1942 nunca se realizó."
@@ -1805,7 +2515,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "La antigua ciudad de Constantinopla corresponde hoy a:",
-    "opciones": ["Estambul", "Atenas", "Damasco", "Ankara"],
+    "opciones": [
+      "Estambul",
+      "Atenas",
+      "Damasco",
+      "Ankara"
+    ],
     "correcta": 0,
     "pista": "Está a ambos lados del Bósforo.",
     "explicacion": "Constantinopla, capital del Imperio bizantino y luego otomano, es la actual Estambul. Ankara es la capital moderna de Turquía desde 1923."
@@ -1818,7 +2533,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "¿Cuál descripción corresponde a la bandera de Nueva Zelanda?",
-    "opciones": ["Azul con la Union Jack y cuatro estrellas rojas", "Azul con la Union Jack y seis estrellas blancas", "Roja con cinco estrellas amarillas", "Azul con una hoja de arce central"],
+    "opciones": [
+      "Azul con la Union Jack y cuatro estrellas rojas",
+      "Azul con la Union Jack y seis estrellas blancas",
+      "Roja con cinco estrellas amarillas",
+      "Azul con una hoja de arce central"
+    ],
     "correcta": 0,
     "pista": "Las estrellas representan la Cruz del Sur.",
     "explicacion": "La bandera de Nueva Zelanda es azul con la Union Jack en el cantón y cuatro estrellas rojas con borde blanco que forman la Cruz del Sur. Australia tiene seis estrellas blancas y Canadá la hoja de arce."
@@ -1831,7 +2551,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "¿En qué obra Friedrich Nietzsche escribió la frase «Dios ha muerto»?",
-    "opciones": ["Así habló Zaratustra", "La gaya ciencia", "El anticristo", "Más allá del bien y del mal"],
+    "opciones": [
+      "Así habló Zaratustra",
+      "La gaya ciencia",
+      "El anticristo",
+      "Más allá del bien y del mal"
+    ],
     "correcta": 1,
     "pista": "Aparece por primera vez en 1882.",
     "explicacion": "La frase aparece por primera vez en «La gaya ciencia» (1882), en el pasaje del hombre loco, y se repite después en «Así habló Zaratustra»."
@@ -1844,7 +2569,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "El lago más antiguo del mundo, formado hace más de 20 millones de años, es:",
-    "opciones": ["Lago Baikal (Rusia)", "Lago Tanganica (África)", "Lago Titicaca (Perú-Bolivia)", "Lago Victoria (África)"],
+    "opciones": [
+      "Lago Baikal (Rusia)",
+      "Lago Tanganica (África)",
+      "Lago Titicaca (Perú-Bolivia)",
+      "Lago Victoria (África)"
+    ],
     "correcta": 0,
     "pista": "También es el más profundo.",
     "explicacion": "El lago Baikal, en Siberia, tiene unos 25 millones de años, es el más profundo (1.642 m) y concentra cerca del 20% del agua dulce no congelada del planeta."
@@ -1857,7 +2587,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "La pintura «Gótico americano», exhibida en el Instituto de Arte de Chicago, es obra de:",
-    "opciones": ["Grant Wood", "Edward Hopper", "Andrew Wyeth", "Jackson Pollock"],
+    "opciones": [
+      "Grant Wood",
+      "Edward Hopper",
+      "Andrew Wyeth",
+      "Jackson Pollock"
+    ],
     "correcta": 0,
     "pista": "Muestra a un granjero y su hija con horquilla.",
     "explicacion": "«Gótico americano» (1930) es de Grant Wood y se conserva en el Art Institute of Chicago. Hopper pintó «Nighthawks» y Pollock es el expresionismo abstracto."
@@ -1870,7 +2605,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "El número de Objetivos de Desarrollo Sostenible (ODS) adoptados por la ONU en 2015 es:",
-    "opciones": ["17", "12", "20", "15"],
+    "opciones": [
+      "17",
+      "12",
+      "20",
+      "15"
+    ],
     "correcta": 0,
     "pista": "Agenda 2030.",
     "explicacion": "La Agenda 2030 adoptada en 2015 contiene 17 ODS y 169 metas, desde la erradicación de la pobreza hasta la acción por el clima."
@@ -1883,7 +2623,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "¿En qué año comenzó la Guerra Civil Española?",
-    "opciones": ["1936", "1939", "1929", "1942"],
+    "opciones": [
+      "1936",
+      "1939",
+      "1929",
+      "1942"
+    ],
     "correcta": 0,
     "pista": "Terminó en 1939 con la victoria franquista.",
     "explicacion": "La Guerra Civil Española comenzó en julio de 1936 con el golpe militar y terminó el 1 de abril de 1939. 1929 corresponde al crack de la bolsa."
@@ -1896,7 +2641,12 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "Nombre de la misión espacial que llevó al primer hombre a la Luna:",
-    "opciones": ["Apolo 11", "Apolo 13", "Géminis 7", "Mercurio 5"],
+    "opciones": [
+      "Apolo 11",
+      "Apolo 13",
+      "Géminis 7",
+      "Mercurio 5"
+    ],
     "correcta": 0,
     "pista": "1969, Armstrong y Aldrin.",
     "explicacion": "El Apolo 11 llegó a la Luna el 20 de julio de 1969 con Neil Armstrong y Buzz Aldrin. El Apolo 13 sufrió una explosión y no alunizó."
@@ -1909,9 +2659,626 @@
     "anio": 2022,
     "verificado": true,
     "enunciado": "En Colombia, la Ley de Ética Médica corresponde a:",
-    "opciones": ["Ley 23 de 1981", "Ley 100 de 1993", "Ley 1164 de 2007", "Ley 30 de 1986"],
+    "opciones": [
+      "Ley 23 de 1981",
+      "Ley 100 de 1993",
+      "Ley 1164 de 2007",
+      "Ley 30 de 1986"
+    ],
     "correcta": 0,
     "pista": "Es anterior al sistema de salud actual.",
     "explicacion": "La Ley 23 de 1981 regula la ética médica en Colombia. La Ley 100 de 1993 creó el sistema de seguridad social en salud y la 1164 de 2007 ordena el talento humano en salud."
+  },
+  {
+    "id": "cl-074",
+    "area": "clinicas",
+    "tema": "Hematología · Linfohistiocitosis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Lactante de 10 meses con fiebre persistente, hepatoesplenomegalia y pancitopenia. En el aspirado medular se observan macrófagos con hemofagocitosis. ¿Cuál es el diagnóstico más probable?",
+    "opciones": [
+      "Enfermedad de Gaucher",
+      "Linfohistiocitosis hemofagocítica",
+      "Leucemia mieloide aguda",
+      "Anemia de Fanconi"
+    ],
+    "correcta": 1,
+    "pista": "La clave está en la hemofagocitosis en médula ósea.",
+    "explicacion": "Fiebre persistente, hepatoesplenomegalia, pancitopenia y hemofagocitosis medular configuran linfohistiocitosis hemofagocítica, una activación descontrolada de macrófagos."
+  },
+  {
+    "id": "cb-036",
+    "area": "ciencias-basicas",
+    "tema": "Farmacología · Antibióticos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes antibióticos actúa inhibiendo la subunidad 50S del ribosoma bacteriano?",
+    "opciones": [
+      "Aminoglucósidos",
+      "Tetraciclinas",
+      "Macrólidos",
+      "Tigeciclina"
+    ],
+    "correcta": 2,
+    "pista": "50S = macrólidos, cloranfenicol, clindamicina.",
+    "explicacion": "Los macrólidos se unen a la subunidad 50S e inhiben la translocación del peptidil-ARNt. Aminoglucósidos y tetraciclinas actúan sobre la 30S."
+  },
+  {
+    "id": "cb-037",
+    "area": "ciencias-basicas",
+    "tema": "Farmacología · Antibióticos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Un paciente tratado con un antibiótico que se une a la subunidad 30S ribosomal puede presentar ototoxicidad. ¿Qué clase de antibióticos corresponde a este mecanismo?",
+    "opciones": [
+      "Macrólidos",
+      "Aminoglucósidos",
+      "Cloranfenicol",
+      "Clindamicina"
+    ],
+    "correcta": 1,
+    "pista": "30S + ototoxicidad es la firma de este grupo.",
+    "explicacion": "Los aminoglucósidos se unen a la 30S, alteran la lectura del código y producen ototoxicidad y nefrotoxicidad. Requieren monitoreo de niveles."
+  },
+  {
+    "id": "cb-038",
+    "area": "ciencias-basicas",
+    "tema": "Anatomía · Cuello",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuántos triángulos conforman el triángulo cervical anterior del cuello?",
+    "opciones": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correcta": 2,
+    "pista": "Cuenta los subtriángulos del triángulo anterior.",
+    "explicacion": "El triángulo cervical anterior se subdivide en cuatro triángulos: submentoniano, submandibular, carotídeo y muscular."
+  },
+  {
+    "id": "cb-039",
+    "area": "ciencias-basicas",
+    "tema": "Histología · Urotelio",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El epitelio de la vejiga urinaria se clasifica histológicamente como:",
+    "opciones": [
+      "Epitelio plano estratificado",
+      "Epitelio cúbico simple",
+      "Epitelio cilíndrico pseudoestratificado",
+      "Epitelio de transición"
+    ],
+    "correcta": 3,
+    "pista": "Es el epitelio que cambia de forma con la distensión.",
+    "explicacion": "La vejiga está revestida por epitelio de transición (urotelio), capaz de distenderse sin perder continuidad."
+  },
+  {
+    "id": "cb-040",
+    "area": "ciencias-basicas",
+    "tema": "Embriología · Cresta neural",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Las células derivadas de la cresta neural contribuyen a la formación de:",
+    "opciones": [
+      "Motoneuronas del asta anterior",
+      "Neuronas simpáticas posganglionares",
+      "Células de Purkinje cerebelosas",
+      "Neuronas del asta dorsal"
+    ],
+    "correcta": 1,
+    "pista": "Piensa en lo que migra desde el tubo neural.",
+    "explicacion": "De la cresta neural derivan neuronas simpáticas posganglionares, melanocitos, células de Schwann, médula suprarrenal y huesos faciales."
+  },
+  {
+    "id": "cb-041",
+    "area": "ciencias-basicas",
+    "tema": "Embriología · Tubo neural",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El cierre completo del tubo neural en el embrión humano ocurre aproximadamente a:",
+    "opciones": [
+      "2 semanas",
+      "3 semanas",
+      "4 semanas",
+      "5 semanas"
+    ],
+    "correcta": 2,
+    "pista": "Ocurre antes de la quinta semana.",
+    "explicacion": "El neuroporo anterior se cierra hacia el día 25 y el posterior hacia el día 27-28, es decir, alrededor de la cuarta semana."
+  },
+  {
+    "id": "cl-075",
+    "area": "clinicas",
+    "tema": "Neumología · Toxicidad por fármacos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Paciente oncológico tratado con bleomicina presenta disnea progresiva y crepitantes basales. ¿Cuál es el diagnóstico más probable?",
+    "opciones": [
+      "Neumonitis por hipersensibilidad",
+      "Fibrosis pulmonar inducida por fármacos",
+      "Neumonía bacteriana",
+      "Reacción de hipersensibilidad tipo III"
+    ],
+    "correcta": 1,
+    "pista": "Antibiótico antitumoral con toxicidad pulmonar clásica.",
+    "explicacion": "La bleomicina produce neumonitis y fibrosis pulmonar dosis-dependiente, con disnea y crepitantes basales."
+  },
+  {
+    "id": "cb-042",
+    "area": "ciencias-basicas",
+    "tema": "Infectología · Zoonosis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes enfermedades NO se transmite por garrapatas?",
+    "opciones": [
+      "Enfermedad de Lyme",
+      "Fiebre Q",
+      "Ehrlichiosis",
+      "Fiebre maculosa de las Montañas Rocosas"
+    ],
+    "correcta": 1,
+    "pista": "Busca la excepción en la vía de transmisión.",
+    "explicacion": "La fiebre Q (Coxiella burnetii) se transmite por inhalación de aerosoles de ganado, no por picadura de garrapata. La enfermedad de Lyme, la rickettsiosis y la babesiosis sí son transmitidas por garrapatas."
+  },
+  {
+    "id": "cb-043",
+    "area": "ciencias-basicas",
+    "tema": "Neurología · Vía simpática",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El síndrome de Horner se debe a la lesión de:",
+    "opciones": [
+      "Nervio oculomotor",
+      "Ganglio simpático cervical",
+      "Ganglio ciliar",
+      "Nervio trigémino"
+    ],
+    "correcta": 1,
+    "pista": "Tres signos: ptosis, miosis, anhidrosis.",
+    "explicacion": "El síndrome de Horner (ptosis, miosis, anhidrosis) resulta de la interrupción de la vía simpática, típicamente a nivel del ganglio cervical superior."
+  },
+  {
+    "id": "cb-044",
+    "area": "ciencias-basicas",
+    "tema": "Metabolismo · Lisosomales",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La enfermedad de Gaucher se caracteriza por un defecto en:",
+    "opciones": [
+      "Beta-glucosidasa",
+      "Alfa-glucosidasa",
+      "Glucocerebrosidasa",
+      "Galactosidasa A"
+    ],
+    "correcta": 2,
+    "pista": "Es la enfermedad lisosomal más frecuente.",
+    "explicacion": "La enfermedad de Gaucher se debe al déficit de glucocerebrosidasa (beta-glucosidasa ácida), con acúmulo de glucocerebrósido en macrófagos."
+  },
+  {
+    "id": "cb-045",
+    "area": "ciencias-basicas",
+    "tema": "Genética · Oncogenes",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Una mutación germinal en el gen TP53 se asocia con:",
+    "opciones": [
+      "Síndrome de Li-Fraumeni",
+      "Síndrome de Lynch",
+      "Neurofibromatosis tipo 1",
+      "Esclerosis tuberosa"
+    ],
+    "correcta": 0,
+    "pista": "TP53 es el guardián del genoma.",
+    "explicacion": "Una mutación germinal de TP53 causa el síndrome de Li-Fraumeni, con cánceres múltiples a edades tempranas."
+  },
+  {
+    "id": "cl-076",
+    "area": "clinicas",
+    "tema": "Oncología · Síndromes hereditarios",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes tumores es característico del síndrome de Li-Fraumeni?",
+    "opciones": [
+      "Carcinoma hepatocelular",
+      "Osteosarcoma",
+      "Carcinoma papilar de tiroides",
+      "Linfoma de Hodgkin"
+    ],
+    "correcta": 1,
+    "pista": "Hueso y partes blandas son los más característicos.",
+    "explicacion": "El síndrome de Li-Fraumeni asocia osteosarcoma, sarcoma de partes blandas, cáncer de mama precoz, leucemia y tumores suprarrenales."
+  },
+  {
+    "id": "cl-077",
+    "area": "clinicas",
+    "tema": "Neurología · Vascular",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Un infarto cerebral en el territorio de la arteria cerebral media produce:",
+    "opciones": [
+      "Hemianopsia homónima contralateral y afasia (si es hemisferio dominante)",
+      "Ataxia ipsilateral",
+      "Hemiparesia ipsilateral",
+      "Pérdida de la visión bilateral central"
+    ],
+    "correcta": 0,
+    "pista": "Piensa en el territorio lateral del hemisferio.",
+    "explicacion": "La oclusión de la cerebral media produce hemiparesia y hemihipoestesia contralateral, hemianopsia homónima y afasia si es el hemisferio dominante."
+  },
+  {
+    "id": "cb-046",
+    "area": "ciencias-basicas",
+    "tema": "Neuroanatomía · Neurotransmisores",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El núcleo del rafe, localizado en el tronco encefálico, es el principal productor de:",
+    "opciones": [
+      "Dopamina",
+      "Noradrenalina",
+      "GABA",
+      "Serotonina"
+    ],
+    "correcta": 3,
+    "pista": "Su déficit se relaciona con depresión.",
+    "explicacion": "Los núcleos del rafe, en el tronco encefálico, son la principal fuente de serotonina del sistema nervioso central."
+  },
+  {
+    "id": "cb-047",
+    "area": "ciencias-basicas",
+    "tema": "Bioquímica · Glicosilación",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes aminoácidos NO participa en la N-glicosilación de proteínas?",
+    "opciones": [
+      "Asparagina",
+      "Serina",
+      "Prolina",
+      "Treonina"
+    ],
+    "correcta": 2,
+    "pista": "No es un aminoácido con cadena lateral reactiva.",
+    "explicacion": "La N-glicosilación ocurre sobre asparagina y requiere aminoácidos con grupos funcionales adecuados; la prolina, por su estructura rígida de iminoácido, no participa como sitio de glicosilación."
+  },
+  {
+    "id": "cb-048",
+    "area": "ciencias-basicas",
+    "tema": "Inmunología · Hipersensibilidad",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La hipersensibilidad tipo II se caracteriza por:",
+    "opciones": [
+      "Formación de complejos inmunes (IgG + Ag soluble)",
+      "Reacción mediada por IgE",
+      "Citotoxicidad mediada por anticuerpos IgG o IgM",
+      "Activación de linfocitos T CD8+"
+    ],
+    "correcta": 2,
+    "pista": "Anticuerpo contra la célula misma.",
+    "explicacion": "La hipersensibilidad tipo II es citotóxica: anticuerpos IgG o IgM se unen a antígenos de superficie y activan complemento o células efectoras."
+  },
+  {
+    "id": "cb-049",
+    "area": "ciencias-basicas",
+    "tema": "Microbiología · Micoplasmas",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Mycoplasma pneumoniae pertenece al grupo de los:",
+    "opciones": [
+      "Bacilos grampositivos",
+      "Mollicutes",
+      "Espiroquetas",
+      "Rickettsias"
+    ],
+    "correcta": 1,
+    "pista": "Sin pared celular = Mollicutes.",
+    "explicacion": "Mycoplasma pneumoniae pertenece a los Mollicutes, bacterias sin pared celular, por lo que no responden a betalactámicos."
+  },
+  {
+    "id": "cl-078",
+    "area": "clinicas",
+    "tema": "Hematología · Linfohistiocitosis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El epitelio que reviste la vejiga urinaria tiene la capacidad de distenderse sin perder su continuidad. ¿Cómo se clasifica histológicamente?",
+    "opciones": [
+      "Epitelio cúbico simple",
+      "Epitelio plano estratificado",
+      "Epitelio cilíndrico simple",
+      "Epitelio estratificado de transición"
+    ],
+    "correcta": 3,
+    "pista": "La clave está en la hemofagocitosis en médula ósea.",
+    "explicacion": "Fiebre persistente, hepatoesplenomegalia, pancitopenia y hemofagocitosis medular configuran linfohistiocitosis hemofagocítica, una activación descontrolada de macrófagos."
+  },
+  {
+    "id": "cb-050",
+    "area": "ciencias-basicas",
+    "tema": "Farmacología · Antibióticos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Mujer embarazada con diagnóstico de hepatitis B, HBsAg positiva. ¿Cuándo debe iniciarse el tratamiento antiviral para reducir el riesgo de transmisión vertical?",
+    "opciones": [
+      "Al inicio del embarazo",
+      "Solo si presenta ictericia",
+      "Si tiene carga viral >200,000 UI/mL",
+      "Después del parto"
+    ],
+    "correcta": 2,
+    "pista": "50S = macrólidos, cloranfenicol, clindamicina.",
+    "explicacion": "Los macrólidos se unen a la subunidad 50S e inhiben la translocación del peptidil-ARNt. Aminoglucósidos y tetraciclinas actúan sobre la 30S."
+  },
+  {
+    "id": "cb-051",
+    "area": "ciencias-basicas",
+    "tema": "Farmacología · Antibióticos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "En el síndrome de Marfan, puede ocurrir compresión ureteral secundaria a aneurisma de:",
+    "opciones": [
+      "Arteria iliaca común",
+      "Aorta abdominal",
+      "Arteria mesentérica inferior",
+      "Arteria renal"
+    ],
+    "correcta": 1,
+    "pista": "30S + ototoxicidad es la firma de este grupo.",
+    "explicacion": "Los aminoglucósidos se unen a la 30S, alteran la lectura del código y producen ototoxicidad y nefrotoxicidad. Requieren monitoreo de niveles."
+  },
+  {
+    "id": "cb-052",
+    "area": "ciencias-basicas",
+    "tema": "Anatomía · Cuello",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La Yersinia pestis se transmite principalmente por:",
+    "opciones": [
+      "Mosquitos",
+      "Garrapatas",
+      "Pulgas de roedores",
+      "Contacto sexual"
+    ],
+    "correcta": 2,
+    "pista": "Cuenta los subtriángulos del triángulo anterior.",
+    "explicacion": "El triángulo cervical anterior se subdivide en cuatro triángulos: submentoniano, submandibular, carotídeo y muscular."
+  },
+  {
+    "id": "cb-053",
+    "area": "ciencias-basicas",
+    "tema": "Histología · Urotelio",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Paciente con VIH avanzado, CD4 bajos y diarrea crónica. En el examen con tinción de Ziehl-Neelsen se observan ooquistes acidorresistentes. ¿Cuál es el agente causal?",
+    "opciones": [
+      "Isospora belli",
+      "Microsporidium",
+      "Giardia lamblia",
+      "Cryptosporidium"
+    ],
+    "correcta": 3,
+    "pista": "Es el epitelio que cambia de forma con la distensión.",
+    "explicacion": "La vejiga está revestida por epitelio de transición (urotelio), capaz de distenderse sin perder continuidad."
+  },
+  {
+    "id": "cb-054",
+    "area": "ciencias-basicas",
+    "tema": "Embriología · Cresta neural",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Por qué el glóbulo rojo no viaja “solo” en la sangre?",
+    "opciones": [
+      "Porque requiere acompañamiento plaquetario",
+      "Porque se transporta en plasma que contiene proteínas y solutos",
+      "Porque se une a leucocitos en agregados",
+      "Porque circula dentro de capilares linfáticos"
+    ],
+    "correcta": 1,
+    "pista": "Piensa en lo que migra desde el tubo neural.",
+    "explicacion": "De la cresta neural derivan neuronas simpáticas posganglionares, melanocitos, células de Schwann, médula suprarrenal y huesos faciales."
+  },
+  {
+    "id": "cl-079",
+    "area": "clinicas",
+    "tema": "Neumología · Toxicidad por fármacos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Paciente con herida por proyectil de arma de fuego que sangra activamente por compromiso hepático derecho. ¿Qué estructura debe ligarse para controlar el sangrado?",
+    "opciones": [
+      "Arteria hepática",
+      "Arteria gástrica izquierda",
+      "Arteria esplénica",
+      "Vena porta"
+    ],
+    "correcta": 0,
+    "pista": "Antibiótico antitumoral con toxicidad pulmonar clásica.",
+    "explicacion": "La bleomicina produce neumonitis y fibrosis pulmonar dosis-dependiente, con disnea y crepitantes basales."
+  },
+  {
+    "id": "cb-055",
+    "area": "ciencias-basicas",
+    "tema": "Infectología · Zoonosis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Paciente con ptosis palpebral, miosis y anhidrosis facial tras trauma cervical. ¿Qué estructura fue lesionada?",
+    "opciones": [
+      "Nervio óptico",
+      "Nervio facial",
+      "Ganglio simpático cervical",
+      "Ganglio ciliar"
+    ],
+    "correcta": 2,
+    "pista": "Busca la excepción en la vía de transmisión.",
+    "explicacion": "La fiebre Q (Coxiella burnetii) se transmite por inhalación de aerosoles de ganado, no por picadura de garrapata. La enfermedad de Lyme, la rickettsiosis y la babesiosis sí son transmitidas por garrapatas."
+  },
+  {
+    "id": "cb-056",
+    "area": "ciencias-basicas",
+    "tema": "Neurología · Vía simpática",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Mujer con flujo vaginal abundante, fétido y pruriginoso. El examen microscópico muestra protozoos móviles flagelados. ¿Cuál es el manejo inicial indicado?",
+    "opciones": [
+      "Nistatina tópica",
+      "Metronidazol oral",
+      "Fluconazol oral",
+      "Clindamicina vaginal"
+    ],
+    "correcta": 1,
+    "pista": "Tres signos: ptosis, miosis, anhidrosis.",
+    "explicacion": "El síndrome de Horner (ptosis, miosis, anhidrosis) resulta de la interrupción de la vía simpática, típicamente a nivel del ganglio cervical superior."
+  },
+  {
+    "id": "cb-057",
+    "area": "ciencias-basicas",
+    "tema": "Metabolismo · Lisosomales",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "En el ciclo cardíaco, el cierre de las válvulas auriculoventriculares ocurre durante:",
+    "opciones": [
+      "La sístole ventricular",
+      "La diástole ventricular",
+      "La eyección rápida",
+      "El llenado auricular"
+    ],
+    "correcta": 0,
+    "pista": "Es la enfermedad lisosomal más frecuente.",
+    "explicacion": "La enfermedad de Gaucher se debe al déficit de glucocerebrosidasa (beta-glucosidasa ácida), con acúmulo de glucocerebrósido en macrófagos."
+  },
+  {
+    "id": "cb-058",
+    "area": "ciencias-basicas",
+    "tema": "Genética · Oncogenes",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Las células parietales del estómago secretan principalmente:",
+    "opciones": [
+      "Pepsinógeno",
+      "Moco y bicarbonato",
+      "Ácido clorhídrico y factor intrínseco",
+      "Somatostatina"
+    ],
+    "correcta": 2,
+    "pista": "TP53 es el guardián del genoma.",
+    "explicacion": "Una mutación germinal de TP53 causa el síndrome de Li-Fraumeni, con cánceres múltiples a edades tempranas."
+  },
+  {
+    "id": "cl-080",
+    "area": "clinicas",
+    "tema": "Oncología · Síndromes hereditarios",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "En anatomía patológica, las muestras obtenidas en biopsia deben conservarse en:",
+    "opciones": [
+      "Alcohol etílico al 70%",
+      "Solución salina estéril",
+      "Formol al 10% tamponado",
+      "Agua destilada fría"
+    ],
+    "correcta": 2,
+    "pista": "Hueso y partes blandas son los más característicos.",
+    "explicacion": "El síndrome de Li-Fraumeni asocia osteosarcoma, sarcoma de partes blandas, cáncer de mama precoz, leucemia y tumores suprarrenales."
+  },
+  {
+    "id": "cl-081",
+    "area": "clinicas",
+    "tema": "Neurología · Vascular",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Una infección localizada en la región facial puede propagarse al seno cavernoso a través de:",
+    "opciones": [
+      "Vena yugular interna",
+      "Vena angular y vena oftálmica",
+      "Seno sagital superior",
+      "Arteria facial"
+    ],
+    "correcta": 1,
+    "pista": "Piensa en el territorio lateral del hemisferio.",
+    "explicacion": "La oclusión de la cerebral media produce hemiparesia y hemihipoestesia contralateral, hemianopsia homónima y afasia si es el hemisferio dominante."
+  },
+  {
+    "id": "cb-059",
+    "area": "ciencias-basicas",
+    "tema": "Neuroanatomía · Neurotransmisores",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Dos moléculas de ARN mensajero que codifican la misma proteína a pesar de diferir en la última base de un codón ejemplifican el fenómeno de:",
+    "opciones": [
+      "Transcripción inversa",
+      "Splicing alternativo",
+      "Degeneración del código genético",
+      "Mutación sin sentido"
+    ],
+    "correcta": 2,
+    "pista": "Su déficit se relaciona con depresión.",
+    "explicacion": "Los núcleos del rafe, en el tronco encefálico, son la principal fuente de serotonina del sistema nervioso central."
+  },
+  {
+    "id": "cb-060",
+    "area": "ciencias-basicas",
+    "tema": "Bioquímica · Glicosilación",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Durante una hemorragia aguda, ¿qué ocurre con el líquido extracelular (LEC) y el líquido intracelular (LIC)?",
+    "opciones": [
+      "Aumentan ambos",
+      "Disminuyen ambos",
+      "Disminuye el LEC y se redistribuye desde el LIC hacia el LEC",
+      "Aumenta el LEC por pérdida plasmática"
+    ],
+    "correcta": 2,
+    "pista": "No es un aminoácido con cadena lateral reactiva.",
+    "explicacion": "La N-glicosilación ocurre sobre asparagina y requiere aminoácidos con grupos funcionales adecuados; la prolina, por su estructura rígida de iminoácido, no participa como sitio de glicosilación."
+  },
+  {
+    "id": "cb-061",
+    "area": "ciencias-basicas",
+    "tema": "Inmunología · Hipersensibilidad",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La vitamina C es necesaria como cofactor para la síntesis de:",
+    "opciones": [
+      "Colágeno",
+      "ADN",
+      "Hormonas tiroideas",
+      "Eritropoyetina"
+    ],
+    "correcta": 0,
+    "pista": "Anticuerpo contra la célula misma.",
+    "explicacion": "La hipersensibilidad tipo II es citotóxica: anticuerpos IgG o IgM se unen a antígenos de superficie y activan complemento o células efectoras."
   }
 ]
