@@ -176,6 +176,7 @@
         <div class="lib-meta">
           <span>${esc(x.fuente || '')}</span>
           <span>·</span><span>${meta(x.id).seen ? 'vista ' + meta(x.id).seen + '×' : 'nueva'}</span>
+          ${x.verificado === false ? '<span>·</span><span>⚠ por verificar</span>' : ''}
         </div>
       </article>`).join('')
       : `<p class="muted">Sin resultados para “${esc(libQuery)}”.</p>`;
@@ -262,6 +263,9 @@
     $('#qArea').textContent = (AREAS[q.area]?.emoji || '') + ' ' + (AREAS[q.area]?.label || q.area);
     $('#qYear').textContent = q.fuente || '—';
     $('#qTema').textContent = q.tema || '';
+    const v = $('#qVerif');
+    v.textContent = q.verificado === false ? '⚠ Por verificar' : '✓ Verificada';
+    v.className = 'pill ' + (q.verificado === false ? 'warn' : 'ok');
     $('#qStem').textContent = q.enunciado;
     $('#qHint').textContent = q.pista ? '💡 ' + q.pista : '';
     $('#qHint').classList.add('hidden');
