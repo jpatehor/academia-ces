@@ -3453,5 +3453,138 @@
     "pista": "Autor también de la bóveda de la Capilla Sixtina.",
     "explicacion": "El David (1501-1504) de Miguel Ángel mide 5,17 m y se trasladó a la Galería de la Academia de Florencia en 1873 para protegerlo.",
     "img": "assets/img/a68ab8cc5baa0d4c.webp"
+  },
+  {
+    "id": "cg-053",
+    "area": "cultura-general",
+    "tema": "Geografía · Banderas",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La bandera de la imagen corresponde a:",
+    "opciones": [
+      "Croacia",
+      "Eslovaquia",
+      "Eslovenia",
+      "Serbia"
+    ],
+    "correcta": 0,
+    "pista": "Escudo de cuadros rojos y blancos.",
+    "explicacion": "La bandera de Croacia tiene tres franjas horizontales roja, blanca y azul, con el escudo ajedrezado rojo y blanco en el centro y cinco escudos menores en la corona.",
+    "img": "assets/img/d8dbf75ae61651ff.webp"
+  },
+  {
+    "id": "cg-054",
+    "area": "cultura-general",
+    "tema": "Geografía · Banderas",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "¿A qué país corresponde la bandera de la imagen?",
+    "opciones": [
+      "Grecia",
+      "Finlandia",
+      "Israel",
+      "Uruguay"
+    ],
+    "correcta": 0,
+    "pista": "Cruz blanca sobre fondo azul y franjas.",
+    "explicacion": "La bandera de Grecia tiene nueve franjas horizontales azules y blancas y una cruz blanca en el cantón. El azul representa el mar y el cielo.",
+    "img": "assets/img/2db6184c514f58d4.webp"
+  },
+  {
+    "id": "cg-055",
+    "area": "cultura-general",
+    "tema": "Geografía · Banderas",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La bandera de la imagen corresponde a:",
+    "opciones": [
+      "Noruega",
+      "Dinamarca",
+      "Suecia",
+      "Islandia"
+    ],
+    "correcta": 0,
+    "pista": "Cruz azul con borde blanco sobre rojo.",
+    "explicacion": "Noruega usa una cruz nórdica azul con borde blanco sobre fondo rojo. Dinamarca es roja con cruz blanca, Suecia azul con cruz amarilla e Islandia azul con cruz roja bordeada de blanco.",
+    "img": "assets/img/324edc75388106a4.webp"
+  },
+  {
+    "id": "cg-056",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Monumentos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El monumento de la imagen, en Agra (India), fue mandado construir por:",
+    "opciones": [
+      "Shah Jahan",
+      "Akbar",
+      "Aurangzeb",
+      "Babur"
+    ],
+    "correcta": 0,
+    "pista": "Emperador mogol, en memoria de su esposa.",
+    "explicacion": "El Taj Mahal fue construido entre 1632 y 1653 por el emperador mogol Shah Jahan como mausoleo para su esposa Mumtaz Mahal.",
+    "img": "assets/img/af51862e07be8af7.webp"
+  },
+  {
+    "id": "cg-057",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Modernismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La iglesia de la imagen, en Barcelona, es obra de:",
+    "opciones": [
+      "Antoni Gaudí",
+      "Lluís Domènech i Montaner",
+      "Santiago Calatrava",
+      "Le Corbusier"
+    ],
+    "correcta": 0,
+    "pista": "Máximo exponente del modernismo catalán.",
+    "explicacion": "La Sagrada Familia es el proyecto más conocido de Antoni Gaudí. Se empezó en 1882 y sigue en construcción; es Patrimonio de la Humanidad.",
+    "img": "assets/img/3d304d81d4f1ac8c.webp"
+  },
+  {
+    "id": "cg-058",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Al-Ándalus",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La fortaleza palatina de la imagen se encuentra en:",
+    "opciones": [
+      "Granada",
+      "Córdoba",
+      "Sevilla",
+      "Toledo"
+    ],
+    "correcta": 0,
+    "pista": "Ciudad nazarí frente a Sierra Nevada.",
+    "explicacion": "La Alhambra está en Granada, sobre la colina de la Sabika. Fue residencia nazarí y es uno de los conjuntos andalusíes mejor conservados.",
+    "img": "assets/img/e0900331aa99d792.webp"
+  },
+  {
+    "id": "cg-059",
+    "area": "cultura-general",
+    "tema": "Historia · Egipto",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "Las pirámides de la imagen, en la meseta de Giza, corresponden a:",
+    "opciones": [
+      "Keops, Kefrén y Micerino",
+      "Ramsés II, Tutankamón y Akenatón",
+      "Zoser, Sneferu y Unas",
+      "Cleopatra, Nefertiti y Hatshepsut"
+    ],
+    "correcta": 0,
+    "pista": "La mayor es la de Keops.",
+    "explicacion": "Las tres pirámides principales de Giza son las de Keops (la mayor), Kefrén y Micerino, construidas en el Imperio Antiguo egipcio.",
+    "img": "assets/img/b23b7018a57985db.webp"
   }
 ]
