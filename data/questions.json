@@ -4784,5 +4784,545 @@
     "pista": "Nobel de Física 1921.",
     "explicacion": "Albert Einstein formuló la relatividad especial (1905) y general (1915) y recibió el Nobel de Física en 1921 por el efecto fotoeléctrico.",
     "img": "assets/img/318cd8fb92fdc990.webp"
+  },
+  {
+    "id": "cb-081",
+    "area": "ciencias-basicas",
+    "tema": "Biología celular · Matriz",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Las lamininas son glicoproteínas que",
+    "opciones": [
+      "Participan en la formación del colágeno tipo III",
+      "Se unen a receptores de integrinas anclando la célula a la lámina basal",
+      "Forman parte del complejo de unión desmosómica",
+      "Se asocian a los filamentos de actina en la membrana celular"
+    ],
+    "correcta": 1,
+    "pista": "Lámina basal e integrinas.",
+    "explicacion": "Las lamininas son glucoproteínas de la lámina basal que se unen a integrinas y anclan las células a la matriz extracelular."
+  },
+  {
+    "id": "cl-082",
+    "area": "clinicas",
+    "tema": "Oncología gástrica",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Paciente con diagnóstico de adenocarcinoma gástrico. Según la clasificación de Lauren, los tumores se dividen en",
+    "opciones": [
+      "In situ y avanzado",
+      "Escamoso y glandular",
+      "Mucinoso y papilar",
+      "Intestinal y difuso"
+    ],
+    "correcta": 3,
+    "pista": "Dos tipos: intestinal y difuso.",
+    "explicacion": "La clasificación de Lauren divide el adenocarcinoma gástrico en intestinal (bien diferenciado, asociado a H. pylori) y difuso (células en anillo de sello, peor pronóstico)."
+  },
+  {
+    "id": "cl-083",
+    "area": "clinicas",
+    "tema": "Oncología gástrica",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En el cáncer gástrico, el uso del PET-Scan está indicado principalmente para",
+    "opciones": [
+      "Diagnóstico inicial",
+      "Diferenciar tipos histológicos",
+      "Confirmar infección por H. pylori",
+      "Valorar metástasis a distancia no vistas en TAC"
+    ],
+    "correcta": 3,
+    "pista": "Estadificación a distancia.",
+    "explicacion": "El PET-TC en cáncer gástrico se usa para detectar metástasis a distancia no visibles en la TC, lo que cambia la estadificación y evita cirugías innecesarias."
+  },
+  {
+    "id": "cl-084",
+    "area": "clinicas",
+    "tema": "Oncología apendicular",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "El tumor apendicular se clasifica según su",
+    "opciones": [
+      "Tamaño y localización",
+      "Edad del paciente",
+      "Tipo histológico (carcinoide, mucinoso, mixto)",
+      "Grado de necrosis"
+    ],
+    "correcta": 2,
+    "pista": "Estirpe celular.",
+    "explicacion": "Los tumores apendiculares se clasifican por su estirpe histológica: carcinoides, mucinosos, adenocarcinomas y mixtos, lo que define el manejo."
+  },
+  {
+    "id": "cl-085",
+    "area": "clinicas",
+    "tema": "Oncología peritoneal",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "El pseudomixoma peritoneal se caracteriza por",
+    "opciones": [
+      "Hemoperitoneo espontáneo",
+      "Peritonitis bacteriana secundaria",
+      "Acumulación de material mucinoso en cavidad abdominal",
+      "Peritonitis purulenta difusa"
+    ],
+    "correcta": 2,
+    "pista": "Mucina en el peritoneo.",
+    "explicacion": "El pseudomixoma peritoneal es la acumulación de mucina en la cavidad peritoneal, habitualmente por un tumor mucinoso apendicular de bajo grado."
+  },
+  {
+    "id": "cl-086",
+    "area": "clinicas",
+    "tema": "Endocrinología · Suprarrenal",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes NO se considera factor de riesgo para tumor suprarrenal?",
+    "opciones": [
+      "Neurofibromatosis tipo 1",
+      "Síndrome de Cushing",
+      "Asma bronquial",
+      "Síndrome de Beckwith-Wiedemann"
+    ],
+    "correcta": 2,
+    "pista": "Busca la que no es genética ni endocrina.",
+    "explicacion": "El asma bronquial no es factor de riesgo de tumores suprarrenales. Sí lo son Beckwith-Wiedemann, Cushing y neurofibromatosis tipo 1."
+  },
+  {
+    "id": "cl-087",
+    "area": "clinicas",
+    "tema": "Endocrinología · Diabetes",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes NO es una clasificación válida de diabetes mellitus?",
+    "opciones": [
+      "Por endocrinopatías",
+      "Tipo III idiopática",
+      "LADA",
+      "MODY"
+    ],
+    "correcta": 1,
+    "pista": "No hay tipo III.",
+    "explicacion": "La diabetes se clasifica en tipo 1, tipo 2, gestacional y otros tipos específicos (MODY, LADA, endocrinopatías, fármacos). «Tipo III idiopática» no existe."
+  },
+  {
+    "id": "cl-088",
+    "area": "clinicas",
+    "tema": "Neurología · Seno cavernoso",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Paciente con cefalea y diplopía. Se confirma trombosis del seno cavernoso proximal a la hipófisis. ¿Qué nervio se afecta con mayor frecuencia?",
+    "opciones": [
+      "VI par craneal",
+      "IV par craneal",
+      "Rama oftálmica del trigémino",
+      "III par craneal"
+    ],
+    "correcta": 0,
+    "pista": "Único nervio dentro del seno.",
+    "explicacion": "El VI par craneal es la única estructura que atraviesa la luz del seno cavernoso, por lo que se afecta primero y produce diplopía."
+  },
+  {
+    "id": "cl-089",
+    "area": "clinicas",
+    "tema": "Ginecología · Oncología",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "El sistema de clasificación FIGO se utiliza en",
+    "opciones": [
+      "Tumores renales",
+      "Cáncer colorrectal",
+      "Cáncer de pulmón",
+      "Cáncer ginecológico"
+    ],
+    "correcta": 3,
+    "pista": "Sistema internacional de ginecología.",
+    "explicacion": "FIGO es el sistema de estadificación de los cánceres ginecológicos (cérvix, endometrio, ovario, vulva)."
+  },
+  {
+    "id": "cl-090",
+    "area": "clinicas",
+    "tema": "Radiología · Mama",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "El sistema BIRADS se emplea para",
+    "opciones": [
+      "Evaluación de lesiones hepáticas",
+      "Clasificación de tumores óseos",
+      "Interpretación de estudios de mama",
+      "Diagnóstico de cáncer gástrico"
+    ],
+    "correcta": 2,
+    "pista": "Categorías 0-6 en mama.",
+    "explicacion": "BI-RADS estandariza la interpretación de mamografía y ecografía mamaria, con categorías de 0 a 6 que orientan el manejo."
+  },
+  {
+    "id": "cl-091",
+    "area": "clinicas",
+    "tema": "Ginecología · Tamizaje",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "La prueba de tamizaje con ADN de VPH se recomienda iniciar a",
+    "opciones": [
+      "35 años",
+      "21 años",
+      "30 años",
+      "25 años"
+    ],
+    "correcta": 2,
+    "pista": "Treinta años.",
+    "explicacion": "En Colombia el tamizaje con prueba de ADN de VPH inicia a los 30 años y se repite cada 5 años; antes de esa edad se usa citología."
+  },
+  {
+    "id": "cl-092",
+    "area": "clinicas",
+    "tema": "Ginecología · VPH",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Si una paciente tiene resultado positivo para VPH 16 o 18, la conducta inmediata debe ser",
+    "opciones": [
+      "Colposcopia inmediata",
+      "Biopsia endometrial",
+      "Antibióticos tópicos",
+      "Citología en 6 meses"
+    ],
+    "correcta": 0,
+    "pista": "Los dos serotipos de mayor riesgo.",
+    "explicacion": "La infección por VPH 16 o 18 obliga a colposcopia inmediata por su alto riesgo oncogénico, independientemente de la citología."
+  },
+  {
+    "id": "cl-093",
+    "area": "clinicas",
+    "tema": "Obstetricia · Diabetes",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Señale la afirmación falsa sobre la diabetes gestacional",
+    "opciones": [
+      "Se diagnostica con prueba de tolerancia oral a la glucosa",
+      "Se asocia con macrosomía fetal",
+      "Suele resolverse tras el parto",
+      "No aumenta el riesgo de diabetes futura"
+    ],
+    "correcta": 3,
+    "pista": "Busca la negación incorrecta.",
+    "explicacion": "La diabetes gestacional sí aumenta el riesgo futuro de diabetes tipo 2 y de recurrencia en embarazos posteriores. Las demás afirmaciones son correctas."
+  },
+  {
+    "id": "cl-094",
+    "area": "clinicas",
+    "tema": "Obstetricia · Gemelos",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En un embarazo gemelar, la complicación más frecuente es",
+    "opciones": [
+      "Diabetes gestacional",
+      "Parto pretérmino",
+      "Placenta previa",
+      "Preeclampsia"
+    ],
+    "correcta": 1,
+    "pista": "Sobredistensión uterina.",
+    "explicacion": "La complicación más frecuente del embarazo gemelar es el parto pretérmino, por sobredistensión uterina."
+  },
+  {
+    "id": "cl-095",
+    "area": "clinicas",
+    "tema": "Obstetricia · Infecciones",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes NO es un riesgo asociado a infecciones cervicovaginales en el embarazo?",
+    "opciones": [
+      "Rotura prematura de membranas",
+      "Preeclampsia",
+      "Parto pretérmino",
+      "Bajo peso al nacer"
+    ],
+    "correcta": 1,
+    "pista": "Trastorno hipertensivo.",
+    "explicacion": "Las infecciones cervicovaginales se asocian a parto pretérmino, rotura prematura de membranas y bajo peso; no a preeclampsia."
+  },
+  {
+    "id": "cl-096",
+    "area": "clinicas",
+    "tema": "Pediatría · Neonatología",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En la sepsis neonatal temprana, el esquema antibiótico empírico de elección es",
+    "opciones": [
+      "Ampicilina + Gentamicina",
+      "Ceftriaxona",
+      "Meropenem",
+      "Vancomicina"
+    ],
+    "correcta": 0,
+    "pista": "Dos antibióticos de primera línea.",
+    "explicacion": "La sepsis neonatal temprana se cubre empíricamente con ampicilina y gentamicina, que cubren estreptococo del grupo B y gramnegativos."
+  },
+  {
+    "id": "cl-097",
+    "area": "clinicas",
+    "tema": "Pediatría · RCP",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En pediatría, los ritmos desfibrilables son",
+    "opciones": [
+      "Fibrilación ventricular y taquicardia ventricular sin pulso",
+      "Taquicardia supraventricular y bradicardia",
+      "Bloqueo AV total y AESP",
+      "Asistolia y AESP"
+    ],
+    "correcta": 0,
+    "pista": "Los que se desfibrilan.",
+    "explicacion": "Los ritmos desfibrilables son la fibrilación ventricular y la taquicardia ventricular sin pulso; asistolia y AESP no se desfibrilan."
+  },
+  {
+    "id": "cl-098",
+    "area": "clinicas",
+    "tema": "Pediatría · EDA",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En diarrea aguda (EDA), el uso de antibióticos está indicado cuando",
+    "opciones": [
+      "El cuadro dura menos de 24 horas",
+      "Es autolimitada y sin fiebre",
+      "Hay sangre en heces o sospecha de Shigella",
+      "La etiología es viral"
+    ],
+    "correcta": 2,
+    "pista": "Disentería.",
+    "explicacion": "En la enfermedad diarreica aguda el antibiótico se indica con sangre en heces o sospecha de Shigella, cólera o infección grave."
+  },
+  {
+    "id": "cl-099",
+    "area": "clinicas",
+    "tema": "Pediatría · Nefrología",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En pediatría, la proteinuria transitoria puede ocurrir en todos los siguientes casos EXCEPTO",
+    "opciones": [
+      "Nefropatía por IgA",
+      "Estrés físico",
+      "Ejercicio intenso",
+      "Fiebre"
+    ],
+    "correcta": 0,
+    "pista": "Enfermedad renal, no transitoria.",
+    "explicacion": "Fiebre, ejercicio y estrés producen proteinuria transitoria. La nefropatía por IgA es una glomerulopatía con proteinuria persistente."
+  },
+  {
+    "id": "cl-100",
+    "area": "clinicas",
+    "tema": "Nefrología · Síndrome nefrótico",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En la proteinuria en rango nefrótico, el valor de proteinuria supera",
+    "opciones": [
+      "3,5 g/24 h",
+      "1 g/24 h",
+      "0,3 g/24 h",
+      "2 g/24 h"
+    ],
+    "correcta": 0,
+    "pista": "Tres gramos y medio.",
+    "explicacion": "El rango nefrótico se define por proteinuria superior a 3,5 g/24 h, con hipoalbuminemia, edema e hiperlipidemia."
+  },
+  {
+    "id": "cb-082",
+    "area": "ciencias-basicas",
+    "tema": "Fisiología · Mecánica pulmonar",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En la mecánica pulmonar, la presión transpulmonar se define como",
+    "opciones": [
+      "Diferencia entre presión venosa y arterial pulmonar",
+      "Diferencia entre presión pulmonar y capilar",
+      "Diferencia entre presión alveolar y pleural",
+      "Diferencia entre presión pleural y atmosférica"
+    ],
+    "correcta": 2,
+    "pista": "Alveolar menos pleural.",
+    "explicacion": "La presión transpulmonar es la diferencia entre la presión alveolar y la pleural; es la que mantiene el pulmón distendido."
+  },
+  {
+    "id": "cb-083",
+    "area": "ciencias-basicas",
+    "tema": "Fisiología · Mecánica pulmonar",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "La presión alveolar al final de la espiración normalmente es",
+    "opciones": [
+      "0 cmH₂O",
+      "+10 cmH₂O",
+      "-5 cmH₂O",
+      "+5 cmH₂O"
+    ],
+    "correcta": 0,
+    "pista": "Se iguala con la atmósfera.",
+    "explicacion": "Al final de la espiración, sin flujo aéreo, la presión alveolar se iguala con la atmosférica: 0 cmH₂O."
+  },
+  {
+    "id": "cl-101",
+    "area": "clinicas",
+    "tema": "Pediatría · Urología",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Niño con ITU recurrente y sospecha de reflujo vesicoureteral. El estudio diagnóstico de elección es",
+    "opciones": [
+      "Ecografía renal",
+      "Cintigrafía DMSA",
+      "Urotomografía",
+      "Cistografía miccional"
+    ],
+    "correcta": 3,
+    "pista": "Contraste en la vejiga.",
+    "explicacion": "La cistografía miccional (o cistouretrografía) es el estudio de elección para diagnosticar y graduar el reflujo vesicoureteral."
+  },
+  {
+    "id": "cl-102",
+    "area": "clinicas",
+    "tema": "Cardiología · Lípidos",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En un paciente con antecedente de infarto, la meta de LDL recomendada es",
+    "opciones": [
+      "<130 mg/dL",
+      "<100 mg/dL",
+      "<55 mg/dL",
+      "<70 mg/dL"
+    ],
+    "correcta": 2,
+    "pista": "Muy baja: 55.",
+    "explicacion": "En prevención secundaria (postinfarto) la meta es LDL <55 mg/dL y una reducción ≥50% respecto al basal."
+  },
+  {
+    "id": "cl-103",
+    "area": "clinicas",
+    "tema": "Ginecología · Ciclo",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En la fase ovulatoria del ciclo menstrual, la probabilidad de embarazo es mayor en el día",
+    "opciones": [
+      "21 ± 2",
+      "14 ± 2",
+      "3 ± 2",
+      "7 ± 2"
+    ],
+    "correcta": 1,
+    "pista": "Mitad del ciclo.",
+    "explicacion": "La ovulación ocurre alrededor del día 14 en un ciclo de 28 días; la ventana fértil es el día 14 ± 2."
+  },
+  {
+    "id": "cb-084",
+    "area": "ciencias-basicas",
+    "tema": "Bioquímica · Lípidos",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Paciente con mutación de PSCK9. ¿Cuál de los siguientes perfiles lipídicos se espera?",
+    "opciones": [
+      "Disminución de LDL",
+      "Aumento de triglicéridos",
+      "Aumento de HDL",
+      "Elevación de LDL"
+    ],
+    "correcta": 3,
+    "pista": "Menos receptores de LDL.",
+    "explicacion": "PCSK9 degrada el receptor de LDL; su ganancia de función reduce los receptores y eleva el LDL plasmático. Los inhibidores de PCSK9 lo disminuyen."
+  },
+  {
+    "id": "cl-104",
+    "area": "clinicas",
+    "tema": "Pediatría · Desarrollo",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Un bebé de 9 meses debe alcanzar como hito del desarrollo motor grueso",
+    "opciones": [
+      "Correr",
+      "Saltar en un pie",
+      "Subir escaleras",
+      "Sentarse sin apoyo"
+    ],
+    "correcta": 3,
+    "pista": "Nueve meses.",
+    "explicacion": "A los 9 meses el hito esperado es sentarse sin apoyo y ponerse de pie con ayuda; correr, subir escaleras y saltar aparecen después."
+  },
+  {
+    "id": "cl-105",
+    "area": "clinicas",
+    "tema": "Pediatría · Desarrollo",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "A los 7 meses, un bebé debería alcanzar como hito de desarrollo motor fino",
+    "opciones": [
+      "Pasar objetos de una mano a otra",
+      "Pinza fina completa",
+      "Escribir con garabatos",
+      "Trazar líneas"
+    ],
+    "correcta": 0,
+    "pista": "Transferencia entre manos.",
+    "explicacion": "A los 7 meses el bebé transfiere objetos de una mano a otra; la pinza fina aparece hacia los 9-12 meses."
+  },
+  {
+    "id": "cl-106",
+    "area": "clinicas",
+    "tema": "Cirugía · Postoperatorio",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "En el postoperatorio inmediato, la causa más temprana de fiebre es",
+    "opciones": [
+      "Atelectasia",
+      "Tromboflebitis",
+      "Neumonía",
+      "Infección de herida"
+    ],
+    "correcta": 0,
+    "pista": "Primeras 48 horas.",
+    "explicacion": "En las primeras 24-48 h del postoperatorio la fiebre suele deberse a atelectasia; después se consideran infección de herida, neumonía y tromboflebitis."
+  },
+  {
+    "id": "cl-107",
+    "area": "clinicas",
+    "tema": "Endocrinología · Insulinas",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes insulinas es análoga de acción rápida?",
+    "opciones": [
+      "Glulisina",
+      "Detemir",
+      "Glargina",
+      "NPH"
+    ],
+    "correcta": 0,
+    "pista": "Antes de la comida.",
+    "explicacion": "Glulisina, lispro y aspart son análogos de acción rápida; NPH es intermedia y glargina y detemir son basales."
   }
 ]
