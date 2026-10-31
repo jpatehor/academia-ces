@@ -6512,5 +6512,491 @@
     "correcta": 0,
     "pista": "Marzo de 2020.",
     "explicacion": "La OMS declaró la pandemia de COVID-19 el 11 de marzo de 2020."
+  },
+  {
+    "id": "cl-141",
+    "area": "clinicas",
+    "tema": "Neurología · ACV",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En un paciente con accidente cerebrovascular (ACV) isquémico se analizan las curvas de flujo sanguíneo cerebral en las zonas intra y extracelulares. ¿Qué ocurre con el flujo sanguíneo cerebral en la zona afectada?",
+    "opciones": [
+      "Aumenta por mecanismos de autorregulación",
+      "Disminuye de forma significativa",
+      "Se mantiene constante por circulación colateral",
+      "Aumenta solo en la sustancia blanca"
+    ],
+    "correcta": 1,
+    "pista": "Autorregulación perdida.",
+    "explicacion": "En el infarto cerebral el flujo sanguíneo cae por debajo del umbral de autorregulación y se pierde el mecanismo compensador."
+  },
+  {
+    "id": "cb-090",
+    "area": "ciencias-basicas",
+    "tema": "Metabolismo · Pirimidinas",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En un paciente con diagnóstico de aciduria orótica, se detecta un trastorno enzimático del metabolismo de los nucleótidos. ¿Qué vías metabólicas se encuentran alteradas?",
+    "opciones": [
+      "Metabolismo de la urea y anabolismo de pirimidinas",
+      "Gluconeogénesis y catabolismo de pirimidinas",
+      "Metabolismo de la urea y catabolismo de purinas",
+      "Beta-oxidación de ácidos grasos y síntesis de purinas"
+    ],
+    "correcta": 1,
+    "pista": "Pirimidinas.",
+    "explicacion": "La aciduria orótica se debe al déficit de UMP sintasa, en la vía de síntesis de pirimidinas."
+  },
+  {
+    "id": "cl-142",
+    "area": "clinicas",
+    "tema": "Ginecología · Sangrado",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Mujer de 60 años consulta por hemorragia uterina anormal (HUA) posmenopáusica. En la ecografía transvaginal se observa engrosamiento endometrial. ¿Cuál es el estudio inicial más apropiado?",
+    "opciones": [
+      "Histerosalpingografía",
+      "Biopsia endometrial",
+      "Laparoscopia diagnóstica",
+      "Ecografía transvaginal"
+    ],
+    "correcta": 1,
+    "pista": "Descartar cáncer de endometrio.",
+    "explicacion": "Todo sangrado posmenopáusico exige estudio endometrial; con endometrio engrosado la biopsia es obligatoria para descartar cáncer."
+  },
+  {
+    "id": "cl-143",
+    "area": "clinicas",
+    "tema": "Infectología · Malaria",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Paciente con diagnóstico confirmado de malaria por Plasmodium vivax en Colombia. ¿Cuál es el tratamiento de primera línea recomendado según el protocolo nacional?",
+    "opciones": [
+      "Doxiciclina + quinina",
+      "Cloroquina + primaquina",
+      "Atovacuona + proguanil",
+      "Arteméter + lumefantrina"
+    ],
+    "correcta": 1,
+    "pista": "Elimina hipnozoítos.",
+    "explicacion": "P. vivax se trata con cloroquina (esquizoonticida) más primaquina para eliminar los hipnozoítos y prevenir recaídas."
+  },
+  {
+    "id": "cl-144",
+    "area": "clinicas",
+    "tema": "Obstetricia · RPM",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Gestante con sospecha de ruptura prematura de membranas (RPM) consulta en urgencias. Según las guías colombianas, ¿cuál es el examen diagnóstico inicial más indicado?",
+    "opciones": [
+      "Prueba con índigo carmín",
+      "Cultivo de líquido amniótico",
+      "Ecografía obstétrica para medir el líquido amniótico",
+      "Especuloscopia y prueba de cristalización/nitrazina"
+    ],
+    "correcta": 3,
+    "pista": "Cristales en el líquido.",
+    "explicacion": "El diagnóstico de RPM se confirma con especuloscopia y prueba de cristalización (o pH con nitrazina), no con ecografía aislada."
+  },
+  {
+    "id": "cl-145",
+    "area": "clinicas",
+    "tema": "Obstetricia · Insuficiencia cervical",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Gestante de 16 semanas con antecedentes de tres pérdidas previas en semanas 24, 26 y 30. ¿Cuál intervención puede reducir la recurrencia de la pérdida en un 30%?",
+    "opciones": [
+      "Progesterona vaginal",
+      "Pesario cervical",
+      "Ácido acetilsalicílico",
+      "Cerclaje profiláctico"
+    ],
+    "correcta": 3,
+    "pista": "Cuello incompetente.",
+    "explicacion": "Los abortos tardíos recurrentes sugieren insuficiencia cervical; el cerclaje profiláctico reduce el parto pretérmino."
+  },
+  {
+    "id": "cl-146",
+    "area": "clinicas",
+    "tema": "Obstetricia · Hemorragia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Paciente con código rojo obstétrico, hipotensión y alteración del estado de conciencia. ¿Cuál es la primera intervención que debe realizarse?",
+    "opciones": [
+      "Aplicar uterotónicos sin evaluar la causa",
+      "Identificar y controlar la causa del sangrado",
+      "Administrar hemoderivados empíricamente",
+      "Traslado inmediato a unidad de cuidados intensivos"
+    ],
+    "correcta": 1,
+    "pista": "Causa antes que transfusiones.",
+    "explicacion": "En el código rojo obstétrico la prioridad es identificar y controlar la causa del sangrado junto con la reanimación."
+  },
+  {
+    "id": "cl-147",
+    "area": "clinicas",
+    "tema": "Obstetricia · Diabetes gestacional",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Gestante con diabetes mellitus gestacional. ¿Cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "El control dietético no modifica desenlaces perinatales",
+      "Insulina es la primera línea terapéutica",
+      "Dieta y ejercicio controlan la enfermedad en cerca del 60%",
+      "Metformina es el tratamiento inicial recomendado"
+    ],
+    "correcta": 2,
+    "pista": "Primero estilo de vida.",
+    "explicacion": "La primera línea en diabetes gestacional es la dieta y el ejercicio; la insulina se reserva para fracaso del manejo nutricional."
+  },
+  {
+    "id": "cb-091",
+    "area": "ciencias-basicas",
+    "tema": "Microbiología · Tuberculosis",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En una muestra de Mycobacterium tuberculosis se demuestra resistencia a la rifampicina. ¿Qué gen está implicado en dicha resistencia?",
+    "opciones": [
+      "KatG",
+      "rpoB",
+      "pncA",
+      "embB"
+    ],
+    "correcta": 1,
+    "pista": "Gen de la ARN polimerasa.",
+    "explicacion": "La resistencia a rifampicina se debe a mutaciones en rpoB, que codifica la subunidad beta de la ARN polimerasa."
+  },
+  {
+    "id": "cl-148",
+    "area": "clinicas",
+    "tema": "Prevención · VPH",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Respecto al esquema de vacunación contra el virus del papiloma humano (VPH) en niñas menores de 15 años, ¿cuál es el esquema correcto?",
+    "opciones": [
+      "0–2–6 meses",
+      "0–1–6 meses",
+      "0–12 meses",
+      "0–6 meses"
+    ],
+    "correcta": 3,
+    "pista": "Dos dosis.",
+    "explicacion": "En menores de 15 años el esquema de VPH es de dos dosis, a los 0 y 6 meses."
+  },
+  {
+    "id": "cl-149",
+    "area": "clinicas",
+    "tema": "Pediatría · Tos ferina",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Sobre la tosferina, ¿cuál de las siguientes afirmaciones es correcta?",
+    "opciones": [
+      "Produce leucopenia con trombocitopenia",
+      "La vacunación previene solo la enfermedad, no la infección",
+      "Se transmite principalmente por fómites",
+      "La toxina pertussis bloquea la respuesta de los neutrófilos"
+    ],
+    "correcta": 3,
+    "pista": "Toxina que bloquea.",
+    "explicacion": "La toxina pertussis inhibe la señalización por proteínas G y altera la respuesta inmune y la depuración ciliar."
+  },
+  {
+    "id": "cl-150",
+    "area": "clinicas",
+    "tema": "Cirugía · Absceso hepático",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es la principal vía de diseminación en un absceso hepático piógeno?",
+    "opciones": [
+      "Vía linfática",
+      "Extensión directa desde vesícula",
+      "Vía portal (infección intraabdominal)",
+      "Vía hematógena (endocarditis)"
+    ],
+    "correcta": 2,
+    "pista": "Vena porta.",
+    "explicacion": "El absceso hepático piógeno se origina sobre todo por diseminación portal desde una infección intraabdominal."
+  },
+  {
+    "id": "cl-151",
+    "area": "clinicas",
+    "tema": "Infectología · Fiebre Q",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En la endocarditis por Coxiella burnetii (fiebre Q crónica), ¿cuál es el tratamiento de primera línea recomendado?",
+    "opciones": [
+      "Eritromicina (3 meses)",
+      "Doxiciclina + hidroxicloroquina (18 meses)",
+      "Doxiciclina + rifampicina (6 meses)",
+      "Azitromicina (6 semanas)"
+    ],
+    "correcta": 1,
+    "pista": "18 meses.",
+    "explicacion": "La fiebre Q crónica (endocarditis) se trata con doxiciclina más hidroxicloroquina durante al menos 18 meses."
+  },
+  {
+    "id": "cl-152",
+    "area": "clinicas",
+    "tema": "Pediatría · Neonatología",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Neonato de 30 semanas con retracciones intercostales y estridor. Radiografía de tórax: patrón reticulogranular con broncograma aéreo. ¿Cuál es el diagnóstico más probable?",
+    "opciones": [
+      "Neumotórax espontáneo",
+      "Derrame pleural",
+      "Atelectasias focales",
+      "Enfermedad de membrana hialina"
+    ],
+    "correcta": 3,
+    "pista": "Déficit de surfactante.",
+    "explicacion": "En el prematuro con dificultad respiratoria y patrón reticulogranular la causa es la enfermedad de membrana hialina por déficit de surfactante."
+  },
+  {
+    "id": "cl-153",
+    "area": "clinicas",
+    "tema": "Gastroenterología · Pancreatitis",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es la causa más frecuente de pancreatitis crónica en adultos?",
+    "opciones": [
+      "Hipertrigliceridemia",
+      "Hereditaria",
+      "Biliar",
+      "Alcoholismo"
+    ],
+    "correcta": 3,
+    "pista": "Tóxico más común.",
+    "explicacion": "El alcohol es la causa más frecuente de pancreatitis crónica en adultos."
+  },
+  {
+    "id": "cl-154",
+    "area": "clinicas",
+    "tema": "Pediatría · Dolor",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Niño con dolor en piernas nocturno que mejora con acetaminofén y no presenta signos inflamatorios. ¿Qué conducta es la más adecuada?",
+    "opciones": [
+      "Observación y control clínico",
+      "Solicitar biopsia ósea",
+      "Solicitar RMN",
+      "Realizar hemograma y PCR"
+    ],
+    "correcta": 0,
+    "pista": "Dolores de crecimiento.",
+    "explicacion": "Los dolores de crecimiento son benignos, bilaterales, nocturnos y sin signos inflamatorios: se observan y controlan."
+  },
+  {
+    "id": "cl-155",
+    "area": "clinicas",
+    "tema": "Ginecología · EIP",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Mujer joven, sexualmente activa, con dolor en FID y dolor a la movilización cervical. ¿Cuál es el primer examen que debe solicitarse en urgencias?",
+    "opciones": [
+      "Ecografía transvaginal",
+      "Hemograma",
+      "Prueba de embarazo",
+      "Hospitalización inmediata"
+    ],
+    "correcta": 2,
+    "pista": "Descartar gestación.",
+    "explicacion": "Ante dolor pélvico en mujer joven, el primer paso es descartar embarazo antes de imagen o antibióticos."
+  },
+  {
+    "id": "cl-156",
+    "area": "clinicas",
+    "tema": "Gastroenterología · Acalasia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En la acalasia esofágica, ¿cuál afirmación es correcta?",
+    "opciones": [
+      "Los calcioantagonistas empeoran los síntomas",
+      "Los calcioantagonistas se usan como tratamiento sintomático",
+      "Es un trastorno inflamatorio del epitelio escamoso",
+      "Causa infecciosa principal"
+    ],
+    "correcta": 0,
+    "pista": "Relajan el EEI.",
+    "explicacion": "La acalasia es un trastorno motor; los calcioantagonistas y nitratos relajan el esfínter esofágico inferior como tratamiento puente."
+  },
+  {
+    "id": "cl-157",
+    "area": "clinicas",
+    "tema": "Oncología · VEB",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es el principal factor de riesgo para carcinoma nasofaríngeo?",
+    "opciones": [
+      "Radiación previa",
+      "Infección por virus Epstein–Barr",
+      "Alcoholismo",
+      "Tabaquismo"
+    ],
+    "correcta": 1,
+    "pista": "VEB.",
+    "explicacion": "El virus de Epstein-Barr es el principal factor de riesgo del carcinoma nasofaríngeo."
+  },
+  {
+    "id": "cl-158",
+    "area": "clinicas",
+    "tema": "Gastroenterología · Zollinger-Ellison",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Se analizan curvas de secreción gástrica tras la ingesta. ¿Cuál situación cursa con hipersecreción ácida y riesgo de úlceras múltiples?",
+    "opciones": [
+      "Síndrome de Zollinger–Ellison",
+      "Infección por H. pylori con hipoclorhidria",
+      "Gastrectomía parcial",
+      "Gastritis atrófica"
+    ],
+    "correcta": 0,
+    "pista": "Gastrinoma.",
+    "explicacion": "El síndrome de Zollinger-Ellison (gastrinoma) produce hipersecreción ácida y úlceras múltiples."
+  },
+  {
+    "id": "cl-159",
+    "area": "clinicas",
+    "tema": "Neurocirugía · Hematoma epidural",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Niña con trauma craneal presenta intervalo lúcido y posterior deterioro neurológico. TC: colección biconvexa. ¿Qué arteria está comprometida?",
+    "opciones": [
+      "Senos venosos durales",
+      "Arteria meníngea media",
+      "Arteria vertebral",
+      "Arteria cerebral media"
+    ],
+    "correcta": 1,
+    "pista": "Intervalo lúcido.",
+    "explicacion": "El hematoma epidural por trauma con intervalo lúcido se debe a la lesión de la arteria meníngea media."
+  },
+  {
+    "id": "cl-160",
+    "area": "clinicas",
+    "tema": "Endocrinología · ADH",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Paciente con osmolaridad urinaria de 100 mOsm/kg, que tras administración de ADH aumenta su osmolaridad y disminuye el volumen urinario. ¿Diagnóstico?",
+    "opciones": [
+      "Diabetes insípida nefrogénica",
+      "SIADH",
+      "Polidipsia primaria",
+      "Diabetes insípida central"
+    ],
+    "correcta": 3,
+    "pista": "Responde a la ADH.",
+    "explicacion": "La osmolaridad urinaria baja que se concentra tras administrar ADH indica déficit central de ADH (diabetes insípida central)."
+  },
+  {
+    "id": "cl-161",
+    "area": "clinicas",
+    "tema": "Hepatología · HCC",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En el seguimiento del carcinoma hepatocelular, ¿cuál método se recomienda?",
+    "opciones": [
+      "Alfafetoproteína + ecografía cada 6 meses",
+      "Alfafetoproteína sérica",
+      "Antígeno carcinoembrionario",
+      "TAC helicoidal anual"
+    ],
+    "correcta": 1,
+    "pista": "Cada 6 meses.",
+    "explicacion": "El seguimiento del hepatocarcinoma se hace con ecografía abdominal y alfafetoproteína cada 6 meses."
+  },
+  {
+    "id": "cl-162",
+    "area": "clinicas",
+    "tema": "Mama · Imagen",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Mujer de 45 años con mastalgia en cuadrante superoexterno derecho. ¿Cuál es el estudio inicial más adecuado?",
+    "opciones": [
+      "Ecografía mamaria",
+      "Ecografía + mamografía",
+      "Mamografía unilateral",
+      "Mamografía bilateral"
+    ],
+    "correcta": 1,
+    "pista": "Mayor de 40.",
+    "explicacion": "En mayores de 40 años con mastalgia focal se solicitan mamografía bilateral y ecografía mamaria."
+  },
+  {
+    "id": "cl-163",
+    "area": "clinicas",
+    "tema": "Cardiología · Coartación",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "La coartación de la aorta ocurre con mayor frecuencia en",
+    "opciones": [
+      "Aorta distal a la subclavia izquierda",
+      "Aorta transversa",
+      "Aorta ascendente",
+      "Aorta proximal a la subclavia izquierda"
+    ],
+    "correcta": 0,
+    "pista": "Junto al ligamento arterioso.",
+    "explicacion": "La coartación aórtica ocurre típicamente en la aorta distal a la subclavia izquierda, frente al ligamento arterioso."
+  },
+  {
+    "id": "cl-164",
+    "area": "clinicas",
+    "tema": "Cirugía · Shock",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Durante reanimación por shock hemorrágico, ¿qué parámetro indica mejor la respuesta al tratamiento?",
+    "opciones": [
+      "Aumento de presión arterial media",
+      "Aumento del gasto urinario",
+      "Disminución de frecuencia cardíaca",
+      "Normalización del hematocrito"
+    ],
+    "correcta": 1,
+    "pista": "Diuresis.",
+    "explicacion": "La recuperación de la diuresis es un indicador práctico de reperfusión y respuesta al tratamiento en el shock hemorrágico."
+  },
+  {
+    "id": "cl-165",
+    "area": "clinicas",
+    "tema": "Fisiología · Presión arterial",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes no produce aumento de presión de pulso?",
+    "opciones": [
+      "Hipertensión arterial",
+      "Aterosclerosis",
+      "Edad avanzada",
+      "Hipotensión severa"
+    ],
+    "correcta": 3,
+    "pista": "La que la baja.",
+    "explicacion": "La presión de pulso aumenta con HTA, aterosclerosis y edad avanzada; la hipotensión severa la reduce."
   }
 ]
