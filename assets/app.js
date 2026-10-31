@@ -69,7 +69,7 @@
   const dueIds   = () => BANK.filter(q => meta(q.id).seen > 0 && meta(q.id).box < 3).map(q => q.id);
 
   /* ---------- navegación ---------- */
-  const views = ['dashboard', 'biblioteca', 'progreso', 'quiz', 'flash', 'results'];
+  const views = ['dashboard', 'biblioteca', 'galeria', 'progreso', 'quiz', 'flash', 'results'];
   function show(name) {
     views.forEach(v => $('#view-' + v).classList.toggle('hidden', v !== name));
     $$('.topnav .ghost').forEach(b => b.removeAttribute('aria-current'));
@@ -80,6 +80,7 @@
   $$('.topnav .ghost').forEach(b => b.addEventListener('click', () => {
     const v = b.dataset.nav;
     if (v === 'biblioteca') renderLibrary();
+    if (v === 'galeria') renderGallery();
     if (v === 'progreso') renderProgress();
     show(v);
   }));
@@ -140,10 +141,32 @@
     });
 
     $('#footStats').textContent = `${BANK.length} preguntas · avance local`;
+
+    // simulacros por convocatoria (excluye el banco propio marcado como 2026)
+    const years = [...new Set(BANK.map(q => q.anio))].filter(y => y && y <= 2025).sort((a, b) => b - a);
+    const grid = $('#yearGrid');
+    grid.innerHTML = years.length ? years.map(y => {
+      const pool = BANK.filter(q => q.anio === y);
+      const done = pool.filter(q => meta(q.id).box >= 4).length;
+      return `<button class="year-card" data-year="${y}">
+        <span class="year-badge">${y}</span>
+        <span class="year-info"><b>${pool.length}</b> preguntas <em>${done} dominadas</em></span>
+        <span class="year-cta">Simulacro →</span>
+      </button>`;
+    }).join('') : '<p class="muted">Aún no hay convocatorias cargadas.</p>';
   }
 
+  $('#yearGrid').addEventListener('click', e => {
+    const card = e.target.closest('.year-card');
+    if (!card) return;
+    const year = Number(card.dataset.year);
+    const pool = BANK.filter(q => q.anio === year);
+    if (!pool.length) return;
+    startSession(shuffle(pool), { mode: 'simulacro', minutes: Math.max(10, Math.round(pool.length * 0.8)) });
+  });
+
   /* ---------- biblioteca ---------- */
-  let libFilter = 'all', libQuery = '';
+  let libFilter = 'all', libQuery = '', libYear = 'all';
   function renderLibrary() {
     const chips = $('#areaChips');
     if (!chips.dataset.ready) {
@@ -158,12 +181,27 @@
         paintLibrary();
       });
     }
+    const ychips = $('#yearChips');
+    if (!ychips.dataset.ready) {
+      const years = [...new Set(BANK.map(q => q.anio))].filter(Boolean).sort((a, b) => b - a);
+      ychips.innerHTML = ['all', ...years]
+        .map(y => `<button class="chip${y === 'all' ? ' on' : ''}" data-year="${y}">${y === 'all' ? 'Todos los años' : y}</button>`)
+        .join('');
+      ychips.dataset.ready = '1';
+      ychips.addEventListener('click', e => {
+        const b = e.target.closest('.chip'); if (!b) return;
+        libYear = b.dataset.year === 'all' ? 'all' : Number(b.dataset.year);
+        $$('.chip', ychips).forEach(c => c.classList.toggle('on', c === b));
+        paintLibrary();
+      });
+    }
     paintLibrary();
   }
   function paintLibrary() {
     const q = libQuery.toLowerCase();
     const list = BANK.filter(x =>
       (libFilter === 'all' || x.area === libFilter) &&
+      (libYear === 'all' || x.anio === libYear) &&
       (!q || (x.enunciado + ' ' + x.tema + ' ' + x.fuente).toLowerCase().includes(q))
     );
     $('#libraryList').innerHTML = list.length ? list.map(x => `
@@ -185,6 +223,82 @@
   $('#libraryList').addEventListener('click', e => {
     const it = e.target.closest('.lib-item'); if (!it) return;
     startSession([byId.get(it.dataset.id)], { mode: 'quiz', single: true });
+  });
+
+  /* ---------- galería ---------- */
+  let IMGS = null, galFilter = 'all', galShown = 0;
+  const GAL_STEP = 60;
+
+  async function renderGallery() {
+    const grid = $('#galGrid');
+    if (IMGS === null) {
+      grid.innerHTML = '<p class="muted">Cargando imágenes…</p>';
+      try {
+        const res = await fetch('data/images.json', { cache: 'force-cache' });
+        IMGS = await res.json();
+      } catch (e) {
+        grid.innerHTML = '<p class="muted">No se pudieron cargar las imágenes.</p>';
+        return;
+      }
+    }
+    const chips = $('#galChips');
+    if (!chips.dataset.ready) {
+      const docs = [...new Map(IMGS.map(i => [i.s, i])).keys()].sort((a, b) => a.localeCompare(b));
+      chips.innerHTML = ['all', ...docs]
+        .map(d => `<button class="chip${d === 'all' ? ' on' : ''}" data-doc="${esc(d)}" title="${esc(d)}">${d === 'all' ? 'Todos los documentos' : esc(d.replace(/\.(pdf|docx)$/i, '').slice(0, 34))}</button>`)
+        .join('');
+      chips.dataset.ready = '1';
+      chips.addEventListener('click', e => {
+        const b = e.target.closest('.chip'); if (!b) return;
+        galFilter = b.dataset.doc;
+        $$('.chip', chips).forEach(c => c.classList.toggle('on', c === b));
+        galShown = 0;
+        paintGallery();
+      });
+    }
+    galShown = 0;
+    paintGallery();
+  }
+
+  function galList() {
+    return galFilter === 'all' ? IMGS : IMGS.filter(i => i.s === galFilter);
+  }
+
+  function paintGallery() {
+    const all = galList();
+    const visible = all.slice(0, galShown + GAL_STEP);
+    galShown = visible.length;
+    $('#galCount').textContent = `${all.length} imágenes · mostrando ${visible.length}`;
+    $('#galGrid').innerHTML = visible.map((im, idx) => `
+      <figure class="gal-item" data-idx="${idx}" tabindex="0">
+        <img src="assets/img/${encodeURIComponent(im.f)}" alt="" loading="lazy" decoding="async" width="${im.w || 600}" height="${im.h || 800}" />
+        <figcaption>${esc(im.s.replace(/\.(pdf|docx)$/i, ''))}${im.p ? ' · pág. ' + im.p : ''}</figcaption>
+      </figure>`).join('');
+    $('#galMore').classList.toggle('hidden', visible.length >= all.length);
+  }
+
+  $('#galMore').addEventListener('click', paintGallery);
+
+  function openLightbox(idx) {
+    const all = galList();
+    const im = all[idx];
+    if (!im) return;
+    $('#lbImg').src = 'assets/img/' + encodeURIComponent(im.f);
+    $('#lbCap').textContent = im.s.replace(/\.(pdf|docx)$/i, '') + (im.p ? ' · página ' + im.p : '');
+    $('#lightbox').classList.remove('hidden');
+  }
+  const closeLightbox = () => { $('#lightbox').classList.add('hidden'); $('#lbImg').src = ''; };
+  $('#lbClose').addEventListener('click', closeLightbox);
+  $('#lightbox').addEventListener('click', e => { if (e.target.id === 'lightbox') closeLightbox(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+  $('#galGrid').addEventListener('click', e => {
+    const fig = e.target.closest('.gal-item');
+    if (fig) openLightbox(Number(fig.dataset.idx));
+  });
+  $('#galGrid').addEventListener('keydown', e => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const fig = e.target.closest('.gal-item');
+    if (fig) { e.preventDefault(); openLightbox(Number(fig.dataset.idx)); }
   });
 
   /* ---------- progreso ---------- */
@@ -280,6 +394,16 @@
     $('#qOptions').innerHTML = q.opciones.map((o, idx) =>
       `<button class="opt" data-idx="${idx}"><span class="key">${'ABCD'[idx]}</span><span>${esc(o)}</span></button>`
     ).join('');
+    if (q.img) {
+      const img = document.createElement('img');
+      img.className = 'q-image';
+      img.src = q.img;
+      img.alt = 'Imagen de referencia de la pregunta';
+      img.loading = 'lazy';
+      $('#qOptions').before(img);
+    } else {
+      $$('.q-image', $('#qCard')).forEach(n => n.remove());
+    }
   }
 
   $('#qOptions').addEventListener('click', e => {
