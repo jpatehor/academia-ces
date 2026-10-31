@@ -4023,5 +4023,138 @@
     "pista": "Pintor bielorruso, sueños y aldea.",
     "explicacion": "«Yo y el pueblo» (1911) de Marc Chagall mezcla recuerdos de su infancia en la Rusia rural con elementos oníricos. Se conserva en el MoMA de Nueva York.",
     "img": "assets/img/906eeb31a7b951ee.webp"
+  },
+  {
+    "id": "cg-083",
+    "area": "cultura-general",
+    "tema": "Historia · Revolución Francesa",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La escena de la imagen representa la toma de:",
+    "opciones": [
+      "La Bastilla, el 14 de julio de 1789",
+      "El Palacio de Versalles, en 1792",
+      "La plaza de la Concordia, en 1793",
+      "El Louvre, en 1791"
+    ],
+    "correcta": 0,
+    "pista": "14 de julio de 1789.",
+    "explicacion": "La toma de la Bastilla el 14 de julio de 1789 marcó el inicio de la Revolución Francesa. La fortaleza era símbolo del absolutismo y se conmemora como fiesta nacional.",
+    "img": "assets/img/80bd6efce6e9d3ed.webp"
+  },
+  {
+    "id": "cg-084",
+    "area": "cultura-general",
+    "tema": "Geografía · México",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El monumento de la imagen, en Ciudad de México, es:",
+    "opciones": [
+      "El Ángel de la Independencia",
+      "El Monumento a la Revolución",
+      "La Catedral Metropolitana",
+      "El Palacio de Bellas Artes"
+    ],
+    "correcta": 0,
+    "pista": "Paseo de la Reforma.",
+    "explicacion": "El Ángel de la Independencia está en el Paseo de la Reforma, Ciudad de México. Fue inaugurado en 1910 para conmemorar el centenario de la independencia.",
+    "img": "assets/img/870ea6f714468c75.webp"
+  },
+  {
+    "id": "cg-085",
+    "area": "cultura-general",
+    "tema": "Arte · Museos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El museo de la imagen, en Madrid, es:",
+    "opciones": [
+      "El Museo del Prado",
+      "El Museo Reina Sofía",
+      "El Museo Thyssen",
+      "El Museo Arqueológico Nacional"
+    ],
+    "correcta": 0,
+    "pista": "Velázquez y Goya.",
+    "explicacion": "El Museo del Prado es la pinacoteca principal de España y alberga a Velázquez, Goya, El Greco, Rubens y El Bosco, entre otros.",
+    "img": "assets/img/a5023387b2cfd5c1.webp"
+  },
+  {
+    "id": "cg-086",
+    "area": "cultura-general",
+    "tema": "Arte · Vanguardia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen pertenece al suprematismo, movimiento fundado por:",
+    "opciones": [
+      "Kazimir Malévich",
+      "Vasili Kandinski",
+      "Piet Mondrian",
+      "Paul Klee"
+    ],
+    "correcta": 0,
+    "pista": "Autor del «Cuadrado negro».",
+    "explicacion": "El suprematismo fue fundado por Kazimir Malévich hacia 1915; buscaba la abstracción pura con formas geométricas básicas, como su «Cuadrado negro».",
+    "img": "assets/img/4ff230914ce94af6.webp"
+  },
+  {
+    "id": "cg-087",
+    "area": "cultura-general",
+    "tema": "Historia · Siglo XX",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen fue asesinado en 1963 en:",
+    "opciones": [
+      "Dallas, Texas",
+      "Washington D. C.",
+      "Nueva York",
+      "Miami"
+    ],
+    "correcta": 0,
+    "pista": "22 de noviembre de 1963.",
+    "explicacion": "John F. Kennedy, presidente de Estados Unidos, fue asesinado el 22 de noviembre de 1963 en Dallas, Texas, durante una caravana.",
+    "img": "assets/img/f2758aa6ccc9d39b.webp"
+  },
+  {
+    "id": "cg-088",
+    "area": "cultura-general",
+    "tema": "Geografía · Ciudades",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El rascacielos de la imagen, la Torre Latinoamericana, se encuentra en:",
+    "opciones": [
+      "Ciudad de México",
+      "Bogotá",
+      "São Paulo",
+      "Buenos Aires"
+    ],
+    "correcta": 0,
+    "pista": "Capital mexicana.",
+    "explicacion": "La Torre Latinoamericana (1956) está en el centro de Ciudad de México. Fue el primer rascacielos del mundo con diseño antisísmico y resistió el terremoto de 1957.",
+    "img": "assets/img/d0887f70d4c388bf.webp"
+  },
+  {
+    "id": "cg-089",
+    "area": "cultura-general",
+    "tema": "Geografía · España",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La plaza de toros de la imagen, la Monumental de Las Ventas, está en:",
+    "opciones": [
+      "Madrid",
+      "Sevilla",
+      "Valencia",
+      "Bilbao"
+    ],
+    "correcta": 0,
+    "pista": "Capital española.",
+    "explicacion": "La plaza de Las Ventas, en Madrid, es la mayor de España y una de las más importantes del mundo taurino. Se inauguró en 1931.",
+    "img": "assets/img/168ac9cb24dad619.webp"
   }
 ]
