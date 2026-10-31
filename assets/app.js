@@ -468,6 +468,11 @@
     }).join('') || '<li class="muted">Aún no hay respuestas registradas.</li>';
 
     $('#dueCount').textContent = dueIds().length;
+    const uCount = $('#verifyCount');
+    if (uCount) {
+      uCount.textContent = unverifiedIds().length;
+      $('#verifyBtn').disabled = !unverifiedIds().length;
+    }
     renderWeak();
     renderPlan();
   }
@@ -509,6 +514,10 @@
   }
 
   /* ---------- plan semanal ---------- */
+  function unverifiedIds() {
+    return BANK.filter(q => q.verificado === false).map(q => q.id);
+  }
+
   function weekKey() {
     const d = new Date();
     const day = (d.getDay() + 6) % 7;
@@ -519,12 +528,18 @@
 
   function ensurePlan(force) {
     const week = weekKey();
-    if (!force && state.plan && state.plan.week === week) return state.plan;
+    const pending = unverifiedIds().length;
+    if (!force && state.plan && state.plan.week === week) {
+      // migración: si cambió la cantidad de claves sin verificar, se regenera el plan
+      const tiene = state.plan.days.some(d => d.kind === 'verificar' && idsForPlanDay(d).length);
+      const quiere = pending > 0;
+      if (tiene === quiere) return state.plan;
+    }
 
     const stats = topicStats();
     let topics;
     if (stats.length) {
-      topics = stats.sort((a, b) => a.acc - b.acc || b.seen - a.seen).slice(0, 5).map(s => s.topic);
+      topics = stats.sort((a, b) => a.acc - b.acc || b.seen - a.seen).map(s => s.topic);
     } else {
       // sin historial: arranca por los temas con más preguntas
       const count = new Map();
@@ -532,12 +547,16 @@
         const t = topicOf(q);
         count.set(t, (count.get(t) || 0) + 1);
       }
-      topics = [...count.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(e => e[0]);
+      topics = [...count.entries()].sort((a, b) => b[1] - a[1]).map(e => e[0]);
     }
+    // si hay claves por verificar, se le cede un día a la semana
+    const nTopics = pending ? 4 : 5;
+    topics = topics.slice(0, nTopics);
 
     const days = topics.map((topic, i) => ({ day: i + 1, kind: 'topic', topic }));
-    days.push({ day: 6, kind: 'review', topic: 'Repaso de tus errores' });
-    days.push({ day: 7, kind: 'simulacro', topic: 'Simulacro libre' });
+    if (pending) days.push({ day: days.length + 1, kind: 'verificar', topic: 'Claves por verificar (pistas 2025)' });
+    days.push({ day: days.length + 1, kind: 'review', topic: 'Repaso de tus errores' });
+    days.push({ day: days.length + 1, kind: 'simulacro', topic: 'Simulacro libre' });
 
     state.plan = { week, days, created: Date.now() };
     save();
@@ -545,6 +564,7 @@
   }
 
   function idsForPlanDay(d) {
+    if (d.kind === 'verificar') return unverifiedIds();
     if (d.kind === 'review') return dueIds().slice(0, 15);
     if (d.kind === 'simulacro') return shuffle(BANK.map(q => q.id)).slice(0, 20);
     return BANK.filter(q => topicOf(q) === d.topic).map(q => q.id).slice(0, 15);
@@ -574,6 +594,11 @@
   $('#planRegen').addEventListener('click', () => {
     ensurePlan(true);
     renderPlan();
+  });
+
+  $('#verifyBtn').addEventListener('click', () => {
+    const qs = unverifiedIds().map(id => byId.get(id)).filter(Boolean);
+    if (qs.length) startSession(shuffle(qs), { mode: 'quiz', minutes: 15 });
   });
 
   /* ---------- exportar / importar ---------- */
