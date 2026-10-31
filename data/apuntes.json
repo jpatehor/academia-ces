@@ -1,0 +1,308 @@
+[
+ {
+  "n": "1",
+  "titulo": "Estructura celular",
+  "archivo": "1-estructura-celular-docx.html",
+  "chars": 33438
+ },
+ {
+  "n": "2",
+  "titulo": "Aminoácidos, Proteinas, Enzimas",
+  "archivo": "2-aminoacidos-proteinas-enzimas-docx.html",
+  "chars": 29358
+ },
+ {
+  "n": "3",
+  "titulo": "Vitaminas",
+  "archivo": "3-vitaminas-docx.html",
+  "chars": 66810
+ },
+ {
+  "n": "4",
+  "titulo": "Ciclo de Krebs, Cadena transpordora de electrones y fosforilación oxidativa",
+  "archivo": "4-ciclo-de-krebs-cadena-transpordora-de-electrones-y-fosfori.html",
+  "chars": 121181
+ },
+ {
+  "n": "5",
+  "titulo": "Genética Introducción, Ácidos Nucleicos, Replicación y Transcripción",
+  "archivo": "5-genetica-introduccion-acidos-nucleicos-replicacion-y-trans.html",
+  "chars": 44928
+ },
+ {
+  "n": "6",
+  "titulo": "Traducción o Síntesis de Proteínas",
+  "archivo": "6-traduccion-o-sintesis-de-proteinas-docx.html",
+  "chars": 19596
+ },
+ {
+  "n": "7",
+  "titulo": "Enfermedades Mendelianas",
+  "archivo": "7-enfermedades-mendelianas-docx.html",
+  "chars": 29250
+ },
+ {
+  "n": "8",
+  "titulo": "División celular y Gametogénesis",
+  "archivo": "8-division-celular-y-gametogenesis-docx.html",
+  "chars": 15064
+ },
+ {
+  "n": "9",
+  "titulo": "Citogenética",
+  "archivo": "9-citogenetica-docx.html",
+  "chars": 29199
+ },
+ {
+  "n": "10",
+  "titulo": "Desarrollo Gonadal",
+  "archivo": "10-desarrollo-gonadal-docx.html",
+  "chars": 14639
+ },
+ {
+  "n": "12",
+  "titulo": "Inmunología",
+  "archivo": "12-inmunologia-docx.html",
+  "chars": 21766
+ },
+ {
+  "n": "13",
+  "titulo": "Microbiología y Antibioticos",
+  "archivo": "13-microbiologia-y-antibioticos-docx.html",
+  "chars": 11995
+ },
+ {
+  "n": "14",
+  "titulo": "Hepatitis Virales",
+  "archivo": "14-hepatitis-virales-docx.html",
+  "chars": 12081
+ },
+ {
+  "n": "15",
+  "titulo": "Infecciones del SNC",
+  "archivo": "15-infecciones-del-snc-docx.html",
+  "chars": 25814
+ },
+ {
+  "n": "16",
+  "titulo": "Infecciones Respiratorias",
+  "archivo": "16-infecciones-respiratorias-docx.html",
+  "chars": 65117
+ },
+ {
+  "n": "17",
+  "titulo": "HIV y SIDA",
+  "archivo": "17-hiv-y-sida-docx.html",
+  "chars": 13567
+ },
+ {
+  "n": "18",
+  "titulo": "Enfermedades de Transmisión Sexual",
+  "archivo": "18-enfermedades-de-transmision-sexual-docx.html",
+  "chars": 3799
+ },
+ {
+  "n": "19",
+  "titulo": "Generalidades Cardiología",
+  "archivo": "19-generalidades-cardiologia-docx.html",
+  "chars": 5685
+ },
+ {
+  "n": "20",
+  "titulo": "Falla Cardiaca",
+  "archivo": "20-falla-cardiaca-docx.html",
+  "chars": 24529
+ },
+ {
+  "n": "21",
+  "titulo": "Endocarditis Infecciosa",
+  "archivo": "21-endocarditis-infecciosa-docx.html",
+  "chars": 25418
+ },
+ {
+  "n": "22",
+  "titulo": "Enfermedad Coronaria (SCA)",
+  "archivo": "22-enfermedad-coronaria-sca-docx.html",
+  "chars": 31259
+ },
+ {
+  "n": "23",
+  "titulo": "HTA",
+  "archivo": "23-hta-docx.html",
+  "chars": 13616
+ },
+ {
+  "n": "24",
+  "titulo": "Patología Hepatobiliar y Pancreática",
+  "archivo": "24-patologia-hepatobiliar-y-pancreatica-docx.html",
+  "chars": 19979
+ },
+ {
+  "n": "25",
+  "titulo": "Patología Intestinal",
+  "archivo": "25-patologia-intestinal-docx.html",
+  "chars": 23353
+ },
+ {
+  "n": "26",
+  "titulo": "Patología Esofágicas",
+  "archivo": "26-patologia-esofagicas-docx.html",
+  "chars": 3993
+ },
+ {
+  "n": "27",
+  "titulo": "CH y FSP",
+  "archivo": "27-ch-y-fsp-docx.html",
+  "chars": 5010
+ },
+ {
+  "n": "28",
+  "titulo": "Patología de Células Rojas",
+  "archivo": "28-patologia-de-celulas-rojas-docx.html",
+  "chars": 20714
+ },
+ {
+  "n": "29",
+  "titulo": "Patología de células Blancas",
+  "archivo": "29-patologia-de-celulas-blancas-docx.html",
+  "chars": 8778
+ },
+ {
+  "n": "30",
+  "titulo": "Alteraciones Plaquetarias",
+  "archivo": "30-alteraciones-plaquetarias-docx.html",
+  "chars": 4365
+ },
+ {
+  "n": "31",
+  "titulo": "Alteraciones de células Plasmáticas",
+  "archivo": "31-alteraciones-de-celulas-plasmaticas-docx.html",
+  "chars": 2031
+ },
+ {
+  "n": "32",
+  "titulo": "Anatomía y Fisiología de Endocrinología",
+  "archivo": "32-anatomia-y-fisiologia-de-endocrinologia-docx.html",
+  "chars": 3139
+ },
+ {
+  "n": "33",
+  "titulo": "Patologías de la Hipófisis",
+  "archivo": "33-patologias-de-la-hipofisis-docx.html",
+  "chars": 9221
+ },
+ {
+  "n": "34",
+  "titulo": "Glándula Suprarrenal y sus patologías",
+  "archivo": "34-glandula-suprarrenal-y-sus-patologias-docx.html",
+  "chars": 13728
+ },
+ {
+  "n": "35",
+  "titulo": "Tiroides",
+  "archivo": "35-tiroides-docx.html",
+  "chars": 11143
+ },
+ {
+  "n": "36",
+  "titulo": "Diabetes Mellitus",
+  "archivo": "36-diabetes-mellitus-docx.html",
+  "chars": 18919
+ },
+ {
+  "n": "37",
+  "titulo": "Artritis Séptica CEM",
+  "archivo": "37-artritis-septica-cem-docx.html",
+  "chars": 2064
+ },
+ {
+  "n": "37.1",
+  "titulo": "Osteoartritis CEM",
+  "archivo": "37-1-osteoartritis-cem-docx.html",
+  "chars": 1331
+ },
+ {
+  "n": "38",
+  "titulo": "Artropatías por Cristales CEM",
+  "archivo": "38-artropatias-por-cristales-cem-docx.html",
+  "chars": 3461
+ },
+ {
+  "n": "39",
+  "titulo": "Artropatías Seronegativas CEM",
+  "archivo": "39-artropatias-seronegativas-cem-docx.html",
+  "chars": 1974
+ },
+ {
+  "n": "40",
+  "titulo": "Artropatías Simétricas y Poliarticulares CEM",
+  "archivo": "40-artropatias-simetricas-y-poliarticulares-cem-docx.html",
+  "chars": 8108
+ },
+ {
+  "n": "41",
+  "titulo": "Cefaleas CEM",
+  "archivo": "41-cefaleas-cem-docx.html",
+  "chars": 3154
+ },
+ {
+  "n": "42",
+  "titulo": "Convulsiones y Epilepsia CEM",
+  "archivo": "42-convulsiones-y-epilepsia-cem-docx.html",
+  "chars": 8240
+ },
+ {
+  "n": "43",
+  "titulo": "Demencias CEM",
+  "archivo": "43-demencias-cem-docx.html",
+  "chars": 2782
+ },
+ {
+  "n": "44",
+  "titulo": "Desordenes de la unión neuromuscular CEM",
+  "archivo": "44-desordenes-de-la-union-neuromuscular-cem-docx.html",
+  "chars": 2728
+ },
+ {
+  "n": "45",
+  "titulo": "Desordenes del movimiento CEM",
+  "archivo": "45-desordenes-del-movimiento-cem-docx.html",
+  "chars": 5336
+ },
+ {
+  "n": "46",
+  "titulo": "Enfermedades Desmilinizantes CEM",
+  "archivo": "46-enfermedades-desmilinizantes-cem-docx.html",
+  "chars": 5188
+ },
+ {
+  "n": "47",
+  "titulo": "Ictericia Neonatal CEM",
+  "archivo": "47-ictericia-neonatal-cem-docx.html",
+  "chars": 6567
+ },
+ {
+  "n": "48",
+  "titulo": "Infectología Pediátrica CEM",
+  "archivo": "48-infectologia-pediatrica-cem-docx.html",
+  "chars": 58528
+ },
+ {
+  "n": "49",
+  "titulo": "Sd de Dificultad Respiratoria del RN CEM",
+  "archivo": "49-sd-de-dificultad-respiratoria-del-rn-cem-docx.html",
+  "chars": 5500
+ },
+ {
+  "n": "50",
+  "titulo": "Valoración del RN CEM",
+  "archivo": "50-valoracion-del-rn-cem-docx.html",
+  "chars": 8148
+ },
+ {
+  "n": "51",
+  "titulo": "Vasculitis CEM",
+  "archivo": "51-vasculitis-cem-docx.html",
+  "chars": 5655
+ }
+]

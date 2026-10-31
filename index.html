@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=20261031d" />
+<link rel="stylesheet" href="assets/styles.css?v=20261031e" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>" />
 </head>
 <body>
@@ -25,6 +25,7 @@
   <nav class="topnav">
     <button class="ghost" data-nav="dashboard" aria-current="page">Panel</button>
     <button class="ghost" data-nav="biblioteca">Biblioteca</button>
+    <button class="ghost" data-nav="apuntes">Apuntes</button>
     <button class="ghost" data-nav="galeria">Galería</button>
     <button class="ghost" data-nav="progreso">Progreso</button>
   </nav>
@@ -137,6 +138,23 @@
     <div id="libraryList" class="library"></div>
   </section>
 
+  <!-- ===================== APUNTES ===================== -->
+  <section class="view hidden" id="view-apuntes">
+    <div class="view-head">
+      <h1>Apuntes</h1>
+      <p>Los 51 módulos del curso CEM, para estudiar el tema antes o después de la pregunta.</p>
+    </div>
+    <div class="filters">
+      <input type="search" id="apSearch" placeholder="Buscar módulo: hematología, tiroides, genética…" aria-label="Buscar apuntes" />
+      <button class="btn subtle" id="apBack">← Volver al listado</button>
+    </div>
+    <div id="apList" class="ap-list"></div>
+    <article id="apReader" class="ap-reader hidden">
+      <h2 id="apTitle"></h2>
+      <div id="apBody" class="ap-body"></div>
+    </article>
+  </section>
+
   <!-- ===================== GALERÍA ===================== -->
   <section class="view hidden" id="view-galeria">
     <div class="view-head">
@@ -206,7 +224,10 @@
     <aside class="feedback hidden" id="feedback" aria-live="polite">
       <div class="fb-head"><span id="fbIcon">✓</span><b id="fbTitle">Correcto</b></div>
       <p id="fbText"></p>
-      <button class="btn subtle" id="fbSpeak">🔊 Escuchar explicación</button>
+      <div class="fb-actions">
+        <button class="btn subtle small" id="fbSpeak">🔊 Escuchar explicación</button>
+        <button class="btn subtle small" id="fbNote">📘 Ver apunte del tema</button>
+      </div>
     </aside>
 
     <div class="keyhint">Atajos: <kbd>1</kbd>–<kbd>4</kbd> opción · <kbd>Enter</kbd> comprobar · <kbd>H</kbd> pista · <kbd>S</kbd> siguiente</div>
@@ -274,6 +295,6 @@
   <span id="footStats"></span>
 </footer>
 
-<script src="assets/app.js?v=20261031d"></script>
+<script src="assets/app.js?v=20261031e"></script>
 </body>
 </html>

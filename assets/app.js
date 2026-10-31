@@ -69,7 +69,7 @@
   const dueIds   = () => BANK.filter(q => meta(q.id).seen > 0 && meta(q.id).box < 3).map(q => q.id);
 
   /* ---------- navegación ---------- */
-  const views = ['dashboard', 'biblioteca', 'galeria', 'progreso', 'quiz', 'flash', 'results'];
+  const views = ['dashboard', 'biblioteca', 'apuntes', 'galeria', 'progreso', 'quiz', 'flash', 'results'];
   function show(name) {
     views.forEach(v => $('#view-' + v).classList.toggle('hidden', v !== name));
     $$('.topnav .ghost').forEach(b => b.removeAttribute('aria-current'));
@@ -80,6 +80,7 @@
   $$('.topnav .ghost').forEach(b => b.addEventListener('click', () => {
     const v = b.dataset.nav;
     if (v === 'biblioteca') renderLibrary();
+    if (v === 'apuntes') renderApuntes();
     if (v === 'galeria') renderGallery();
     if (v === 'progreso') renderProgress();
     show(v);
@@ -223,6 +224,87 @@
   $('#libraryList').addEventListener('click', e => {
     const it = e.target.closest('.lib-item'); if (!it) return;
     startSession([byId.get(it.dataset.id)], { mode: 'quiz', single: true });
+  });
+
+  /* ---------- apuntes ---------- */
+  let APUNTES = null;
+  const TOPIC_MODULE = [
+    [/bioqu|metabol|vitamina|krebs|amino|enzima|prote[ií]na/i, '1'],
+    [/gen[eé]tica|adn|arn|cromosoma|mendel|citogen/i, '5'],
+    [/inmunolog/i, '12'],
+    [/infectolog|microbio|hepatitis|vih|hiv|\bits\b|tuberculosis|meningitis|sepsis/i, '13'],
+    [/cardio|hipertensi|iam|coronaria|endocarditis|falla cardiaca|aorta/i, '19'],
+    [/gastro|hepatobiliar|intestinal|es[oó]fag|pancrea|cirrosis|d[ií]gest/i, '24'],
+    [/hematolog|anemia|plaqueta|c[eé]lulas rojas|c[eé]lulas blancas|coagulaci/i, '27'],
+    [/endocrino|tiroides|diabetes|hip[oó]fisis|suprarrenal|insulina/i, '32'],
+    [/reuma|artritis|vasculitis|osteoartritis|gota|lupus/i, '37'],
+    [/neuro|cefalea|epilepsia|demencia|neuromuscular|desmielin|parkinson|acv/i, '41'],
+    [/pediatr|neonat|reci[eé]n nacido|\brn\b|ict ericia|ictericia/i, '47'],
+  ];
+
+  function moduleForQuestion(q) {
+    if (!APUNTES || !q) return null;
+    const t = (q.tema || '') + ' ' + (q.explicacion || '');
+    for (const [re, n] of TOPIC_MODULE) {
+      if (re.test(t)) return APUNTES.find(a => a.n === n) || null;
+    }
+    return null;
+  }
+
+  async function renderApuntes() {
+    if (APUNTES === null) {
+      try {
+        const res = await fetch('data/apuntes.json', { cache: 'force-cache' });
+        APUNTES = await res.json();
+      } catch (e) {
+        $('#apList').innerHTML = '<p class="muted">No se pudieron cargar los apuntes.</p>';
+        return;
+      }
+    }
+    paintApuntes('');
+  }
+
+  function paintApuntes(query) {
+    const q = query.toLowerCase();
+    const list = APUNTES.filter(a => !q || (a.titulo + ' ' + a.n).toLowerCase().includes(q));
+    $('#apList').innerHTML = list.length ? list.map(a => `
+      <button class="ap-card" data-file="${a.archivo}" data-title="${esc(a.n + '. ' + a.titulo)}">
+        <span class="ap-num">${esc(a.n)}</span>
+        <span class="ap-info"><b>${esc(a.titulo)}</b><em>${(a.chars / 1000).toFixed(1)}k caracteres</em></span>
+      </button>`).join('') : '<p class="muted">Sin resultados.</p>';
+  }
+
+  async function openApunte(file, title) {
+    const body = $('#apBody');
+    $('#apTitle').textContent = title;
+    body.innerHTML = '<p class="muted">Cargando…</p>';
+    $('#apList').classList.add('hidden');
+    $('#apReader').classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    try {
+      const res = await fetch('apuntes/' + file, { cache: 'force-cache' });
+      body.innerHTML = await res.text();
+    } catch (e) {
+      body.innerHTML = '<p class="muted">No se pudo abrir el módulo.</p>';
+    }
+  }
+
+  $('#apSearch').addEventListener('input', e => paintApuntes(e.target.value));
+  $('#apList').addEventListener('click', e => {
+    const b = e.target.closest('.ap-card');
+    if (b) openApunte(b.dataset.file, b.dataset.title);
+  });
+  $('#apBack').addEventListener('click', () => {
+    $('#apReader').classList.add('hidden');
+    $('#apList').classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  $('#fbNote').addEventListener('click', () => {
+    if (!S) return;
+    const mod = moduleForQuestion(S.qs[S.i]);
+    show('apuntes');
+    renderApuntes();
+    if (mod) openApunte(mod.archivo, mod.n + '. ' + mod.titulo);
   });
 
   /* ---------- galería ---------- */
