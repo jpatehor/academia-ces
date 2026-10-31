@@ -4156,5 +4156,157 @@
     "pista": "Capital española.",
     "explicacion": "La plaza de Las Ventas, en Madrid, es la mayor de España y una de las más importantes del mundo taurino. Se inauguró en 1931.",
     "img": "assets/img/168ac9cb24dad619.webp"
+  },
+  {
+    "id": "cg-090",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rascacielos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El rascacielos de la imagen, el más alto del mundo, se encuentra en:",
+    "opciones": [
+      "Dubái",
+      "Abu Dabi",
+      "Riad",
+      "Doha"
+    ],
+    "correcta": 0,
+    "pista": "828 metros, Emiratos Árabes.",
+    "explicacion": "El Burj Khalifa (2010) está en Dubái, Emiratos Árabes Unidos, con 828 m y más de 160 plantas. Es el edificio más alto del mundo.",
+    "img": "assets/img/60a9acfa01defaed.webp"
+  },
+  {
+    "id": "cg-091",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rascacielos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La torre del reloj de la imagen, junto a la Kaaba, se encuentra en:",
+    "opciones": [
+      "La Meca",
+      "Medina",
+      "El Cairo",
+      "Estambul"
+    ],
+    "correcta": 0,
+    "pista": "Ciudad santa del islam.",
+    "explicacion": "El complejo Abraj Al Bait, con su torre del reloj, está en La Meca (Arabia Saudita), junto a la Gran Mezquita y la Kaaba.",
+    "img": "assets/img/57adc21b0c34fdaa.webp"
+  },
+  {
+    "id": "cg-092",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rascacielos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La torre de la imagen, construida en el sitio de las Torres Gemelas, está en:",
+    "opciones": [
+      "Nueva York",
+      "Chicago",
+      "Los Ángeles",
+      "Boston"
+    ],
+    "correcta": 0,
+    "pista": "Memorial del 11-S.",
+    "explicacion": "El One World Trade Center (2014) se levanta en Lower Manhattan, en el lugar de las Torres Gemelas, y mide 541 m.",
+    "img": "assets/img/1822af25d77718e1.webp"
+  },
+  {
+    "id": "cg-093",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rascacielos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El rascacielos de la imagen, con forma de bambú, se encuentra en:",
+    "opciones": [
+      "Taipéi",
+      "Hong Kong",
+      "Seúl",
+      "Singapur"
+    ],
+    "correcta": 0,
+    "pista": "Taiwán, 508 m.",
+    "explicacion": "El Taipei 101 (2004) está en Taipéi, Taiwán, y fue el edificio más alto del mundo hasta 2010. Su diseño evoca una caña de bambú.",
+    "img": "assets/img/6861f083eca684de.webp"
+  },
+  {
+    "id": "cg-094",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rascacielos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El edificio de la imagen, conocido como «el abrelatas», está en:",
+    "opciones": [
+      "Shanghái",
+      "Pekín",
+      "Shenzhen",
+      "Guangzhou"
+    ],
+    "correcta": 0,
+    "pista": "Distrito de Pudong.",
+    "explicacion": "El Shanghai World Financial Center (2008), con su abertura superior, está en el distrito de Pudong, Shanghái. Mide 492 m.",
+    "img": "assets/img/15d47ab77a31c8b1.webp"
+  },
+  {
+    "id": "cg-095",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rascacielos",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La torre de la imagen, antes llamada Sears Tower, está en:",
+    "opciones": [
+      "Chicago",
+      "Nueva York",
+      "Toronto",
+      "Seattle"
+    ],
+    "correcta": 0,
+    "pista": "Antes Sears Tower.",
+    "explicacion": "La Willis Tower (1973), antes Sears Tower, está en Chicago. Con 442 m fue el edificio más alto del mundo hasta 1998.",
+    "img": "assets/img/045ef7c659d554f9.webp"
+  },
+  {
+    "id": "cg-096",
+    "area": "cultura-general",
+    "tema": "Arte · Renacimiento",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La escultura de la imagen, en la Basílica de San Pedro, es obra de:",
+    "opciones": [
+      "Miguel Ángel",
+      "Bernini",
+      "Donatello",
+      "Rodin"
+    ],
+    "correcta": 0,
+    "pista": "Única obra firmada por su autor.",
+    "explicacion": "La Piedad del Vaticano (1498-1499) es la única obra firmada por Miguel Ángel. Representa a la Virgen sosteniendo a Cristo muerto.",
+    "img": "assets/img/5b93b3a5af1d4cbf.webp"
+  },
+  {
+    "id": "cg-097",
+    "area": "cultura-general",
+    "tema": "Arte · Renacimiento",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "¿Quién pintó la obra de la imagen, «La Gioconda»?",
+    "opciones": [
+      "Leonardo da Vinci",
+      "Miguel Ángel",
+      "Rafael",
+      "Tiziano"
+    ],
+    "correcta": 0,
+    "pista": "Museo del Louvre.",
+    "explicacion": "«La Gioconda» o Mona Lisa (1503-1519) de Leonardo da Vinci se conserva en el Museo del Louvre. Es la pintura más visitada del mundo.",
+    "img": "assets/img/5eca91d1a1113838.webp"
   }
 ]
