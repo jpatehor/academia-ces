@@ -156,16 +156,57 @@
         <span class="year-cta">Simulacro →</span>
       </button>`;
     }).join('') : '<p class="muted">Aún no hay convocatorias cargadas.</p>';
+
+    // recordatorio semanal en pantalla de inicio
+    const plan = ensurePlan(false);
+    const today = plan.days[(new Date().getDay() + 6) % 7];
+    const box = $('#todayPlan');
+    if (box) {
+      if (today) {
+        const ids = idsForPlanDay(today);
+        box.classList.remove('hidden');
+        box.innerHTML = `<div class="today-head"><span class="plan-day">D${today.day} · hoy</span><b>${esc(today.topic)}</b></div>
+          <p class="muted">${ids.length ? `${ids.length} preguntas te esperan hoy según tu plan de la semana.` : 'Hoy no tienes preguntas asignadas: aprovecha para un simulacro libre.'}</p>
+          <button class="btn primary small" id="todayGo" ${ids.length ? '' : 'disabled'}>Practicar ahora</button>`;
+        const go = $('#todayGo');
+        if (go) go.addEventListener('click', () => {
+          const qs = ids.map(id => byId.get(id)).filter(Boolean);
+          if (qs.length) startSession(qs, { mode: 'quiz', minutes: 20 });
+        });
+      } else {
+        box.classList.add('hidden');
+      }
+    }
   }
 
+  let yearPool = [];
   $('#yearGrid').addEventListener('click', e => {
     const card = e.target.closest('.year-card');
     if (!card) return;
     const year = Number(card.dataset.year);
-    const pool = BANK.filter(q => q.anio === year);
+    yearPool = BANK.filter(q => q.anio === year);
+    if (!yearPool.length) return;
+    $('#yearModalTitle').textContent = 'Simulacro ' + year;
+    const opts = [['all', 'Completo', yearPool.length]];
+    for (const k of Object.keys(AREAS)) {
+      if (k === 'pistas') continue;
+      const n = yearPool.filter(q => q.area === k).length;
+      if (n) opts.push([k, AREAS[k].emoji + ' ' + AREAS[k].label, n]);
+    }
+    $('#yearModalOpts').innerHTML = opts.map(([k, label, n]) =>
+      `<button class="btn ${k === 'all' ? 'primary' : 'subtle'}" data-area="${k}"><span>${label}</span><em>${n} preguntas</em></button>`).join('');
+    $('#yearModal').classList.remove('hidden');
+  });
+  $('#yearModalOpts').addEventListener('click', e => {
+    const b = e.target.closest('button[data-area]');
+    if (!b) return;
+    const pool = b.dataset.area === 'all' ? yearPool : yearPool.filter(q => q.area === b.dataset.area);
+    $('#yearModal').classList.add('hidden');
     if (!pool.length) return;
     startSession(shuffle(pool), { mode: 'simulacro', minutes: Math.max(10, Math.round(pool.length * 0.8)) });
   });
+  $('#yearModalCancel').addEventListener('click', () => $('#yearModal').classList.add('hidden'));
+  $('#yearModal').addEventListener('click', e => { if (e.target === e.currentTarget) $('#yearModal').classList.add('hidden'); });
 
   /* ---------- biblioteca ---------- */
   let libFilter = 'all', libQuery = '', libYear = 'all';
@@ -856,11 +897,54 @@
   });
   $('#flashSpeak').addEventListener('click', e => {
     e.stopPropagation();
+    if (audioState !== 'off') audioStop();
     const q = F.qs[F.i];
     if (q.pista) return speak(q.pregunta + '. ' + q.respuesta);
     speak(q.opciones[q.correcta] + '. ' + (q.explicacion || ''));
   });
+
+  /* ---------- modo audio (repaso sin manos) ---------- */
+  let audioState = 'off'; // off | play | pause
+  function updateAudioBtn() {
+    const b = $('#flashAudio');
+    if (!b) return;
+    b.textContent = audioState === 'play' ? '⏸ Pausar audio' : audioState === 'pause' ? '▶ Reanudar audio' : '🎧 Escuchar todo';
+  }
+  function audioStop() {
+    audioState = 'off';
+    if ('speechSynthesis' in window) speechSynthesis.cancel();
+    updateAudioBtn();
+  }
+  function audioStep() {
+    if (audioState !== 'play' || !F) return audioStop();
+    const q = F.qs[F.i];
+    const text = q.pista
+      ? `Pregunta ${F.i + 1}. ${q.pregunta} ... Respuesta: ${q.respuesta}`
+      : `Pregunta ${F.i + 1}. ${q.enunciado} ... Respuesta: ${q.opciones[q.correcta]}`;
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'es-ES'; u.rate = 1.02;
+    u.onend = () => {
+      if (audioState !== 'play' || !F) return audioStop();
+      setTimeout(() => {
+        if (audioState !== 'play' || !F) return audioStop();
+        F.i++;
+        if (F.i >= F.qs.length) return audioStop();
+        renderFlash();
+        audioStep();
+      }, 1400);
+    };
+    speechSynthesis.cancel();
+    speechSynthesis.speak(u);
+  }
+  $('#flashAudio').addEventListener('click', () => {
+    if (audioState === 'play') { audioState = 'pause'; speechSynthesis.pause(); updateAudioBtn(); return; }
+    if (audioState === 'pause') { audioState = 'play'; speechSynthesis.resume(); updateAudioBtn(); return; }
+    audioState = 'play';
+    updateAudioBtn();
+    audioStep();
+  });
   function flashNext(known) {
+    if (audioState !== 'off') audioStop();
     const q = F.qs[F.i];
     if (!q.pista) record(q.id, known);
     if (known) F.good++; else F.again++;
@@ -880,7 +964,7 @@
   }
   $('#flashGood').addEventListener('click', () => flashNext(true));
   $('#flashAgain').addEventListener('click', () => flashNext(false));
-  $('#quitFlash').addEventListener('click', () => { F = null; renderDashboard(); show('dashboard'); });
+  $('#quitFlash').addEventListener('click', () => { if (audioState !== 'off') audioStop(); F = null; renderDashboard(); show('dashboard'); });
 
   let PISTAS = null;
   async function loadPistas() {
@@ -903,6 +987,11 @@
       const deck = await loadPistas();
       if (!deck.length) return alert('No hay pistas disponibles.');
       return startFlash(deck);
+    }
+    if (mode === 'simulacro-pistas') {
+      const pool = BANK.filter(q => q.id.startsWith('pq-'));
+      if (!pool.length) return alert('Aún no hay preguntas de pistas.');
+      return startSession(shuffle(pool), { mode: 'simulacro', minutes: Math.max(10, Math.round(pool.length * 0.8)) });
     }
     let pool = area === 'all' ? BANK.slice() : BANK.filter(q => q.area === area);
     if (!pool.length) return alert('Aún no hay preguntas en esta área.');

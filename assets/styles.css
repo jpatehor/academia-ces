@@ -293,6 +293,16 @@ kbd{font-family:var(--mono);font-size:.72rem;background:var(--panel);border:1px 
 #flashWhy{font-size:.95rem;color:var(--muted)}
 .flip-hint{font-size:.74rem;color:var(--muted);margin-top:auto}
 .flash-actions{display:flex;gap:12px;justify-content:center}
+
+/* ---------- modal de selección y plan de hoy ---------- */
+.modal-back{position:fixed;inset:0;background:rgba(4,8,16,.8);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;z-index:210;padding:20px}
+.modal-card{background:var(--panel);border:1px solid var(--stroke);border-radius:var(--radius);padding:26px;max-width:430px;width:100%;display:flex;flex-direction:column;gap:12px;box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.modal-card h3{margin:0}
+.modal-opts{display:flex;flex-direction:column;gap:8px}
+.modal-opts button{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.modal-opts em{font-style:normal;font-size:.72rem;color:var(--muted);white-space:nowrap}
+.today-plan{margin-bottom:26px;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.today-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .flashcard:focus-visible{box-shadow:0 0 0 3px var(--brand)}
 
 /* ---------- resultados ---------- */

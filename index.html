@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=20261031k" />
+<link rel="stylesheet" href="assets/styles.css?v=20261031l" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>" />
 </head>
 <body>
@@ -70,6 +70,8 @@
       </div>
     </div>
 
+    <div id="todayPlan" class="panel today-plan hidden"></div>
+
     <h2 class="section-title">Elige tu zona de aprendizaje</h2>
     <div class="modes">
       <button class="mode-card" data-start="quiz" data-area="all">
@@ -112,6 +114,12 @@
         <span class="mode-emoji">⏱️</span>
         <span class="mode-title">Simulacro</span>
         <span class="mode-sub">20 preguntas contra reloj</span>
+        <span class="mode-tag">Examen</span>
+      </button>
+      <button class="mode-card" data-start="simulacro-pistas">
+        <span class="mode-emoji">🧩</span>
+        <span class="mode-title">Simulacro de pistas 2025</span>
+        <span class="mode-sub">Las 112 preguntas del recuerdo</span>
         <span class="mode-tag">Examen</span>
       </button>
     </div>
@@ -292,6 +300,7 @@
     <div class="flash-actions">
       <button class="btn danger" id="flashAgain">Repasar</button>
       <button class="btn primary" id="flashGood">La sabía</button>
+      <button class="btn subtle" id="flashAudio">🎧 Escuchar todo</button>
     </div>
   </section>
 
@@ -326,6 +335,16 @@
   <span id="footStats"></span>
 </footer>
 
-<script src="assets/app.js?v=20261031k"></script>
+<!-- ===================== MODAL SIMULACRO POR AÑO ===================== -->
+<div class="modal-back hidden" id="yearModal" role="dialog" aria-modal="true">
+  <div class="modal-card">
+    <h3 id="yearModalTitle">Simulacro</h3>
+    <p class="muted">Elige si lo haces completo o solo con un área.</p>
+    <div class="modal-opts" id="yearModalOpts"></div>
+    <button class="btn subtle small" id="yearModalCancel">Cancelar</button>
+  </div>
+</div>
+
+<script src="assets/app.js?v=20261031l"></script>
 </body>
 </html>
