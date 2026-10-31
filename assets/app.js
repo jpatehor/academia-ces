@@ -266,12 +266,14 @@
 
   function paintGallery() {
     const all = galList();
-    const visible = all.slice(0, galShown + GAL_STEP);
+    const start = galShown;
+    const firstBatch = start === 0;
+    const visible = all.slice(0, start + GAL_STEP);
     galShown = visible.length;
     $('#galCount').textContent = `${all.length} imágenes · mostrando ${visible.length}`;
     $('#galGrid').innerHTML = visible.map((im, idx) => `
       <figure class="gal-item" data-idx="${idx}" tabindex="0">
-        <img src="assets/img/${encodeURIComponent(im.f)}" alt="" loading="lazy" decoding="async" width="${im.w || 600}" height="${im.h || 800}" />
+        <img src="assets/img/${encodeURIComponent(im.f)}" alt="" loading="${firstBatch ? 'eager' : 'lazy'}" decoding="async" width="${im.w || 600}" height="${im.h || 800}" />
         <figcaption>${esc(im.s.replace(/\.(pdf|docx)$/i, ''))}${im.p ? ' · pág. ' + im.p : ''}</figcaption>
       </figure>`).join('');
     $('#galMore').classList.toggle('hidden', visible.length >= all.length);
