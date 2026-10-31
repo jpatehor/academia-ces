@@ -3871,5 +3871,157 @@
     "pista": "MoMA, 1907.",
     "explicacion": "«Las señoritas de Avignon» (1907) de Picasso inaugura el cubismo y rompe con la perspectiva renacentista. Se conserva en el MoMA de Nueva York.",
     "img": "assets/img/279682eff377364e.webp"
+  },
+  {
+    "id": "cg-075",
+    "area": "cultura-general",
+    "tema": "Arte · Barroco flamenco",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "Las tres figuras de la imagen, «Las tres gracias», son obra de:",
+    "opciones": [
+      "Peter Paul Rubens",
+      "Tiziano",
+      "Diego Velázquez",
+      "Sandro Botticelli"
+    ],
+    "correcta": 0,
+    "pista": "Barroco flamenco, Museo del Prado.",
+    "explicacion": "La versión de «Las tres gracias» de Peter Paul Rubens (hacia 1635) se conserva en el Museo del Prado. Rubens es el gran maestro del Barroco flamenco.",
+    "img": "assets/img/867236e5fe391c4c.webp"
+  },
+  {
+    "id": "cg-076",
+    "area": "cultura-general",
+    "tema": "Arte · Romanticismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, símbolo de la revolución de 1830, es de:",
+    "opciones": [
+      "Eugène Delacroix",
+      "Théodore Géricault",
+      "Francisco de Goya",
+      "Jean-Auguste Ingres"
+    ],
+    "correcta": 0,
+    "pista": "Romanticismo francés, 1830.",
+    "explicacion": "«La libertad guiando al pueblo» (1830) de Eugène Delacroix conmemora las jornadas de julio. La figura central alegoriza la Libertad con la bandera francesa.",
+    "img": "assets/img/b69f8768589bd145.webp"
+  },
+  {
+    "id": "cg-077",
+    "area": "cultura-general",
+    "tema": "Arte · Goya",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La pintura de la imagen, sobre los fusilamientos del 3 de mayo de 1808, es de:",
+    "opciones": [
+      "Francisco de Goya",
+      "Diego Velázquez",
+      "El Greco",
+      "Bartolomé Esteban Murillo"
+    ],
+    "correcta": 0,
+    "pista": "Pintor aragonés, Museo del Prado.",
+    "explicacion": "«Los fusilamientos del 3 de mayo» (1814) de Goya denuncia la represión francesa tras el levantamiento del 2 de mayo. Se conserva en el Museo del Prado.",
+    "img": "assets/img/ef1008606700863b.webp"
+  },
+  {
+    "id": "cg-078",
+    "area": "cultura-general",
+    "tema": "Arte · Barroco holandés",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, «El arte de la pintura», es de:",
+    "opciones": [
+      "Johannes Vermeer",
+      "Rembrandt",
+      "Frans Hals",
+      "Jan van Eyck"
+    ],
+    "correcta": 0,
+    "pista": "Barroco holandés, luz lateral.",
+    "explicacion": "«El arte de la pintura» (hacia 1667) de Vermeer muestra al pintor en su taller con la musa de la historia. Se conserva en el Kunsthistorisches Museum de Viena.",
+    "img": "assets/img/6bf035f4cef7c53c.webp"
+  },
+  {
+    "id": "cg-079",
+    "area": "cultura-general",
+    "tema": "Arte · Postimpresionismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La serie de la imagen, pintada en Arlés en 1888, es de:",
+    "opciones": [
+      "Vincent van Gogh",
+      "Paul Gauguin",
+      "Claude Monet",
+      "Paul Cézanne"
+    ],
+    "correcta": 0,
+    "pista": "Casa amarilla, Arlés.",
+    "explicacion": "Van Gogh pintó la serie de «Los girasoles» en Arlés para decorar la casa amarilla donde esperaba a Gauguin. Existen varias versiones en museos del mundo.",
+    "img": "assets/img/a19f73feacf3faf7.webp"
+  },
+  {
+    "id": "cg-080",
+    "area": "cultura-general",
+    "tema": "Arte · Postimpresionismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, «La noche estrellada», fue pintada por Van Gogh durante su estancia en:",
+    "opciones": [
+      "El sanatorio de Saint-Rémy-de-Provence",
+      "Arlés",
+      "Auvers-sur-Oise",
+      "París"
+    ],
+    "correcta": 0,
+    "pista": "MoMA, 1889.",
+    "explicacion": "«La noche estrellada» (1889) la pintó Van Gogh desde la ventana de su habitación en el sanatorio de Saint-Rémy-de-Provence. Se conserva en el MoMA.",
+    "img": "assets/img/849117de4a55d202.webp"
+  },
+  {
+    "id": "cg-081",
+    "area": "cultura-general",
+    "tema": "Arquitectura · Rusia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La catedral de la imagen se encuentra en:",
+    "opciones": [
+      "Moscú, en la Plaza Roja",
+      "San Petersburgo",
+      "Kiev",
+      "Estambul"
+    ],
+    "correcta": 0,
+    "pista": "Plaza Roja, cúpulas de colores.",
+    "explicacion": "La catedral de San Basilio (1555-1561) está en la Plaza Roja de Moscú. Fue mandada construir por Iván el Terrible y sus cúpulas son Patrimonio de la Humanidad.",
+    "img": "assets/img/b8862ef1740e872c.webp"
+  },
+  {
+    "id": "cg-082",
+    "area": "cultura-general",
+    "tema": "Arte · Vanguardia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, «Yo y el pueblo», es de:",
+    "opciones": [
+      "Marc Chagall",
+      "Vasili Kandinski",
+      "Pablo Picasso",
+      "Joan Miró"
+    ],
+    "correcta": 0,
+    "pista": "Pintor bielorruso, sueños y aldea.",
+    "explicacion": "«Yo y el pueblo» (1911) de Marc Chagall mezcla recuerdos de su infancia en la Rusia rural con elementos oníricos. Se conserva en el MoMA de Nueva York.",
+    "img": "assets/img/906eeb31a7b951ee.webp"
   }
 ]
