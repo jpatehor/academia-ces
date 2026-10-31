@@ -201,6 +201,7 @@ button{font-family:inherit}
 .ap-q{width:100%;text-align:left;background:rgba(255,255,255,.03);border:1px solid var(--stroke);border-radius:12px;padding:11px 13px;color:var(--text);font-size:.86rem;line-height:1.4;cursor:pointer;transition:.15s}
 .ap-q:hover{border-color:rgba(124,92,255,.55);transform:translateX(3px)}
 .fb-actions{display:flex;gap:10px;flex-wrap:wrap}
+.flash-img{max-width:min(320px,70%);max-height:200px;object-fit:contain;border-radius:12px;margin-bottom:12px;box-shadow:0 6px 22px rgba(0,0,0,.28)}
 
 /* ---------- galería ---------- */
 .gal-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}

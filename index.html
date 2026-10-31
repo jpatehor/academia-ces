@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=20261031h" />
+<link rel="stylesheet" href="assets/styles.css?v=20261031i" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>" />
 </head>
 <body>
@@ -100,6 +100,12 @@
         <span class="mode-emoji">🃏</span>
         <span class="mode-title">Flashcards</span>
         <span class="mode-sub">Voltea, recuerda, marca</span>
+        <span class="mode-tag">Nuevo</span>
+      </button>
+      <button class="mode-card" data-start="pistas">
+        <span class="mode-emoji">🧩</span>
+        <span class="mode-title">Pistas 2025</span>
+        <span class="mode-sub">Recuerdo del último examen</span>
         <span class="mode-tag">Nuevo</span>
       </button>
       <button class="mode-card" data-start="simulacro" data-area="all">
@@ -265,6 +271,7 @@
         <div class="flash-inner">
           <div class="flash-face front">
             <span class="pill" id="flashArea">Área</span>
+            <img id="flashImg" class="flash-img hidden" alt="" />
             <p id="flashQ"></p>
             <span class="flip-hint">Clic o <kbd>Espacio</kbd> para voltear</span>
           </div>
@@ -314,6 +321,6 @@
   <span id="footStats"></span>
 </footer>
 
-<script src="assets/app.js?v=20261031h"></script>
+<script src="assets/app.js?v=20261031i"></script>
 </body>
 </html>

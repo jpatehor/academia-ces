@@ -7,6 +7,7 @@
     'ciencias-basicas': { label: 'Ciencias básicas', emoji: '🧬' },
     'clinicas':         { label: 'Clínicas', emoji: '🩺' },
     'cultura-general':  { label: 'Cultura general', emoji: '🖼️' },
+    'pistas':           { label: 'Pistas 2025', emoji: '🧩' },
   };
 
   const $  = (s, r = document) => r.querySelector(s);
@@ -805,9 +806,21 @@
     const card = $('#flashcard');
     card.classList.remove('flipped');
     $('#flashArea').textContent = (AREAS[q.area]?.emoji || '') + ' ' + (AREAS[q.area]?.label || q.area);
-    $('#flashQ').textContent = q.enunciado;
-    $('#flashAnswer').textContent = 'Clave: ' + 'ABCD'[q.correcta] + ' · ' + q.opciones[q.correcta];
-    $('#flashWhy').textContent = q.explicacion || '';
+    $('#flashQ').textContent = q.pregunta || q.enunciado;
+    const img = $('#flashImg');
+    if (img) {
+      if (q.img) {
+        img.src = 'assets/img/' + q.img;
+        img.classList.remove('hidden');
+      } else {
+        img.classList.add('hidden');
+        img.removeAttribute('src');
+      }
+    }
+    $('#flashAnswer').textContent = q.pista ? q.respuesta : ('Clave: ' + 'ABCD'[q.correcta] + ' · ' + q.opciones[q.correcta]);
+    $('#flashWhy').textContent = q.pista
+      ? (q.origen === 'completada' ? 'Respuesta estándar: la pista original no traía la clave.' : 'Clave recordada en el documento de pistas 2025.')
+      : (q.explicacion || '');
     $('#flashCount').textContent = `${F.i + 1}/${F.qs.length}`;
     $('#flashBar').style.width = (F.i / F.qs.length) * 100 + '%';
   }
@@ -819,11 +832,12 @@
   $('#flashSpeak').addEventListener('click', e => {
     e.stopPropagation();
     const q = F.qs[F.i];
+    if (q.pista) return speak(q.pregunta + '. ' + q.respuesta);
     speak(q.opciones[q.correcta] + '. ' + (q.explicacion || ''));
   });
   function flashNext(known) {
     const q = F.qs[F.i];
-    record(q.id, known);
+    if (!q.pista) record(q.id, known);
     if (known) F.good++; else F.again++;
     F.i++;
     if (F.i >= F.qs.length) {
@@ -843,10 +857,28 @@
   $('#flashAgain').addEventListener('click', () => flashNext(false));
   $('#quitFlash').addEventListener('click', () => { F = null; renderDashboard(); show('dashboard'); });
 
+  let PISTAS = null;
+  async function loadPistas() {
+    if (PISTAS) return PISTAS;
+    const res = await fetch('data/pistas2025.json', { cache: 'force-cache' });
+    const data = await res.json();
+    PISTAS = data.tarjetas.map(t => ({
+      id: t.id, area: 'pistas', pista: true, img: t.img || null,
+      pregunta: t.pregunta, respuesta: t.respuesta, origen: t.origen,
+      grupo: t.grupo,
+    }));
+    return PISTAS;
+  }
+
   /* ---------- arranques desde el dashboard ---------- */
-  $$('.mode-card').forEach(card => card.addEventListener('click', () => {
+  $$('.mode-card').forEach(card => card.addEventListener('click', async () => {
     const mode = card.dataset.start;
     const area = card.dataset.area;
+    if (mode === 'pistas') {
+      const deck = await loadPistas();
+      if (!deck.length) return alert('No hay pistas disponibles.');
+      return startFlash(deck);
+    }
     let pool = area === 'all' ? BANK.slice() : BANK.filter(q => q.area === area);
     if (!pool.length) return alert('Aún no hay preguntas en esta área.');
     if (mode === 'flashcards') return startFlash(pool);
