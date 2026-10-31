@@ -3586,5 +3586,157 @@
     "pista": "La mayor es la de Keops.",
     "explicacion": "Las tres pirámides principales de Giza son las de Keops (la mayor), Kefrén y Micerino, construidas en el Imperio Antiguo egipcio.",
     "img": "assets/img/b23b7018a57985db.webp"
+  },
+  {
+    "id": "cg-060",
+    "area": "cultura-general",
+    "tema": "Historia de la medicina · Fleming",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El científico de la imagen, en su laboratorio, descubrió en 1928:",
+    "opciones": [
+      "La penicilina",
+      "La vacuna contra la rabia",
+      "Los rayos X",
+      "La insulina"
+    ],
+    "correcta": 0,
+    "pista": "Un hongo contaminó sus placas.",
+    "explicacion": "Alexander Fleming observó en 1928 que el hongo Penicillium inhibía el crecimiento bacteriano: había descubierto la penicilina, base de la antibióticoterapia.",
+    "img": "assets/img/01ac09491a72ea4b.webp"
+  },
+  {
+    "id": "cg-061",
+    "area": "cultura-general",
+    "tema": "Historia · Invenciones",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen es conocido por:",
+    "opciones": [
+      "La imprenta de tipos móviles",
+      "La brújula",
+      "El telescopio",
+      "La máquina de vapor"
+    ],
+    "correcta": 0,
+    "pista": "Siglo XV, Maguncia.",
+    "explicacion": "Johannes Gutenberg desarrolló la imprenta de tipos móviles en Europa hacia 1450; su Biblia fue el primer libro impreso a gran escala.",
+    "img": "assets/img/1620b9afe40ba33b.webp"
+  },
+  {
+    "id": "cg-062",
+    "area": "cultura-general",
+    "tema": "Ciencia · Premios Nobel",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La científica de la imagen fue la primera persona en recibir dos premios Nobel, en:",
+    "opciones": [
+      "Física y Química",
+      "Medicina y Paz",
+      "Física y Literatura",
+      "Química y Medicina"
+    ],
+    "correcta": 0,
+    "pista": "Polonio y radio.",
+    "explicacion": "Marie Curie recibió el Nobel de Física en 1903 (radiactividad) y el de Química en 1911 (polonio y radio). Murió por anemia aplásica por exposición a la radiación.",
+    "img": "assets/img/70aa93f67205e549.webp"
+  },
+  {
+    "id": "cg-063",
+    "area": "cultura-general",
+    "tema": "Historia de la medicina · Harvey",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El médico de la imagen es conocido por describir:",
+    "opciones": [
+      "La circulación de la sangre",
+      "La vacuna contra la viruela",
+      "La penicilina",
+      "El sistema linfático"
+    ],
+    "correcta": 0,
+    "pista": "Corazón como bomba, 1628.",
+    "explicacion": "William Harvey demostró en 1628 la circulación mayor de la sangre y el papel del corazón como bomba. Antes se creía que la sangre se producía en el hígado.",
+    "img": "assets/img/6540405df4fe4242.webp"
+  },
+  {
+    "id": "cg-064",
+    "area": "cultura-general",
+    "tema": "Historia · Sudáfrica",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen, premio Nobel de la Paz en 1993, fue presidente de:",
+    "opciones": [
+      "Sudáfrica",
+      "Nigeria",
+      "Kenia",
+      "Ghana"
+    ],
+    "correcta": 0,
+    "pista": "Símbolo del fin del apartheid.",
+    "explicacion": "Nelson Mandela fue el primer presidente negro de Sudáfrica (1994-1999) tras 27 años de prisión y el fin del apartheid.",
+    "img": "assets/img/afd716a7d10012e1.webp"
+  },
+  {
+    "id": "cg-065",
+    "area": "cultura-general",
+    "tema": "Historia · Independencia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen, llamado «El Libertador», nació en:",
+    "opciones": [
+      "Caracas, Venezuela",
+      "Bogotá, Colombia",
+      "Quito, Ecuador",
+      "Lima, Perú"
+    ],
+    "correcta": 0,
+    "pista": "Capital venezolana.",
+    "explicacion": "Simón Bolívar nació en Caracas en 1783 y lideró la independencia de Venezuela, Colombia, Ecuador, Perú y Bolivia.",
+    "img": "assets/img/25b4a1dd731656ad.webp"
+  },
+  {
+    "id": "cg-066",
+    "area": "cultura-general",
+    "tema": "Literatura · Siglo de Oro",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El autor de la imagen escribió:",
+    "opciones": [
+      "Don Quijote de la Mancha",
+      "La Celestina",
+      "El Lazarillo de Tormes",
+      "Fuenteovejuna"
+    ],
+    "correcta": 0,
+    "pista": "Alcalá de Henares, 1547.",
+    "explicacion": "Miguel de Cervantes Saavedra (1547-1616) publicó la primera parte del Quijote en 1605 y la segunda en 1615. Es la obra cumbre de la literatura española.",
+    "img": "assets/img/0acf5bf1b26401e9.webp"
+  },
+  {
+    "id": "cg-067",
+    "area": "cultura-general",
+    "tema": "Literatura · Siglo XX",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El escritor de la imagen, autor de «La peste», es:",
+    "opciones": [
+      "Albert Camus",
+      "Jean-Paul Sartre",
+      "Victor Hugo",
+      "Marcel Proust"
+    ],
+    "correcta": 0,
+    "pista": "Nobel 1957, argelino-francés.",
+    "explicacion": "Albert Camus (1913-1960), nacido en Argelia, escribió «El extranjero», «La peste» y «El mito de Sísifo». Recibió el Nobel de Literatura en 1957.",
+    "img": "assets/img/5154908a0ced7064.webp"
   }
 ]
