@@ -229,22 +229,58 @@
   /* ---------- apuntes ---------- */
   let APUNTES = null;
   const TOPIC_MODULE = [
-    [/bioqu|metabol|vitamina|krebs|amino|enzima|prote[ií]na/i, '1'],
-    [/gen[eé]tica|adn|arn|cromosoma|mendel|citogen/i, '5'],
+    [/hemoglobinopat|anemia|c[eé]lulas rojas|hem[oó]lisis|linfohistiocit/i, '28'],
+    [/leucemia|c[eé]lulas blancas|linfoma/i, '29'],
+    [/plaqueta|trombocitop/i, '30'],
+    [/mieloma|plasm[aá]tic|amiloidosis/i, '31'],
+    [/hematolog|coagulaci|trombosis|trombofilia|hemofilia/i, '27'],
+    [/tiroides/i, '35'],
+    [/diabetes|insulina/i, '36'],
+    [/hip[oó]fisis/i, '33'],
+    [/suprarrenal/i, '34'],
+    [/endocrino/i, '32'],
+    [/cefalea/i, '41'],
+    [/epilepsia|convuls/i, '42'],
+    [/demencia/i, '43'],
+    [/neuromuscular/i, '44'],
+    [/movimiento|parkinson|diston/i, '45'],
+    [/desmielin/i, '46'],
+    [/neuro|acv|seno cavernoso|m[eé]dula espinal/i, '41'],
+    [/ictericia neonatal/i, '47'],
+    [/torch|tos ferina|fiebre sin foco|infectolog[ií]a pedi/i, '48'],
+    [/dificultad respiratoria|sdr/i, '49'],
+    [/valoraci[oó]n del rn|neonat|desarrollo/i, '50'],
+    [/pediatr/i, '47'],
+    [/vasculitis/i, '51'],
+    [/reumatoide|sim[eé]tric|poliarticular/i, '40'],
+    [/cristales|gota/i, '38'],
+    [/seronegativ/i, '39'],
+    [/osteoartritis/i, '37.1'],
+    [/reuma/i, '37'],
+    [/hepatobiliar|pancrea|v[ií]a biliar|\bhcc\b|portal|bilirrubina|hepatitis/i, '24'],
+    [/intestinal|colon|p[oó]lipos|h\. pylori|\bpaf\b/i, '25'],
+    [/es[oó]fag|erge|acalasia|\bhda\b/i, '26'],
+    [/gastro|cirrosis/i, '24'],
+    [/falla cardiaca/i, '20'],
+    [/endocarditis/i, '21'],
+    [/coronaria|\biam\b|infarto|l[ií]pidos/i, '22'],
+    [/cardio/i, '19'],
+    [/\bsnc\b|meningitis/i, '15'],
+    [/respiratori/i, '16'],
+    [/vih|hiv/i, '17'],
+    [/\bits\b|s[ií]filis/i, '18'],
+    [/infectolog|microbio|parasitolog/i, '13'],
     [/inmunolog/i, '12'],
-    [/infectolog|microbio|hepatitis|vih|hiv|\bits\b|tuberculosis|meningitis|sepsis/i, '13'],
-    [/cardio|hipertensi|iam|coronaria|endocarditis|falla cardiaca|aorta/i, '19'],
-    [/gastro|hepatobiliar|intestinal|es[oó]fag|pancrea|cirrosis|d[ií]gest/i, '24'],
-    [/hematolog|anemia|plaqueta|c[eé]lulas rojas|c[eé]lulas blancas|coagulaci/i, '27'],
-    [/endocrino|tiroides|diabetes|hip[oó]fisis|suprarrenal|insulina/i, '32'],
-    [/reuma|artritis|vasculitis|osteoartritis|gota|lupus/i, '37'],
-    [/neuro|cefalea|epilepsia|demencia|neuromuscular|desmielin|parkinson|acv/i, '41'],
-    [/pediatr|neonat|reci[eé]n nacido|\brn\b|ict ericia|ictericia/i, '47'],
+    [/gen[eé]tica|citogen|herencia/i, '5'],
+    [/embriolog/i, '8'],
+    [/vitamina/i, '3'],
+    [/bioqu|metabol|enzima|amino/i, '2'],
+    [/histolog|fisiolog|anatom|biolog[ií]a celular/i, '1'],
   ];
 
   function moduleForQuestion(q) {
     if (!APUNTES || !q) return null;
-    const t = (q.tema || '') + ' ' + (q.explicacion || '');
+    const t = q.tema || '';
     for (const [re, n] of TOPIC_MODULE) {
       if (re.test(t)) return APUNTES.find(a => a.n === n) || null;
     }
@@ -268,13 +304,20 @@
     const q = query.toLowerCase();
     const list = APUNTES.filter(a => !q || (a.titulo + ' ' + a.n).toLowerCase().includes(q));
     $('#apList').innerHTML = list.length ? list.map(a => `
-      <button class="ap-card" data-file="${a.archivo}" data-title="${esc(a.n + '. ' + a.titulo)}">
+      <button class="ap-card" data-file="${a.archivo}" data-title="${esc(a.n + '. ' + a.titulo)}" data-n="${a.n}">
         <span class="ap-num">${esc(a.n)}</span>
         <span class="ap-info"><b>${esc(a.titulo)}</b><em>${(a.chars / 1000).toFixed(1)}k caracteres</em></span>
       </button>`).join('') : '<p class="muted">Sin resultados.</p>';
   }
 
-  async function openApunte(file, title) {
+  function questionsForModule(n) {
+    return BANK.filter(q => {
+      const m = moduleForQuestion(q);
+      return m && m.n === n;
+    });
+  }
+
+  async function openApunte(file, title, n) {
     const body = $('#apBody');
     $('#apTitle').textContent = title;
     body.innerHTML = '<p class="muted">Cargando…</p>';
@@ -287,12 +330,35 @@
     } catch (e) {
       body.innerHTML = '<p class="muted">No se pudo abrir el módulo.</p>';
     }
+    renderRelated(n);
+  }
+
+  function renderRelated(n) {
+    const box = $('#apRelated');
+    if (!box) return;
+    const qs = n ? questionsForModule(n) : [];
+    if (!qs.length) {
+      box.innerHTML = '<p class="muted">Este módulo aún no tiene preguntas asociadas.</p>';
+      return;
+    }
+    const preview = qs.slice(0, 6).map((q, i) => `
+      <li><button class="ap-q" data-idx="${i}">${esc(q.enunciado.slice(0, 90))}${q.enunciado.length > 90 ? '…' : ''}</button></li>`).join('');
+    box.innerHTML = `
+      <h3>Preguntas de este tema <span class="ap-count">${qs.length}</span></h3>
+      <ul class="ap-qlist">${preview}</ul>
+      <button class="btn primary" id="apPractice">Practicar este tema (${qs.length})</button>`;
+    $('#apPractice').addEventListener('click', () => {
+      startSession(shuffle(qs).slice(0, 20), { mode: 'quiz' });
+    });
+    box.querySelectorAll('.ap-q').forEach((b, i) => {
+      b.addEventListener('click', () => startSession([qs[Number(b.dataset.idx)]], { mode: 'quiz' }));
+    });
   }
 
   $('#apSearch').addEventListener('input', e => paintApuntes(e.target.value));
   $('#apList').addEventListener('click', e => {
     const b = e.target.closest('.ap-card');
-    if (b) openApunte(b.dataset.file, b.dataset.title);
+    if (b) openApunte(b.dataset.file, b.dataset.title, b.dataset.n);
   });
   $('#apBack').addEventListener('click', () => {
     $('#apReader').classList.add('hidden');
@@ -304,7 +370,7 @@
     const mod = moduleForQuestion(S.qs[S.i]);
     show('apuntes');
     renderApuntes();
-    if (mod) openApunte(mod.archivo, mod.n + '. ' + mod.titulo);
+    if (mod) openApunte(mod.archivo, mod.n + '. ' + mod.titulo, mod.n);
   });
 
   /* ---------- galería ---------- */

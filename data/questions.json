@@ -2997,24 +2997,6 @@
     "explicacion": "Mycoplasma pneumoniae pertenece a los Mollicutes, bacterias sin pared celular, por lo que no responden a betalactámicos."
   },
   {
-    "id": "cl-078",
-    "area": "clinicas",
-    "tema": "Hematología · Linfohistiocitosis",
-    "fuente": "CES 2021 · reconstruido",
-    "anio": 2021,
-    "verificado": true,
-    "enunciado": "El epitelio que reviste la vejiga urinaria tiene la capacidad de distenderse sin perder su continuidad. ¿Cómo se clasifica histológicamente?",
-    "opciones": [
-      "Epitelio cúbico simple",
-      "Epitelio estratificado de transición",
-      "Epitelio cilíndrico simple",
-      "Epitelio plano estratificado"
-    ],
-    "correcta": 1,
-    "pista": "La clave está en la hemofagocitosis en médula ósea.",
-    "explicacion": "Fiebre persistente, hepatoesplenomegalia, pancitopenia y hemofagocitosis medular configuran linfohistiocitosis hemofagocítica, una activación descontrolada de macrófagos."
-  },
-  {
     "id": "cb-050",
     "area": "ciencias-basicas",
     "tema": "Farmacología · Antibióticos",
