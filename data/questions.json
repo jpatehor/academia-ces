@@ -5324,5 +5324,1193 @@
     "correcta": 0,
     "pista": "Antes de la comida.",
     "explicacion": "Glulisina, lispro y aspart son análogos de acción rápida; NPH es intermedia y glargina y detemir son basales."
+  },
+  {
+    "id": "cb-085",
+    "area": "ciencias-basicas",
+    "tema": "Metabolismo · Cobre",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Enfermedad de Wilson (acumulación de cobre): órgano NO afectado:",
+    "opciones": [
+      "Corazón",
+      "Pulmón",
+      "Hígado",
+      "Cerebro"
+    ],
+    "correcta": 1,
+    "pista": "Anillo de Kayser-Fleischer.",
+    "explicacion": "La enfermedad de Wilson acumula cobre en hígado, cerebro, córnea (anillo de Kayser-Fleischer) y riñón; el pulmón no es órgano diana."
+  },
+  {
+    "id": "cb-086",
+    "area": "ciencias-basicas",
+    "tema": "Metabolismo · Aminoácidos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Enfermedad de la orina con olor a jarabe de arce:",
+    "opciones": [
+      "Incapacidad para metabolizar metionina y cisteína",
+      "Déficit en metabolismo de isoleucina, leucina y valina",
+      "Déficit de tirosinasa",
+      "Trastorno del ciclo de la urea"
+    ],
+    "correcta": 1,
+    "pista": "Aminoácidos de cadena ramificada.",
+    "explicacion": "La enfermedad de la orina con olor a jarabe de arce se debe al déficit del complejo deshidrogenasa de cetoácidos de cadena ramificada (leucina, isoleucina, valina)."
+  },
+  {
+    "id": "cb-087",
+    "area": "ciencias-basicas",
+    "tema": "Hematología · Coagulación",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Cascada de coagulación:",
+    "opciones": [
+      "La vía extrínseca inicia con factor IX",
+      "El factor V inicia la conversión de protrombina",
+      "La vía intrínseca inicia con el factor XII y la extrínseca con el factor VII",
+      "La vía intrínseca inicia con factor VII"
+    ],
+    "correcta": 2,
+    "pista": "XII y VII.",
+    "explicacion": "La vía intrínseca se activa con el factor XII y la extrínseca con el factor VII; ambas convergen en el factor X."
+  },
+  {
+    "id": "cl-108",
+    "area": "clinicas",
+    "tema": "Farmacología · Hipoglucemia",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Medicamento asociado a hipoglucemia en pacientes no diabéticos:",
+    "opciones": [
+      "Corticoides",
+      "Enalapril",
+      "Furosemida",
+      "Quinolonas (especialmente levofloxacina y ciprofloxacina)"
+    ],
+    "correcta": 3,
+    "pista": "Antibiótico con azúcar baja.",
+    "explicacion": "Las fluoroquinolonas, sobre todo levofloxacina, pueden producir hipoglucemia por bloqueo de canales de potasio ATP-dependientes."
+  },
+  {
+    "id": "cl-109",
+    "area": "clinicas",
+    "tema": "Pediatría · TORCH",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Recién nacido con cataratas, microcefalia, ductus persistente (soplo en maquinaria) y exantema:",
+    "opciones": [
+      "Citomegalovirus congénito",
+      "Rubeola congénita",
+      "Toxoplasmosis congénita",
+      "Sífilis congénita"
+    ],
+    "correcta": 1,
+    "pista": "Vacunable, TORCH.",
+    "explicacion": "La rubéola congénita asocia cataratas, microcefalia, sordera, cardiopatía (ductus) y exantema en «sal y pimienta»."
+  },
+  {
+    "id": "cl-110",
+    "area": "clinicas",
+    "tema": "Oncología · Nefrotoxicidad",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Quimioterápico asociado al síndrome hemolítico urémico:",
+    "opciones": [
+      "Mitomicina C",
+      "Metotrexato",
+      "Doxorrubicina",
+      "Vincristina"
+    ],
+    "correcta": 0,
+    "pista": "Quimioterápico del cáncer vesical.",
+    "explicacion": "La mitomicina C es el quimioterápico clásicamente asociado al síndrome hemolítico urémico."
+  },
+  {
+    "id": "cl-111",
+    "area": "clinicas",
+    "tema": "Hematología · Trombofilia",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Las trombofilias hereditarias más frecuentes incluyen todas EXCEPTO:",
+    "opciones": [
+      "Deficiencia de antitrombina III",
+      "Mutación factor V Leiden",
+      "Mutación de la protrombina G20210A",
+      "Deficiencia de factor XIII"
+    ],
+    "correcta": 3,
+    "pista": "La que no es trombofilia.",
+    "explicacion": "Las trombofilias hereditarias más frecuentes son factor V Leiden, protrombina G20210A y déficit de antitrombina, proteína C y S. El déficit de factor XIII no lo es."
+  },
+  {
+    "id": "cl-112",
+    "area": "clinicas",
+    "tema": "Infectología · Sífilis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Paciente femenina con VDRL positivo, rash en palmas y plantas, desea embarazo. Conducta:",
+    "opciones": [
+      "Penicilina benzatínica 2.4 millones IM dosis única",
+      "Eritromicina oral",
+      "Punción lumbar",
+      "FTA-ABS"
+    ],
+    "correcta": 0,
+    "pista": "Penicilina, siempre.",
+    "explicacion": "La sífilis en cualquier estadio del embarazo se trata con penicilina benzatínica; es el único tratamiento que previene la transmisión vertical."
+  },
+  {
+    "id": "cb-088",
+    "area": "ciencias-basicas",
+    "tema": "Metabolismo · Fenilalanina",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Fenilcetonuria:",
+    "opciones": [
+      "Déficit de glucuronil transferasa",
+      "Déficit de fenilalanina hidroxilasa con acumulación de fenilalanina",
+      "Déficit de alfa-galactosidasa",
+      "Déficit de tirosinasa"
+    ],
+    "correcta": 1,
+    "pista": "Fenilalanina hidroxilasa.",
+    "explicacion": "La fenilcetonuria se debe al déficit de fenilalanina hidroxilasa, con acúmulo de fenilalanina y déficit de tirosina."
+  },
+  {
+    "id": "cl-113",
+    "area": "clinicas",
+    "tema": "Infectología · Dengue",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Signos de alarma en dengue:",
+    "opciones": [
+      "Dolor abdominal intenso, vómito persistente, sangrado mucoso, hepatomegalia, aumento del hematocrito con plaquetas bajas",
+      "Fiebre y he leve",
+      "Exantema leve",
+      "Leucocitosis con neutrofilia"
+    ],
+    "correcta": 0,
+    "pista": "Dolor abdominal y vómito persistente.",
+    "explicacion": "Los signos de alarma son dolor abdominal intenso, vómito persistente, sangrado de mucosas, letargo, hepatomegalia y aumento del hematocrito con caída de plaquetas."
+  },
+  {
+    "id": "cl-114",
+    "area": "clinicas",
+    "tema": "Infectología · Malaria",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Malaria (Plasmodium falciparum):",
+    "opciones": [
+      "Hepatitis viral",
+      "Fiebre intermitente, anemia, esplenomegalia y parasitemia alta",
+      "Tos y esputo verdoso",
+      "Lesión dérmica con úlceras"
+    ],
+    "correcta": 1,
+    "pista": "Vector Anopheles.",
+    "explicacion": "La malaria por P. falciparum produce fiebre, anemia y esplenomegalia; es la forma más grave y puede complicarse con malaria cerebral."
+  },
+  {
+    "id": "cl-115",
+    "area": "clinicas",
+    "tema": "Obstetricia · Preeclampsia",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Criterios diagnósticos de preeclampsia:",
+    "opciones": [
+      "HTA ≥20 semanas con proteinuria >300 mg/24h o relación proteína/creatinina >0.3",
+      "HTA + glucosuria",
+      "HTA antes de las 20 semanas",
+      "HTA + edema de miembros inferiores"
+    ],
+    "correcta": 0,
+    "pista": "Después de la semana 20.",
+    "explicacion": "Preeclampsia: HTA ≥140/90 después de las 20 semanas con proteinuria >300 mg/24 h o disfunción de órgano blanco."
+  },
+  {
+    "id": "cl-116",
+    "area": "clinicas",
+    "tema": "Hepatología · Hipertensión portal",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "En la cirrosis, las venas que forman circulación colateral son:",
+    "opciones": [
+      "Porta y cava inferior",
+      "Esofágicas y gástricas (várices esofágicas)",
+      "Hepática y cava inferior",
+      "Esplénica y mesentérica superior"
+    ],
+    "correcta": 1,
+    "pista": "Várices esofágicas.",
+    "explicacion": "La hipertensión portal desarrolla circulación colateral por las venas gástricas y esofágicas, que producen várices y sangrado."
+  },
+  {
+    "id": "cl-117",
+    "area": "clinicas",
+    "tema": "Endocrinología · Embarazo",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Durante el embarazo, se observa:",
+    "opciones": [
+      "Disminución de TSH inicial por efecto de la hCG; aumento del volumen tiroideo ~30%",
+      "Aumento de TSH en primer trimestre",
+      "No hay cambios hormonales",
+      "Hipotiroidismo fisiológico"
+    ],
+    "correcta": 0,
+    "pista": "hCG y tiroides.",
+    "explicacion": "La hCG estimula la tiroides y produce una TSH transitoriamente baja en el primer trimestre, con T4 libre normal o algo elevada."
+  },
+  {
+    "id": "cl-118",
+    "area": "clinicas",
+    "tema": "Obstetricia · Diabetes",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Diabetes gestacional:",
+    "opciones": [
+      "Se diagnostica mediante tamizaje con prueba de tolerancia oral a la glucosa",
+      "Se trata siempre con insulina desde el inicio",
+      "Aparece antes de las 20 semanas",
+      "No requiere control posparto"
+    ],
+    "correcta": 0,
+    "pista": "Semana 24-28.",
+    "explicacion": "La diabetes gestacional se diagnostica con tamizaje (glucosa o curva) entre las semanas 24 y 28, y requiere control posparto."
+  },
+  {
+    "id": "cl-119",
+    "area": "clinicas",
+    "tema": "Cardiología · Hipertensión",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Porcentaje de hipertensión diastólica severa (HTDS) que se presenta como hipertensión diastólica aislada (HTDI):",
+    "opciones": [
+      "25%",
+      "20%",
+      "10%",
+      "15%"
+    ],
+    "correcta": 1,
+    "pista": "Uno de cada cinco.",
+    "explicacion": "La hipertensión diastólica severa aislada representa alrededor del 20% de los casos de hipertensión diastólica."
+  },
+  {
+    "id": "cl-120",
+    "area": "clinicas",
+    "tema": "Gastroenterología · HDA",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Hemorragia del tracto digestivo alto, sitio más frecuente:",
+    "opciones": [
+      "Fisura anal",
+      "Hemorroides",
+      "Úlcera duodenal o gástrica",
+      "Divertículos colónicos"
+    ],
+    "correcta": 2,
+    "pista": "Úlcera péptica.",
+    "explicacion": "La causa más frecuente de hemorragia digestiva alta es la úlcera péptica (gástrica o duodenal)."
+  },
+  {
+    "id": "cl-121",
+    "area": "clinicas",
+    "tema": "Neumología · Asma",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Asma bronquial típica:",
+    "opciones": [
+      "Broncorrea purulenta constante",
+      "Tos seca nocturna persistente, disnea y sibilancias desencadenadas por ejercicio o alérgenos",
+      "Cianosis sin disnea",
+      "Tos húmeda diurna"
+    ],
+    "correcta": 1,
+    "pista": "Tos seca nocturna.",
+    "explicacion": "El asma se manifiesta con tos seca nocturna, disnea y sibilancias variables, con obstrucción reversible."
+  },
+  {
+    "id": "cl-122",
+    "area": "clinicas",
+    "tema": "Oncología · Nefrotoxicidad",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Síndrome hemolítico urémico asociado a quimioterapia:",
+    "opciones": [
+      "Mitomicina C, bleomicina, gemcitabina o cisplatino",
+      "Doxorrubicina",
+      "Irinotecán",
+      "Paclitaxel"
+    ],
+    "correcta": 0,
+    "pista": "Quimioterápico del cáncer vesical.",
+    "explicacion": "La mitomicina C es el quimioterápico clásicamente asociado al síndrome hemolítico urémico."
+  },
+  {
+    "id": "cl-123",
+    "area": "clinicas",
+    "tema": "Neumología · Derrame",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes NO se asocia a derrame pleural?",
+    "opciones": [
+      "Insuficiencia cardíaca",
+      "Síndrome nefrótico puro sin hipoalbuminemia severa",
+      "Trombosis venosa pulmonar",
+      "Cirrosis hepática"
+    ],
+    "correcta": 1,
+    "pista": "Busca la que no filtra.",
+    "explicacion": "El síndrome nefrótico puro sin hipoalbuminemia no causa derrame pleural; la insuficiencia cardiaca, la cirrosis y la trombosis pulmonar sí."
+  },
+  {
+    "id": "cl-124",
+    "area": "clinicas",
+    "tema": "Hematología · Trombosis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La tríada de Virchow está compuesta por:",
+    "opciones": [
+      "Estasis venosa, lesión endotelial e hipercoagulabilidad",
+      "Hipotensión, hipovolemia y disfunción plaquetaria",
+      "Hiperlipidemia, trombocitosis y vasculitis",
+      "Hipoxia, acidosis y estenosis"
+    ],
+    "correcta": 0,
+    "pista": "Estasis, endotelio, coagulabilidad.",
+    "explicacion": "La tríada de Virchow: estasis venosa, lesión endotelial e hipercoagulabilidad."
+  },
+  {
+    "id": "cl-125",
+    "area": "clinicas",
+    "tema": "Gastroenterología · PAF",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Qué es FALSO en la Poliposis Adenomatosa Familiar (PAF)?",
+    "opciones": [
+      "Mutación del gen APC",
+      "Aparece siempre después de los 50 años",
+      "Riesgo alto de cáncer colorrectal",
+      "Herencia autosómica dominante"
+    ],
+    "correcta": 1,
+    "pista": "APC, autosómica dominante.",
+    "explicacion": "La PAF es autosómica dominante por mutación de APC y debuta en la juventud; decir que aparece después de los 50 años es falso."
+  },
+  {
+    "id": "cl-126",
+    "area": "clinicas",
+    "tema": "Pediatría · Fiebre",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Lactante de 4 meses con fiebre sin foco aparente al examen físico. Primer paso:",
+    "opciones": [
+      "Urocultivo y parcial de orina",
+      "Punción lumbar inmediata",
+      "Antibiótico empírico IV",
+      "Radiografía de tórax"
+    ],
+    "correcta": 0,
+    "pista": "Orina primero.",
+    "explicacion": "En un lactante de 4 meses con fiebre sin foco, el primer paso es urocultivo y parcial de orina antes de antibióticos."
+  },
+  {
+    "id": "cl-127",
+    "area": "clinicas",
+    "tema": "Pediatría · Tos ferina",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Madre no vacunada, lactante con rinorrea y convulsiones. Diagnóstico más probable:",
+    "opciones": [
+      "Parotiditis",
+      "Tos ferina (Bordetella pertussis)",
+      "Sarampión",
+      "Difteria"
+    ],
+    "correcta": 1,
+    "pista": "Bordetella pertussis.",
+    "explicacion": "La tos ferina produce rinorrea catarral seguida de accesos de tos y convulsiones por hipoxia en lactantes no vacunados."
+  },
+  {
+    "id": "cl-128",
+    "area": "clinicas",
+    "tema": "Oncología · H. pylori",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Qué cáncer NO está relacionado con infección por Helicobacter pylori?",
+    "opciones": [
+      "Adenocarcinoma gástrico",
+      "Cáncer gástrico difuso",
+      "Carcinoma de colon",
+      "Linfoma MALT"
+    ],
+    "correcta": 2,
+    "pista": "Estómago, no colon.",
+    "explicacion": "H. pylori se asocia a adenocarcinoma gástrico, linfoma MALT y cáncer gástrico difuso, no al carcinoma de colon."
+  },
+  {
+    "id": "cl-129",
+    "area": "clinicas",
+    "tema": "Cardiología · Miocarditis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Microorganismos más asociados a miocarditis viral y falla cardíaca aguda:",
+    "opciones": [
+      "Epstein-Barr y CMV",
+      "VEB y herpes simple",
+      "Influenza y adenovirus",
+      "Parvovirus B19 y Coxsackie B3"
+    ],
+    "correcta": 3,
+    "pista": "Coxsackie B.",
+    "explicacion": "El parvovirus B19 y el coxsackie B3 son los agentes más asociados a miocarditis viral y falla cardíaca aguda."
+  },
+  {
+    "id": "cl-130",
+    "area": "clinicas",
+    "tema": "Oncología · Mama",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Cáncer de mama HER2 positivo:",
+    "opciones": [
+      "No expresa receptores hormonales ni HER2",
+      "Es triple negativo",
+      "Tiene mejor pronóstico que luminal A",
+      "Responde a trastuzumab (Herceptin)"
+    ],
+    "correcta": 3,
+    "pista": "Anticuerpo anti-HER2.",
+    "explicacion": "El cáncer HER2 positivo responde a trastuzumab, un anticuerpo monoclonal dirigido contra el receptor."
+  },
+  {
+    "id": "cl-131",
+    "area": "clinicas",
+    "tema": "Neurología · Epilepsia",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Episodio de pérdida de conciencia con amnesia y relajación de esfínteres:",
+    "opciones": [
+      "Ataque de pánico",
+      "Crisis epiléptica generalizada tónico-clónica",
+      "Narcolepsia",
+      "Síncope vasovagal"
+    ],
+    "correcta": 1,
+    "pista": "Crisis generalizada.",
+    "explicacion": "La crisis tónico-clónica generalizada produce pérdida de conciencia, amnesia del episodio y relajación de esfínteres."
+  },
+  {
+    "id": "cl-132",
+    "area": "clinicas",
+    "tema": "Cirugía · Abdomen",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Síndrome compartimental abdominal: manejo inicial más adecuado:",
+    "opciones": [
+      "Expansión con líquidos",
+      "Colocar sonda vesical y esperar",
+      "Administrar diuréticos",
+      "Descompresión quirúrgica urgente (laparotomía)"
+    ],
+    "correcta": 3,
+    "pista": "Descomprimir.",
+    "explicacion": "El síndrome compartimental abdominal con disfunción orgánica requiere descompresión quirúrgica urgente (laparotomía)."
+  },
+  {
+    "id": "cl-133",
+    "area": "clinicas",
+    "tema": "Cirugía · Proctología",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Absceso rectal: conducta NO indicada:",
+    "opciones": [
+      "Control del dolor",
+      "Drenaje quirúrgico",
+      "Búsqueda de fístula asociada",
+      "Antibióticos sin drenaje"
+    ],
+    "correcta": 3,
+    "pista": "Drenar siempre.",
+    "explicacion": "El absceso rectal requiere drenaje quirúrgico; los antibióticos solos no resuelven y favorecen progresión."
+  },
+  {
+    "id": "cl-134",
+    "area": "clinicas",
+    "tema": "Endocrinología · Embarazo",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Gestante con leve alteración tiroidea (TSH discretamente baja) sin síntomas:",
+    "opciones": [
+      "Suspender suplementos de hierro",
+      "Observación y control trimestral",
+      "Bloquear la función tiroidea",
+      "Iniciar levotiroxina"
+    ],
+    "correcta": 1,
+    "pista": "No tratar sin síntomas.",
+    "explicacion": "La TSH discretamente baja sin síntomas en el embarazo suele ser fisiológica (efecto de la hCG): se observa y controla por trimestre."
+  },
+  {
+    "id": "cl-135",
+    "area": "clinicas",
+    "tema": "Nefrología · Quistes",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Riñón poliquístico: diagnóstico sospechado cuando:",
+    "opciones": [
+      "Litiasis aislada",
+      "Múltiples quistes bilaterales en ecografía con aumento de tamaño renal",
+      "Proteinuria leve sin quistes",
+      "Riñones pequeños e hiperecogénicos"
+    ],
+    "correcta": 1,
+    "pista": "Quistes bilaterales.",
+    "explicacion": "La poliquistosis renal se sospecha por múltiples quistes bilaterales en la ecografía, con antecedente familiar."
+  },
+  {
+    "id": "cl-136",
+    "area": "clinicas",
+    "tema": "Gastroenterología · HDB",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Principal causa de hemorragia digestiva baja:",
+    "opciones": [
+      "Úlcera duodenal",
+      "Hemorroides internas",
+      "Diverticulosis colónica",
+      "Angiodisplasia gástrica"
+    ],
+    "correcta": 2,
+    "pista": "Colon izquierdo.",
+    "explicacion": "La causa más frecuente de hemorragia digestiva baja en el adulto es la diverticulosis colónica."
+  },
+  {
+    "id": "cb-089",
+    "area": "ciencias-basicas",
+    "tema": "Neurociencia · Depresión",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "En depresión mayor, el neurotransmisor deficiente y su principal sitio de producción:",
+    "opciones": [
+      "GABA – cerebelo",
+      "Dopamina – sustancia negra",
+      "Noradrenalina – hipotálamo",
+      "Serotonina – núcleos del rafe (tronco encefálico)"
+    ],
+    "correcta": 3,
+    "pista": "Núcleos del rafe.",
+    "explicacion": "La teoría monoaminérgica atribuye la depresión al déficit de serotonina producida en los núcleos del rafe."
+  },
+  {
+    "id": "cl-137",
+    "area": "clinicas",
+    "tema": "Ginecología · SOP",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Síndrome de ovario poliquístico aumenta el riesgo de:",
+    "opciones": [
+      "Cáncer de mama",
+      "Cáncer de ovario",
+      "Cáncer endometrial",
+      "Hipotiroidismo"
+    ],
+    "correcta": 2,
+    "pista": "Endometrio.",
+    "explicacion": "El SOP, por hiperestrogenismo sin oposición, aumenta el riesgo de hiperplasia y cáncer de endometrio."
+  },
+  {
+    "id": "cl-138",
+    "area": "clinicas",
+    "tema": "Pediatría · Tuberculosis",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Forma de tuberculosis más frecuente en niños:",
+    "opciones": [
+      "Primoinfección pulmonar primaria",
+      "Miliar",
+      "Osteoarticular",
+      "Ganglionar cervical"
+    ],
+    "correcta": 0,
+    "pista": "Complejo de Ghon.",
+    "explicacion": "En niños la forma más frecuente es la primoinfección pulmonar primaria, con complejo de Ghon."
+  },
+  {
+    "id": "cl-139",
+    "area": "clinicas",
+    "tema": "Cirugía · Trauma",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "En trauma hepático estable, NO es necesario:",
+    "opciones": [
+      "Monitorización hemodinámica",
+      "Laparotomía exploratoria inmediata",
+      "TAC con contraste",
+      "Observación hospitalaria"
+    ],
+    "correcta": 1,
+    "pista": "Estable = no operar.",
+    "explicacion": "En el trauma hepático con paciente estable se prefiere el manejo no operatorio con TAC y observación; la laparotomía inmediata no es necesaria."
+  },
+  {
+    "id": "cl-140",
+    "area": "clinicas",
+    "tema": "Obstetricia · Diabetes",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Gestante con glicemia normal en tamizaje:",
+    "opciones": [
+      "Repetir curva de tolerancia semanalmente",
+      "Continuar controles prenatales habituales, sin intervención",
+      "Iniciar metformina preventiva",
+      "Suspender carbohidratos"
+    ],
+    "correcta": 1,
+    "pista": "Sin acción extra.",
+    "explicacion": "Con tamizaje normal se continúan los controles prenatales habituales, sin intervención adicional."
+  },
+  {
+    "id": "cg-102",
+    "area": "cultura-general",
+    "tema": "Arte · Picasso",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Autor de la pintura 'El viejo guitarrista ciego':",
+    "opciones": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Claude Monet"
+    ],
+    "correcta": 1,
+    "pista": "Etapa azul.",
+    "explicacion": "«El viejo guitarrista ciego» (1903) es una obra de la etapa azul de Pablo Picasso."
+  },
+  {
+    "id": "cg-106",
+    "area": "cultura-general",
+    "tema": "Museos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El Museo del Hermitage se encuentra en:",
+    "opciones": [
+      "Londres, Inglaterra",
+      "París, Francia",
+      "Berlín, Alemania",
+      "San Petersburgo, Rusia"
+    ],
+    "correcta": 3,
+    "pista": "Rusia, junto al Neva.",
+    "explicacion": "El Museo del Hermitage está en San Petersburgo, Rusia, y es uno de los mayores del mundo."
+  },
+  {
+    "id": "cg-107",
+    "area": "cultura-general",
+    "tema": "Historia · Siglo XX",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿En qué año ocurrió el ataque a Pearl Harbor?",
+    "opciones": [
+      "1941",
+      "1950",
+      "1945",
+      "1939"
+    ],
+    "correcta": 0,
+    "pista": "1941.",
+    "explicacion": "El ataque japonés a Pearl Harbor ocurrió el 7 de diciembre de 1941 y llevó a EE. UU. a la Segunda Guerra Mundial."
+  },
+  {
+    "id": "cg-108",
+    "area": "cultura-general",
+    "tema": "Historia de la medicina",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Premio Nobel de Medicina en 1901:",
+    "opciones": [
+      "Alexander Fleming",
+      "Robert Koch",
+      "Louis Pasteur",
+      "Emil Adolph von Behring"
+    ],
+    "correcta": 3,
+    "pista": "Difteria.",
+    "explicacion": "El primer Nobel de Medicina (1901) fue para Emil von Behring por la terapia con sueros contra la difteria."
+  },
+  {
+    "id": "cg-109",
+    "area": "cultura-general",
+    "tema": "Historia · URSS",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Quién fue Iósif Stalin?",
+    "opciones": [
+      "Emperador ruso",
+      "Dictador italiano",
+      "Primer ministro británico",
+      "Líder soviético durante la Segunda Guerra Mundial"
+    ],
+    "correcta": 3,
+    "pista": "Sucesor de Lenin.",
+    "explicacion": "Stalin fue dirigente de la Unión Soviética entre 1924 y 1953, con un régimen totalitario y colectivización forzada."
+  },
+  {
+    "id": "cg-110",
+    "area": "cultura-general",
+    "tema": "Historia · Prehistoria",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Stonehenge se ubica en:",
+    "opciones": [
+      "Irlanda",
+      "Gales",
+      "Escocia",
+      "Inglaterra (Salisbury)"
+    ],
+    "correcta": 3,
+    "pista": "Inglaterra.",
+    "explicacion": "Stonehenge es un monumento megalítico neolítico situado en Wiltshire, Inglaterra."
+  },
+  {
+    "id": "cg-111",
+    "area": "cultura-general",
+    "tema": "Neurología",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La Esclerosis Lateral Amiotrófica también se conoce como la enfermedad de:",
+    "opciones": [
+      "Stephen Hawking",
+      "Michael J. Fox",
+      "Lou Gehrig (beisbolista estadounidense)",
+      "Thomas Edison"
+    ],
+    "correcta": 2,
+    "pista": "Lou Gehrig.",
+    "explicacion": "La ELA fue descrita por Jean-Martin Charcot y se conoce también como enfermedad de Lou Gehrig, el beisbolista que la padeció."
+  },
+  {
+    "id": "cg-112",
+    "area": "cultura-general",
+    "tema": "Historia · Colombia",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El ministro de Salud de Colombia durante la pandemia de COVID-19 fue:",
+    "opciones": [
+      "Carolina Corcho",
+      "Alejandro Gaviria",
+      "Guillermo Alfonso Jaramillo",
+      "Fernando Ruiz Gómez"
+    ],
+    "correcta": 3,
+    "pista": "Ministro en la pandemia.",
+    "explicacion": "Fernando Ruiz Gómez fue ministro de Salud de Colombia durante la pandemia de COVID-19 (2020-2022)."
+  },
+  {
+    "id": "cg-113",
+    "area": "cultura-general",
+    "tema": "Historia · Antigüedad",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Los Jardines Colgantes de Babilonia fueron construidos por orden de:",
+    "opciones": [
+      "Asurbanipal",
+      "Hammurabi",
+      "Nabucodonosor II",
+      "Nabonido"
+    ],
+    "correcta": 2,
+    "pista": "Maravilla antigua, Mesopotamia.",
+    "explicacion": "Los Jardines Colgantes de Babilonia son una de las siete maravillas del mundo antiguo, atribuidos a Nabucodonosor II."
+  },
+  {
+    "id": "cg-114",
+    "area": "cultura-general",
+    "tema": "Historia · Ciencia",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Primera esposa de Albert Einstein:",
+    "opciones": [
+      "Mileva Marić",
+      "Elsa Löwenthal",
+      "Irène Joliot-Curie",
+      "Marie Curie"
+    ],
+    "correcta": 0,
+    "pista": "Física serbia.",
+    "explicacion": "Mileva Marić, física serbia, fue la primera esposa de Einstein y colaboró con él en sus años de formación."
+  },
+  {
+    "id": "cg-115",
+    "area": "cultura-general",
+    "tema": "Historia de la medicina",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Descubridor del bacilo de la lepra:",
+    "opciones": [
+      "Gerhard Henrik Hansen",
+      "Robert Koch",
+      "Paul Ehrlich",
+      "Rudolf Virchow"
+    ],
+    "correcta": 0,
+    "pista": "Noruego, 1873.",
+    "explicacion": "Gerhard Armauer Hansen descubrió en 1873 el Mycobacterium leprae, causante de la lepra."
+  },
+  {
+    "id": "cg-116",
+    "area": "cultura-general",
+    "tema": "Música",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Compositor de 'Para Elisa':",
+    "opciones": [
+      "Beethoven",
+      "Mozart",
+      "Chopin",
+      "Schubert"
+    ],
+    "correcta": 0,
+    "pista": "Beethoven.",
+    "explicacion": "«Para Elisa» (Für Elise) es una bagatela para piano compuesta por Ludwig van Beethoven."
+  },
+  {
+    "id": "cg-117",
+    "area": "cultura-general",
+    "tema": "Historia · Siglo XX",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El asesinato del archiduque Francisco Fernando desencadenó:",
+    "opciones": [
+      "La Primera Guerra Mundial (1914)",
+      "La Segunda Guerra Mundial",
+      "La Guerra Fría",
+      "La Revolución Rusa"
+    ],
+    "correcta": 0,
+    "pista": "Sarajevo, 1914.",
+    "explicacion": "El asesinato del archiduque Francisco Fernando en Sarajevo (1914) fue el detonante de la Primera Guerra Mundial."
+  },
+  {
+    "id": "cg-118",
+    "area": "cultura-general",
+    "tema": "Historia · Roma",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Agripina fue:",
+    "opciones": [
+      "Hermana de Calígula",
+      "Amante de Marco Antonio",
+      "Esposa de Julio César",
+      "Madre del emperador Nerón"
+    ],
+    "correcta": 3,
+    "pista": "Madre de Nerón.",
+    "explicacion": "Agripina la Menor fue madre de Nerón y una de las figuras más influyentes de la dinastía Julio-Claudia."
+  },
+  {
+    "id": "cg-119",
+    "area": "cultura-general",
+    "tema": "Historia · Tecnología",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El Internet se creó en:",
+    "opciones": [
+      "1955",
+      "1984",
+      "1975",
+      "1969 (ARPANET)"
+    ],
+    "correcta": 3,
+    "pista": "ARPANET, 1969.",
+    "explicacion": "Internet surge de ARPANET, creada en 1969 por el Departamento de Defensa de Estados Unidos."
+  },
+  {
+    "id": "cg-120",
+    "area": "cultura-general",
+    "tema": "Música",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes no fue integrante de The Beatles?",
+    "opciones": [
+      "Ringo Starr",
+      "Keith Richards",
+      "George Harrison",
+      "John Lennon"
+    ],
+    "correcta": 1,
+    "pista": "Cuatro de Liverpool.",
+    "explicacion": "Los Beatles fueron John Lennon, Paul McCartney, George Harrison y Ringo Starr."
+  },
+  {
+    "id": "cg-121",
+    "area": "cultura-general",
+    "tema": "Deporte",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Mark Spitz fue un famoso:",
+    "opciones": [
+      "Nadador olímpico estadounidense",
+      "Corredor de maratón",
+      "Tenista",
+      "Gimnasta"
+    ],
+    "correcta": 0,
+    "pista": "Nadador, Múnich 1972.",
+    "explicacion": "Mark Spitz ganó siete medallas de oro en natación en los Juegos Olímpicos de Múnich 1972."
+  },
+  {
+    "id": "cg-122",
+    "area": "cultura-general",
+    "tema": "Historia · Siglo XX",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "El Enola Gay fue:",
+    "opciones": [
+      "El avión que lanzó la bomba atómica sobre Hiroshima",
+      "Un submarino alemán",
+      "Un portaaviones estadounidense",
+      "Un barco británico"
+    ],
+    "correcta": 0,
+    "pista": "Hiroshima.",
+    "explicacion": "El Enola Gay fue el bombardero B-29 que lanzó la bomba atómica sobre Hiroshima el 6 de agosto de 1945."
+  },
+  {
+    "id": "cg-123",
+    "area": "cultura-general",
+    "tema": "Historia · Premios",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La sede de los Premios Nobel está en:",
+    "opciones": [
+      "Dinamarca",
+      "Suecia",
+      "Suiza",
+      "Noruega"
+    ],
+    "correcta": 1,
+    "pista": "Suecia, salvo la Paz.",
+    "explicacion": "Los premios Nobel se entregan en Estocolmo, salvo el de la Paz, que se entrega en Oslo."
+  },
+  {
+    "id": "cg-124",
+    "area": "cultura-general",
+    "tema": "Literatura",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Stephen King es reconocido por ser:",
+    "opciones": [
+      "Escritor de novelas de terror",
+      "Director de cine",
+      "Músico",
+      "Pintor surrealista"
+    ],
+    "correcta": 0,
+    "pista": "Terror contemporáneo.",
+    "explicacion": "Stephen King es reconocido por sus novelas de terror y suspense, como «El resplandor» e «It»."
+  },
+  {
+    "id": "cg-125",
+    "area": "cultura-general",
+    "tema": "Historia · Invenciones",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Inventor del teléfono:",
+    "opciones": [
+      "Guglielmo Marconi",
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Alexander Graham Bell"
+    ],
+    "correcta": 3,
+    "pista": "1876.",
+    "explicacion": "Alexander Graham Bell patentó el teléfono en 1876."
+  },
+  {
+    "id": "cg-126",
+    "area": "cultura-general",
+    "tema": "Historia · Pandemias",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La peste que asoló Eurasia en el siglo XIV (1347–1353) fue:",
+    "opciones": [
+      "Peste Negra",
+      "Cólera",
+      "Viruela",
+      "Tifoidea"
+    ],
+    "correcta": 0,
+    "pista": "Yersinia pestis.",
+    "explicacion": "La peste negra (1347-1351) fue causada por Yersinia pestis y transmitida por pulgas de roedores."
+  },
+  {
+    "id": "cg-127",
+    "area": "cultura-general",
+    "tema": "Historia de la medicina",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Considerado el padre de la anatomía moderna:",
+    "opciones": [
+      "Andrés Vesalio",
+      "Galeno",
+      "William Harvey",
+      "Hipócrates"
+    ],
+    "correcta": 0,
+    "pista": "De humani corporis fabrica.",
+    "explicacion": "Andrés Vesalio, con «De humani corporis fabrica» (1543), renovó la anatomía basada en la disección."
+  },
+  {
+    "id": "cg-128",
+    "area": "cultura-general",
+    "tema": "Literatura",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Autor de la obra teatral 'El enfermo imaginario':",
+    "opciones": [
+      "Voltaire",
+      "Racine",
+      "Molière",
+      "Victor Hugo"
+    ],
+    "correcta": 2,
+    "pista": "Molière.",
+    "explicacion": "«El enfermo imaginario» es la última comedia de Molière, estrenada en 1673."
+  },
+  {
+    "id": "cg-129",
+    "area": "cultura-general",
+    "tema": "Geografía · Pueblos",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Los indígenas mapuches habitan principalmente en:",
+    "opciones": [
+      "Paraguay y Uruguay",
+      "Chile y Argentina",
+      "Ecuador y Colombia",
+      "Perú y Bolivia"
+    ],
+    "correcta": 1,
+    "pista": "Sur de Chile.",
+    "explicacion": "El pueblo mapuche habita principalmente en el sur de Chile y la Patagonia argentina."
+  },
+  {
+    "id": "cg-130",
+    "area": "cultura-general",
+    "tema": "Psiquiatría",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "Síndrome en el que una persona simula enfermedades para recibir atención:",
+    "opciones": [
+      "Síndrome de Münchhausen",
+      "Síndrome de Guillain-Barré",
+      "Síndrome de Tourette",
+      "Síndrome de Cushing"
+    ],
+    "correcta": 0,
+    "pista": "Barón de Münchhausen.",
+    "explicacion": "El síndrome de Münchhausen se caracteriza por la producción intencionada de síntomas para obtener atención médica."
+  },
+  {
+    "id": "cg-131",
+    "area": "cultura-general",
+    "tema": "Literatura",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "¿Quién fue conocido como 'el Manco de Lepanto'?",
+    "opciones": [
+      "Tirso de Molina",
+      "Lope de Vega",
+      "Miguel de Cervantes Saavedra",
+      "Francisco de Quevedo"
+    ],
+    "correcta": 2,
+    "pista": "Cervantes, 1571.",
+    "explicacion": "Miguel de Cervantes fue apodado «el Manco de Lepanto» por la herida sufrida en la batalla de Lepanto (1571)."
+  },
+  {
+    "id": "cg-132",
+    "area": "cultura-general",
+    "tema": "Historia · Salud pública",
+    "fuente": "CES 2021 · reconstruido",
+    "anio": 2021,
+    "verificado": true,
+    "enunciado": "La OMS declaró oficialmente la pandemia de COVID-19 el:",
+    "opciones": [
+      "11 de marzo de 2020",
+      "Abril 2020",
+      "Enero 2020",
+      "Febrero 2020"
+    ],
+    "correcta": 0,
+    "pista": "Marzo de 2020.",
+    "explicacion": "La OMS declaró la pandemia de COVID-19 el 11 de marzo de 2020."
   }
 ]
