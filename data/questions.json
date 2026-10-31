@@ -6998,5 +6998,545 @@
     "correcta": 3,
     "pista": "La que la baja.",
     "explicacion": "La presión de pulso aumenta con HTA, aterosclerosis y edad avanzada; la hipotensión severa la reduce."
+  },
+  {
+    "id": "cb-092",
+    "area": "ciencias-basicas",
+    "tema": "Hematología · Coagulación",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes factores es responsable de la conversión de protrombina en trombina en la cascada de coagulación?",
+    "opciones": [
+      "Factor IX activado",
+      "Factor X activado en combinación con factor V, calcio y fosfolípidos",
+      "Factor VII activado",
+      "Factor XI activado"
+    ],
+    "correcta": 1,
+    "pista": "Complejo protrombinasa.",
+    "explicacion": "El complejo protrombinasa (factor Xa + Va + calcio + fosfolípidos) convierte la protrombina en trombina."
+  },
+  {
+    "id": "cb-093",
+    "area": "ciencias-basicas",
+    "tema": "Hematología · Trombofilia",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes trastornos de la hemostasia se caracteriza principalmente por un defecto hereditario que causa dificultad en la coagulación y provoca episodios de sangrado, como epistaxis y menorragias?",
+    "opciones": [
+      "Deficiencia del Factor V",
+      "Deficiencia de Proteína C",
+      "Deficiencia de Proteína S",
+      "Mutación del Factor V Leiden"
+    ],
+    "correcta": 3,
+    "pista": "Resistencia a proteína C.",
+    "explicacion": "La mutación del factor V Leiden lo hace resistente a la proteína C activada y es la trombofilia hereditaria más frecuente."
+  },
+  {
+    "id": "cl-166",
+    "area": "clinicas",
+    "tema": "Reumatología · Embarazo",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "Una mujer de 30 años con diagnóstico de artritis reumatoide desea planificar un embarazo y consulta sobre los medicamentos que debe ajustar o suspender. Actualmente está en tratamiento con metotrexato y prednisona en dosis bajas. ¿Cuál de los siguientes ajustes es el más apropiado para planificar el embarazo de manera segura?",
+    "opciones": [
+      "Suspender prednisona y continuar con metotrexato",
+      "Continuar con metotrexato y prednisona en dosis bajas durante el embarazo",
+      "Suspender metotrexato y mantener la prednisona en dosis bajas",
+      "Cambiar metotrexato por leflunomida y mantener la prednisona en dosis bajas"
+    ],
+    "correcta": 2,
+    "pista": "Teratógeno.",
+    "explicacion": "El metotrexato es teratógeno y debe suspenderse al menos 3 meses antes de concebir; los corticoides a dosis baja pueden mantenerse."
+  },
+  {
+    "id": "cb-094",
+    "area": "ciencias-basicas",
+    "tema": "Inmunología · Inflamación",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes células es responsable de la liberación de mediadores inflamatorios como histamina en las reacciones de hipersensibilidad inmediata (Tipo I)?",
+    "opciones": [
+      "Linfocitos B",
+      "Mastocitos",
+      "Linfocitos T colaboradores tipo 2 (Th2)",
+      "Eosinófilos"
+    ],
+    "correcta": 1,
+    "pista": "Histamina y IgE.",
+    "explicacion": "Los mastocitos liberan histamina, triptasa y leucotrienos en la respuesta alérgica inmediata."
+  },
+  {
+    "id": "cb-095",
+    "area": "ciencias-basicas",
+    "tema": "Histología · Hueso",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál es la estructura cartilaginosa responsable de permitir el crecimiento en longitud de los huesos largos durante la infancia y adolescencia?",
+    "opciones": [
+      "Periostio",
+      "Placa epifisaria",
+      "Línea epifisaria",
+      "Centro de osificación primario"
+    ],
+    "correcta": 1,
+    "pista": "Cartílago de crecimiento.",
+    "explicacion": "El crecimiento longitudinal ocurre por osificación endocondral en la placa epifisaria; su cierre detiene el crecimiento."
+  },
+  {
+    "id": "cb-096",
+    "area": "ciencias-basicas",
+    "tema": "Parasitología · Eosinofilia",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes parásitos es más probable que cause eosinofilia en el huésped debido a su fase de migración tisular?",
+    "opciones": [
+      "Giardia lamblia",
+      "Plasmodium falciparum",
+      "Entamoeba histolytica",
+      "Ascaris lumbricoides"
+    ],
+    "correcta": 3,
+    "pista": "Helminto.",
+    "explicacion": "Los helmintos con fase tisular, como Ascaris, producen eosinofilia; los protozoos como Giardia y Entamoeba no."
+  },
+  {
+    "id": "cl-167",
+    "area": "clinicas",
+    "tema": "Neumología · Espirometría",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes hallazgos es característico en la espirometría de un paciente con una enfermedad pulmonar parenquimatosa restrictiva?",
+    "opciones": [
+      "Volumen Residual (VR) aumentado",
+      "Reducción de la Capacidad Vital Forzada (FVC)",
+      "Aumento de la Capacidad Pulmonar Total (CPT)",
+      "Relación FEV1/FVC disminuida"
+    ],
+    "correcta": 3,
+    "pista": "Obstrucción.",
+    "explicacion": "El patrón obstructivo (EPOC, asma) muestra FEV1/FVC disminuida; el restrictivo muestra reducción de la capacidad total."
+  },
+  {
+    "id": "cb-097",
+    "area": "ciencias-basicas",
+    "tema": "Fisiología · Líquidos",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes condiciones puede causar pérdida de líquidos extrarrenal con un aumento en el riesgo de hipopotasemia?",
+    "opciones": [
+      "Sudoración excesiva sin reposición de sodio",
+      "Diarrea",
+      "Hiperventilación",
+      "Pérdidas insensibles a través de la piel"
+    ],
+    "correcta": 1,
+    "pista": "Pérdida digestiva.",
+    "explicacion": "La diarrea produce pérdida extrarrenal con aumento de la osmolaridad plasmática por pérdida de agua y electrolitos."
+  },
+  {
+    "id": "cl-168",
+    "area": "clinicas",
+    "tema": "Oncología · NTRK",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes tipos de cáncer es comúnmente asociado con fusiones en los genes NTRK?",
+    "opciones": [
+      "Carcinoma secretor de mama",
+      "Melanoma cutáneo",
+      "Carcinoma escamoso de esófago",
+      "Carcinoma de células renales"
+    ],
+    "correcta": 0,
+    "pista": "Fusión NTRK.",
+    "explicacion": "El carcinoma secretor de mama (antes carcinoma juvenil) se caracteriza por fusiones NTRK, diana de larotrectinib."
+  },
+  {
+    "id": "cl-169",
+    "area": "clinicas",
+    "tema": "Oncología · Mama",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál es el tratamiento más adecuado para un paciente con cáncer de mama que es HER2 negativo y positivo para receptores de estrógeno (ER) y progesterona (PR)?",
+    "opciones": [
+      "Inmunoterapia",
+      "Radioterapia sola",
+      "Terapia endocrina",
+      "Terapia con trastuzumab"
+    ],
+    "correcta": 2,
+    "pista": "RE positivo.",
+    "explicacion": "Un cáncer HER2 negativo con receptores hormonales positivos se trata con terapia endocrina (tamoxifeno o inhibidor de aromatasa)."
+  },
+  {
+    "id": "cb-098",
+    "area": "ciencias-basicas",
+    "tema": "Genética · Oncología",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes genes supresores de tumores es conocido como el 'guardián del genoma' debido a su papel en detener el ciclo celular y promover la reparación del ADN?",
+    "opciones": [
+      "BRCA1",
+      "RB1",
+      "TP53",
+      "APC"
+    ],
+    "correcta": 2,
+    "pista": "Guardián del genoma.",
+    "explicacion": "TP53 es el «guardián del genoma»: detiene el ciclo celular o induce apoptosis ante daño del ADN."
+  },
+  {
+    "id": "cl-170",
+    "area": "clinicas",
+    "tema": "Hematología · Amiloidosis",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes formas de amiloidosis por transtiretina puede beneficiarse del trasplante hepático debido a la producción de una proteína mutada?",
+    "opciones": [
+      "Amiloidosis primaria AL",
+      "Amiloidosis por transtiretina de tipo salvaje",
+      "Amiloidosis por transtiretina hereditaria",
+      "Amiloidosis secundaria"
+    ],
+    "correcta": 1,
+    "pista": "Hígado productor de la proteína.",
+    "explicacion": "El trasplante hepático puede beneficiar a la amiloidosis por transtiretina hereditaria, porque el hígado produce la proteína mutada."
+  },
+  {
+    "id": "cb-099",
+    "area": "ciencias-basicas",
+    "tema": "Endocrinología · Insulina",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "En un paciente con diabetes tipo 1, ¿cuál es uno de los efectos de la administración de insulina en relación con la producción de cuerpos cetónicos?",
+    "opciones": [
+      "Estimula la lipólisis en el tejido adiposo",
+      "Promueve la producción de cuerpos cetónicos en el hígado",
+      "Aumenta la liberación de ácidos grasos libres",
+      "Inhibe la cetogénesis hepática"
+    ],
+    "correcta": 3,
+    "pista": "Anticetogénica.",
+    "explicacion": "La insulina inhibe la lipólisis y la cetogénesis hepática, y favorece la captación de glucosa."
+  },
+  {
+    "id": "cl-171",
+    "area": "clinicas",
+    "tema": "Infectología · Nipah",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes es una vía de transmisión del virus Nipah a los humanos?",
+    "opciones": [
+      "Inhalación de aerosoles en el ambiente",
+      "Picadura de insectos portadores",
+      "Consumo de savia de palma contaminada por murciélagos infectados",
+      "Contacto con agua contaminada"
+    ],
+    "correcta": 2,
+    "pista": "Murciélagos y savia.",
+    "explicacion": "El virus Nipah se transmite por murciélagos frugívoros, por consumo de savia de palma contaminada y por contacto con cerdos."
+  },
+  {
+    "id": "cl-172",
+    "area": "clinicas",
+    "tema": "Microbiología · Diagnóstico",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes pruebas de laboratorio es el método de referencia para diagnosticar infecciones por Chlamydia trachomatis debido a su alta sensibilidad y especificidad?",
+    "opciones": [
+      "Prueba de Amplificación de Ácidos Nucleicos",
+      "Prueba serológica",
+      "Cultivo celular",
+      "Inmunofluorescencia Directa"
+    ],
+    "correcta": 0,
+    "pista": "PCR.",
+    "explicacion": "La PCR (prueba de amplificación de ácidos nucleicos) es el método de referencia para el diagnóstico viral por su sensibilidad y especificidad."
+  },
+  {
+    "id": "cb-100",
+    "area": "ciencias-basicas",
+    "tema": "Fisiología · V/Q",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "En posición erguida, ¿cuál es la relación ventilación/perfusión (V/Q) en la zona apical del pulmón?",
+    "opciones": [
+      "Cercana a 0.8",
+      "Alta debido a baja perfusión",
+      "Igual en todas las zonas del pulmón",
+      "Baja debido a alta perfusión"
+    ],
+    "correcta": 1,
+    "pista": "Vértice: poca sangre.",
+    "explicacion": "En el vértice pulmonar la ventilación supera a la perfusión, por lo que V/Q es alto; en la base ocurre lo contrario."
+  },
+  {
+    "id": "cl-173",
+    "area": "clinicas",
+    "tema": "Anatomía · Colon",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿En qué ubicación anatómica se encuentra el arco de Riolano, facilitando el flujo sanguíneo al colon en situaciones de isquemia parcial?",
+    "opciones": [
+      "En el mesocolon",
+      "En el epiplón mayor",
+      "En la pelvis",
+      "En el mesenterio del intestino delgado"
+    ],
+    "correcta": 0,
+    "pista": "Mesocolon.",
+    "explicacion": "El arco de Riolano es una anastomosis arterial en el mesocolon, que irriga el colon y permite circulación colateral."
+  },
+  {
+    "id": "cl-174",
+    "area": "clinicas",
+    "tema": "Infectología · EDA",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes organismos es menos probable que cause una enfermedad diarreica aguda (EDA) de inicio rápido?",
+    "opciones": [
+      "Norovirus",
+      "Salmonella",
+      "Campylobacter",
+      "Giardia"
+    ],
+    "correcta": 3,
+    "pista": "Diarrea prolongada.",
+    "explicacion": "Giardia produce diarrea subaguda o crónica con malabsorción; norovirus, Campylobacter y Salmonella son causas típicas de EDA."
+  },
+  {
+    "id": "cb-101",
+    "area": "ciencias-basicas",
+    "tema": "Microbiología · E. coli",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes factores de virulencia de E. coli K1 está asociado con la inestabilidad genómica en células eucariotas mediante la inducción de rupturas de doble cadena en el ADN?",
+    "opciones": [
+      "Colibactina",
+      "Lipopolisacárido",
+      "Hemolisina",
+      "Toxina Shiga"
+    ],
+    "correcta": 0,
+    "pista": "Genotoxicina.",
+    "explicacion": "La colibactina, codificada por la isla pks, daña el ADN y se asocia a inestabilidad genómica en cepas de E. coli."
+  },
+  {
+    "id": "cb-102",
+    "area": "ciencias-basicas",
+    "tema": "Bioquímica · Señalización",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál es el segundo mensajero producido por la acción de la fosfolipasa C (PLC) que moviliza el calcio intracelular?",
+    "opciones": [
+      "Inositol 1,4,5-trisfosfato (InsP3)",
+      "Fosfatidilinositol 4,5-bisfosfato (PtdIns(4,5)P2)",
+      "Diacilglicerol (DAG)",
+      "Proteína quinasa C (PKC)"
+    ],
+    "correcta": 0,
+    "pista": "Libera calcio.",
+    "explicacion": "La PLC escinde PIP2 en DAG e IP3; el IP3 libera calcio del retículo y el DAG activa la PKC."
+  },
+  {
+    "id": "cb-103",
+    "area": "ciencias-basicas",
+    "tema": "Histología · Neurona",
+    "fuente": "CES 2023 · reconstruido",
+    "anio": 2023,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes organelos es prácticamente inexistente en el axoplasma de un axón, lo que obliga al axón a depender de proteínas sintetizadas en el soma neuronal?",
+    "opciones": [
+      "Retículo Endoplásmico Liso",
+      "Microtúbulos",
+      "Retículo Endoplásmico Rugoso",
+      "Mitocondrias"
+    ],
+    "correcta": 2,
+    "pista": "Sin ribosomas.",
+    "explicacion": "El axón carece de retículo endoplásmico rugoso y de ribosomas; las proteínas se sintetizan en el soma y se transportan."
+  },
+  {
+    "id": "cg-133",
+    "area": "cultura-general",
+    "tema": "Geografía · Banderas",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes banderas pertenece a Nueva Zelanda?",
+    "opciones": [
+      "Roja con cinco estrellas amarillas",
+      "Azul con una hoja de arce central",
+      "Azul con la Union Jack y seis estrellas blancas",
+      "Azul con la Union Jack y cuatro estrellas rojas con borde blanco"
+    ],
+    "correcta": 3,
+    "pista": "Cruz del Sur.",
+    "explicacion": "La bandera de Nueva Zelanda es azul con la Union Jack y cuatro estrellas rojas que representan la Cruz del Sur."
+  },
+  {
+    "id": "cg-134",
+    "area": "cultura-general",
+    "tema": "Historia · Tradición",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Según la tradición, el Arca de Noé habría descansado entre las montañas fronterizas de",
+    "opciones": [
+      "Siria y Líbano",
+      "Jordania e Israel",
+      "Armenia y Azerbaiyán",
+      "Turquía e Irán"
+    ],
+    "correcta": 3,
+    "pista": "Monte Ararat.",
+    "explicacion": "Según la tradición, el arca habría descansado en el monte Ararat, entre Turquía e Irán."
+  },
+  {
+    "id": "cg-135",
+    "area": "cultura-general",
+    "tema": "Geopolítica · G8",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Los países integrantes del G8 incluyen",
+    "opciones": [
+      "Francia, Alemania, Suiza, Austria, Bélgica, Dinamarca, Suecia y Finlandia",
+      "México, Brasil, Argentina, Chile, Perú, Colombia, Canadá y Estados Unidos",
+      "Estados Unidos, Japón, Alemania, Reino Unido, Francia, Italia, Canadá y Rusia",
+      "España, Portugal, Noruega, Suecia, Finlandia, Dinamarca, Irlanda y Suiza"
+    ],
+    "correcta": 2,
+    "pista": "Las mayores economías.",
+    "explicacion": "El G8 reúne a EE. UU., Japón, Alemania, Reino Unido, Francia, Italia, Canadá y Rusia (suspendida desde 2014)."
+  },
+  {
+    "id": "cg-136",
+    "area": "cultura-general",
+    "tema": "Literatura · Cómic",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "El nombre del perro que acompaña a Tintín en sus aventuras es",
+    "opciones": [
+      "Toby",
+      "Snoopy",
+      "Milú",
+      "Pluto"
+    ],
+    "correcta": 2,
+    "pista": "Fox terrier.",
+    "explicacion": "Milú es el fox terrier que acompaña a Tintín en las historietas de Hergé."
+  },
+  {
+    "id": "cg-137",
+    "area": "cultura-general",
+    "tema": "Ciencia · Nobel",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "El país con mayor número de premios Nobel de Medicina es",
+    "opciones": [
+      "Alemania",
+      "Suecia",
+      "Estados Unidos",
+      "Reino Unido"
+    ],
+    "correcta": 2,
+    "pista": "Mayor inversión en investigación.",
+    "explicacion": "Estados Unidos es el país con más premios Nobel de Medicina, seguido por Reino Unido y Alemania."
+  },
+  {
+    "id": "cg-138",
+    "area": "cultura-general",
+    "tema": "Historia · Pandemias",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes NO ha sido una pandemia histórica reconocida?",
+    "opciones": [
+      "Peste negra",
+      "Peste amarilla",
+      "Viruela",
+      "Gripe española"
+    ],
+    "correcta": 1,
+    "pista": "La que no fue pandemia.",
+    "explicacion": "La fiebre amarilla no se considera una pandemia histórica; sí la peste negra, la gripe española y la viruela."
+  },
+  {
+    "id": "cg-139",
+    "area": "cultura-general",
+    "tema": "Cine",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "La actriz con más premios Óscar en la categoría de Mejor Actriz Principal es",
+    "opciones": [
+      "Katharine Hepburn",
+      "Audrey Hepburn",
+      "Frances McDormand",
+      "Meryl Streep"
+    ],
+    "correcta": 0,
+    "pista": "Cuatro estatuillas.",
+    "explicacion": "Katharine Hepburn ganó cuatro premios Óscar como Mejor Actriz Principal, récord hasta hoy."
+  },
+  {
+    "id": "cg-140",
+    "area": "cultura-general",
+    "tema": "Cine",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Los premios cinematográficos de la Academia Francesa se denominan",
+    "opciones": [
+      "Premios Gaumont",
+      "Premios Cannes",
+      "Premios César",
+      "Premios Lumière"
+    ],
+    "correcta": 2,
+    "pista": "Equivalentes al Óscar francés.",
+    "explicacion": "Los premios de la Academia Francesa de Cine se llaman César, en honor al escultor César Baldaccini."
+  },
+  {
+    "id": "cg-141",
+    "area": "cultura-general",
+    "tema": "Bioética",
+    "fuente": "CES 2022 · reconstruido",
+    "anio": 2022,
+    "verificado": true,
+    "enunciado": "Los principios del enfoque principalista de la bioética son",
+    "opciones": [
+      "Responsabilidad, caridad, fidelidad y discreción",
+      "Respeto, equidad, prudencia y solidaridad",
+      "Verdad, compasión, lealtad y honestidad",
+      "Autonomía, beneficencia, no maleficencia y justicia"
+    ],
+    "correcta": 3,
+    "pista": "Cuatro principios.",
+    "explicacion": "Beauchamp y Childress definen cuatro principios: autonomía, beneficencia, no maleficencia y justicia."
   }
 ]
