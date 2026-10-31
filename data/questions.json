@@ -4308,5 +4308,81 @@
     "pista": "Museo del Louvre.",
     "explicacion": "«La Gioconda» o Mona Lisa (1503-1519) de Leonardo da Vinci se conserva en el Museo del Louvre. Es la pintura más visitada del mundo.",
     "img": "assets/img/5eca91d1a1113838.webp"
+  },
+  {
+    "id": "cg-098",
+    "area": "cultura-general",
+    "tema": "Historia de la ciencia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El científico de la imagen es considerado el padre de:",
+    "opciones": [
+      "La química moderna",
+      "La física cuántica",
+      "La genética",
+      "La microbiología"
+    ],
+    "correcta": 0,
+    "pista": "Ley de conservación de la masa.",
+    "explicacion": "Antoine-Laurent de Lavoisier formuló la ley de conservación de la masa y explicó la respiración como combustión. Fue guillotinado en 1794.",
+    "img": "assets/img/45994dba555c1309.webp"
+  },
+  {
+    "id": "cg-099",
+    "area": "cultura-general",
+    "tema": "Historia · Industria",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen revolucionó la industria automotriz con:",
+    "opciones": [
+      "La línea de montaje",
+      "El motor diésel",
+      "El neumático radial",
+      "La cadena de frío"
+    ],
+    "correcta": 0,
+    "pista": "Modelo T, 1913.",
+    "explicacion": "Henry Ford introdujo la línea de montaje en 1913 y popularizó el Modelo T, reduciendo el costo y el tiempo de producción del automóvil.",
+    "img": "assets/img/68f329bb65e65177.webp"
+  },
+  {
+    "id": "cg-100",
+    "area": "cultura-general",
+    "tema": "Historia de la ciencia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El matemático de la imagen es conocido por sus aportes a:",
+    "opciones": [
+      "La teoría de probabilidades y la mecánica celeste",
+      "La geometría no euclidiana",
+      "El cálculo diferencial",
+      "La teoría de conjuntos"
+    ],
+    "correcta": 0,
+    "pista": "Determinismo y probabilidad.",
+    "explicacion": "Pierre-Simon Laplace sistematizó la mecánica celeste en su «Tratado» y formalizó la teoría de probabilidades. Su «demonio» ilustra el determinismo.",
+    "img": "assets/img/52645b4aa03fe5e6.webp"
+  },
+  {
+    "id": "cg-101",
+    "area": "cultura-general",
+    "tema": "Geografía · Ciudades",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La ciudad de la imagen, con la CN Tower, es:",
+    "opciones": [
+      "Toronto",
+      "Vancouver",
+      "Montreal",
+      "Ottawa"
+    ],
+    "correcta": 0,
+    "pista": "Mayor ciudad de Canadá.",
+    "explicacion": "La CN Tower (1976) identifica el horizonte de Toronto, la ciudad más poblada de Canadá. Ottawa es la capital del país.",
+    "img": "assets/img/c85ee53c46b1ab46.webp"
   }
 ]
