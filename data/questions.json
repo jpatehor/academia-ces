@@ -4384,5 +4384,62 @@
     "pista": "Mayor ciudad de Canadá.",
     "explicacion": "La CN Tower (1976) identifica el horizonte de Toronto, la ciudad más poblada de Canadá. Ottawa es la capital del país.",
     "img": "assets/img/c85ee53c46b1ab46.webp"
+  },
+  {
+    "id": "cg-102",
+    "area": "cultura-general",
+    "tema": "Historia · Siglo XX",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La imagen muestra a un ciudadano derribando el Muro de Berlín. Ese hecho ocurrió en:",
+    "opciones": [
+      "1989",
+      "1961",
+      "1991",
+      "1975"
+    ],
+    "correcta": 0,
+    "pista": "Nueve de noviembre, dos años antes de la URSS.",
+    "explicacion": "El Muro de Berlín cayó el 9 de noviembre de 1989. Se había construido en 1961 y su caída anticipó la disolución de la Unión Soviética en 1991.",
+    "img": "assets/img/cab2ee1c9520ead2.webp"
+  },
+  {
+    "id": "cg-103",
+    "area": "cultura-general",
+    "tema": "Historia · Cultura popular",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La fotografía de la imagen, ícono pin-up de la Segunda Guerra Mundial, corresponde a:",
+    "opciones": [
+      "Betty Grable",
+      "Marilyn Monroe",
+      "Rita Hayworth",
+      "Jayne Mansfield"
+    ],
+    "correcta": 0,
+    "pista": "El pin-up más famoso de 1943.",
+    "explicacion": "La foto de Betty Grable en traje de baño (1943) fue el pin-up más popular entre los soldados estadounidenses de la Segunda Guerra Mundial.",
+    "img": "assets/img/c84b0901ea485b07.webp"
+  },
+  {
+    "id": "cg-104",
+    "area": "cultura-general",
+    "tema": "Tecnología · Historia de internet",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La imagen es histórica en la tecnología porque fue:",
+    "opciones": [
+      "La primera fotografía publicada en la World Wide Web",
+      "La primera foto tomada por un teléfono móvil",
+      "El primer cartel de un concierto transmitido por internet",
+      "La portada del primer sitio web de la historia"
+    ],
+    "correcta": 0,
+    "pista": "CERN, 1992.",
+    "explicacion": "La foto de «Les Horribles Cernettes» (1992), tomada en el CERN, se considera la primera imagen publicada en la World Wide Web, por Tim Berners-Lee.",
+    "img": "assets/img/90cb7e337333bae7.webp"
   }
 ]
