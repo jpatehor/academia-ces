@@ -1553,7 +1553,7 @@
     "tema": "Arte · Renacimiento",
     "fuente": "Curso cultura general · Día 20",
     "anio": 2024,
-    "enunciado": "¿Quién pintó «El nacimiento de Venus»?",
+    "enunciado": "La obra de la imagen es «El nacimiento de Venus». ¿Quién la pintó?",
     "opciones": [
       "Leonardo da Vinci",
       "Sandro Botticelli",
@@ -1561,8 +1561,9 @@
       "Rafael"
     ],
     "correcta": 1,
-    "pista": "Obra emblemática del Quattrocento florentino, en la Galería Uffizi.",
-    "explicacion": "«El nacimiento de Venus» es de Sandro Botticelli y se conserva en la Galería Uffizi (Florencia). Leonardo pintó «La Gioconda», Miguel Ángel la Capilla Sixtina y Rafael «La escuela de Atenas»."
+    "pista": "Quattrocento florentino, Galería Uffizi.",
+    "explicacion": "«El nacimiento de Venus» es de Sandro Botticelli y se conserva en la Galería Uffizi (Florencia). Leonardo pintó «La Gioconda», Miguel Ángel la Capilla Sixtina y Rafael «La escuela de Atenas».",
+    "img": "assets/img/1841bbea1d532d22.webp"
   },
   {
     "id": "cg-002",
@@ -1570,7 +1571,7 @@
     "tema": "Arte · Capilla Sixtina",
     "fuente": "Curso cultura general · Día 20",
     "anio": 2024,
-    "enunciado": "«La creación de Adán» es obra de:",
+    "enunciado": "El fresco de la imagen, en el techo de la Capilla Sixtina, es obra de:",
     "opciones": [
       "Miguel Ángel",
       "Rafael",
@@ -1578,8 +1579,9 @@
       "Tiziano"
     ],
     "correcta": 0,
-    "pista": "Está en el techo de la Capilla Sixtina.",
-    "explicacion": "Miguel Ángel Buonarroti pintó «La creación de Adán» entre 1511 y 1512 en el techo de la Capilla Sixtina, dentro del encargo global de la bóveda."
+    "pista": "Bóveda pintada entre 1508 y 1512.",
+    "explicacion": "Miguel Ángel Buonarroti pintó «La creación de Adán» entre 1511 y 1512 en el techo de la Capilla Sixtina, dentro del encargo global de la bóveda.",
+    "img": "assets/img/aca1d2ccfc5de997.webp"
   },
   {
     "id": "cg-003",
@@ -3280,5 +3282,176 @@
     "correcta": 0,
     "pista": "Anticuerpo contra la célula misma.",
     "explicacion": "La hipersensibilidad tipo II es citotóxica: anticuerpos IgG o IgM se unen a antígenos de superficie y activan complemento o células efectoras."
+  },
+  {
+    "id": "cg-044",
+    "area": "cultura-general",
+    "tema": "Música · Retrato",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "En la imagen aparece un compositor austriaco del clasicismo. ¿Quién es?",
+    "opciones": [
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Joseph Haydn"
+    ],
+    "correcta": 0,
+    "pista": "Niño prodigio, murió a los 35 años.",
+    "explicacion": "El retrato corresponde a Wolfgang Amadeus Mozart (Salzburgo 1756 – Viena 1791), autor de «Don Giovanni» y «La flauta mágica».",
+    "img": "assets/img/3a5e63e74e2357fb.webp"
+  },
+  {
+    "id": "cg-045",
+    "area": "cultura-general",
+    "tema": "Arte · Barroco",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "¿Quién pintó la obra de la imagen, «La lección de anatomía del Dr. Nicolaes Tulp»?",
+    "opciones": [
+      "Rembrandt",
+      "Johannes Vermeer",
+      "Peter Paul Rubens",
+      "Frans Hals"
+    ],
+    "correcta": 0,
+    "pista": "Maestro del claroscuro, también pintó «La ronda nocturna».",
+    "explicacion": "Rembrandt pintó esta lección de anatomía en 1632; se conserva en el Mauritshuis de La Haya y es una obra clave del Barroco holandés.",
+    "img": "assets/img/77fac5d8516b7101.webp"
+  },
+  {
+    "id": "cg-046",
+    "area": "cultura-general",
+    "tema": "Historia de la ciencia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen, con un cuadrante, fue astrónomo y geógrafo en Alejandría y autor del «Almagesto». Es:",
+    "opciones": [
+      "Claudio Ptolomeo",
+      "Nicolás Copérnico",
+      "Johannes Kepler",
+      "Galileo Galilei"
+    ],
+    "correcta": 0,
+    "pista": "Modelo geocéntrico de la Antigüedad.",
+    "explicacion": "Claudio Ptolomeo (siglo II) trabajó en Alejandría. Su «Almagesto» sistematizó el modelo geocéntrico y fue referencia durante más de mil años.",
+    "img": "assets/img/7ab69b46266bd4e0.webp"
+  },
+  {
+    "id": "cg-047",
+    "area": "cultura-general",
+    "tema": "Arte · Barroco español",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "¿Quién pintó «Las meninas», la obra que aparece en la imagen?",
+    "opciones": [
+      "Diego Velázquez",
+      "Francisco de Goya",
+      "El Greco",
+      "Bartolomé Esteban Murillo"
+    ],
+    "correcta": 0,
+    "pista": "Pintor de cámara de Felipe IV.",
+    "explicacion": "«Las meninas» (1656) es de Diego Velázquez y se conserva en el Museo del Prado. La infanta Margarita es la figura central.",
+    "img": "assets/img/0f0fc97f9af7968f.webp"
+  },
+  {
+    "id": "cg-048",
+    "area": "cultura-general",
+    "tema": "Arte · Expresionismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, ícono del expresionismo, se titula «El grito» y es de:",
+    "opciones": [
+      "Edvard Munch",
+      "Gustav Klimt",
+      "Paul Cézanne",
+      "Claude Monet"
+    ],
+    "correcta": 0,
+    "pista": "Pintor noruego.",
+    "explicacion": "«El grito» (1893) de Edvard Munch anticipa el expresionismo con su deformación y carga psicológica. Existen varias versiones en Oslo.",
+    "img": "assets/img/8bb2fe800b3afe18.webp"
+  },
+  {
+    "id": "cg-049",
+    "area": "cultura-general",
+    "tema": "Escultura · Grecia",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La escultura de la imagen, la Venus de Milo, se conserva en:",
+    "opciones": [
+      "Museo del Louvre (París)",
+      "Museos Vaticanos",
+      "British Museum (Londres)",
+      "Museo de la Acrópolis (Atenas)"
+    ],
+    "correcta": 0,
+    "pista": "Está en París, sin brazos.",
+    "explicacion": "La Venus de Milo (siglo II a. C.) se exhibe en el Museo del Louvre. Fue hallada en la isla de Milos en 1820.",
+    "img": "assets/img/df19de35e5bdceb5.webp"
+  },
+  {
+    "id": "cg-050",
+    "area": "cultura-general",
+    "tema": "Escultura · Moderna",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La escultura de la imagen, «El pensador», es obra de:",
+    "opciones": [
+      "Auguste Rodin",
+      "Miguel Ángel",
+      "Gian Lorenzo Bernini",
+      "Donatello"
+    ],
+    "correcta": 0,
+    "pista": "Escultor francés del siglo XIX.",
+    "explicacion": "«El pensador» (1880) es de Auguste Rodin y formaba parte de «La puerta del Infierno». Existen varias fundiciones en bronce.",
+    "img": "assets/img/d2e976d5104ef660.webp"
+  },
+  {
+    "id": "cg-051",
+    "area": "cultura-general",
+    "tema": "Arte · Flamenco",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El tríptico de la imagen, «El jardín de las delicias», es obra de:",
+    "opciones": [
+      "El Bosco",
+      "Pieter Bruegel el Viejo",
+      "Jan van Eyck",
+      "Alberto Durero"
+    ],
+    "correcta": 0,
+    "pista": "Pintor flamenco de criaturas fantásticas.",
+    "explicacion": "«El jardín de las delicias» (hacia 1490-1500) es de Hieronymus Bosch, El Bosco, y se conserva en el Museo del Prado.",
+    "img": "assets/img/b91aa8260c3afb99.webp"
+  },
+  {
+    "id": "cg-052",
+    "area": "cultura-general",
+    "tema": "Escultura · Renacimiento",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La escultura de la imagen, en la Galería de la Academia de Florencia, es obra de:",
+    "opciones": [
+      "Miguel Ángel",
+      "Donatello",
+      "Gian Lorenzo Bernini",
+      "Auguste Rodin"
+    ],
+    "correcta": 0,
+    "pista": "Autor también de la bóveda de la Capilla Sixtina.",
+    "explicacion": "El David (1501-1504) de Miguel Ángel mide 5,17 m y se trasladó a la Galería de la Academia de Florencia en 1873 para protegerlo.",
+    "img": "assets/img/a68ab8cc5baa0d4c.webp"
   }
 ]

@@ -401,7 +401,8 @@
       img.className = 'q-image';
       img.src = q.img;
       img.alt = 'Imagen de referencia de la pregunta';
-      img.loading = 'lazy';
+      img.loading = 'eager';
+      img.decoding = 'async';
       $('#qOptions').before(img);
     } else {
       $$('.q-image', $('#qCard')).forEach(n => n.remove());
