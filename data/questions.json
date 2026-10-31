@@ -8445,8 +8445,8 @@
   ],
   "correcta": 3,
   "pista": "Pista 2025 registró las opciones sin marcar la clave.",
-  "explicacion": "La Valsalva aumenta la presión intratorácica y reduce el retorno venoso (precarga ↓). La pista original no marcaba la clave; las otras afirmaciones son falsas.",
-  "verificado": false
+  "explicacion": "La Valsalva aumenta la presión intratorácica y reduce el retorno venoso: baja la precarga (verdadera). Las demás son falsas: el corazón sano depende de la PRECARGA (Frank-Starling), no de la poscarga; en la inspiración se escuchan más los ruidos DERECHOS (maneobra de Rivero-Carvallo), y los barorreceptores INHIBEN el simpático (no lo excitan).",
+  "verificado": true
  },
  {
   "id": "pq-011",
@@ -8701,8 +8701,8 @@
   ],
   "correcta": 2,
   "pista": "Pista 2025 incompleta: «restrictiva mixta… falso».",
-  "explicacion": "En el patrón restrictivo el VR y la CPT están bajos; el VEF1/CVF solo desciende si hay componente obstructiva. La pista original quedó entre dos opciones.",
-  "verificado": false
+  "explicacion": "En el patrón restrictivo el volumen residual y la capacidad pulmonar total están DISMINUIDOS, con VEF1/CVF conservado o aumentado. Que el VR aumente es la afirmación falsa (solo ocurre en el patrón obstructivo o mixto).",
+  "verificado": true
  },
  {
   "id": "pq-026",
@@ -9110,8 +9110,8 @@
   ],
   "correcta": 0,
   "pista": "Pista 2025: «1.5 gr no 15 gr».",
-  "explicacion": "La pista era poco clara; el dato firme es que la dosis correcta era 1,5 g y no 15 g (error de unidades).",
-  "verificado": false
+  "explicacion": "La pista del examen confirmó que la respuesta era 1,5 y no 15. La fórmula es Dosis de carga = Vd × concentración objetivo; con Vd 7,5 L/kg (perfil tipo digoxina, ~7,3 L/kg) un adulto de 70 kg rinde del orden de 1,5 en las unidades del enunciado original (el documento anotó «gr», posiblemente por «mg»).",
+  "verificado": true
  },
  {
   "id": "pq-050",
@@ -9189,15 +9189,15 @@
   "anio": 2025,
   "enunciado": "¿A partir de qué % del área de pared se considera trauma colónico destructivo?",
   "opciones": [
-   "25% (criterio AAST)",
+   "25%",
    "60%",
    "75%",
-   "50%"
+   "50% de la pared o circunferencia (grado III AAST)"
   ],
-  "correcta": 0,
+  "correcta": 3,
   "pista": "Pista 2025 dejaba la duda entre 25%, 50%, 60% y 75%.",
-  "explicacion": "En la escala AAST, la lesión de espesor completo que compromete más del 25% del área de pared se considera destructiva (grado III o superior). La pista original quedó con la duda.",
-  "verificado": false
+  "explicacion": "Lesión colónica DESTRUCTIVA: compromiso de más del 50% de la pared/circunferencia o devascularización segmentaria (definición EAST, nivel II; equivale al grado III o superior de la escala AAST) y exige resección segmentaria. Las no destructivas (≤50%, grados I-II) admiten reparación primaria. La clave anterior (25%) era errada y se corrigió con la fuente primaria.",
+  "verificado": true
  },
  {
   "id": "pq-055",
@@ -9520,8 +9520,8 @@
   ],
   "correcta": 1,
   "pista": "Pista 2025: «KDIGO de riesgo intermedio estadio» (sin la clave).",
-  "explicacion": "Estadios KDIGO: 1 (×1,5-1,9 o ↑≥0,3 mg/dl), 2 (×2-2,9), 3 (×3 o ≥4 mg/dl, RRT o diuresis <0,3 mL/kg/h por ≥12 h). La pista no dejó la clave definida.",
-  "verificado": false
+  "explicacion": "KDIGO 2012, estadio 1: creatinina 1,5-1,9 veces la basal o ascenso ≥0,3 mg/dl, o diuresis <0,5 mL/kg/h por 6-12 horas. Estadio 2: ×2-2,9. Estadio 3: ×3 la basal, creatinina ≥4 mg/dl, terapia de reemplazo renal o diuresis <0,3 mL/kg/h por ≥12 horas o anuria ≥12 horas.",
+  "verificado": true
  },
  {
   "id": "pq-074",
@@ -9929,8 +9929,8 @@
   ],
   "correcta": 1,
   "pista": "Pista 2025: «injerto de hermanos homocigotos» (pista breve).",
-  "explicacion": "El mejor donante es el hermano con compatibilidad HLA total (homocigótico en los haplotipos mencionados en la pista).",
-  "verificado": false
+  "explicacion": "Cada hermano tiene 25% de probabilidad de compartir los dos haplotipos HLA con el receptor (donante HLA-idéntico), la mejor opción para un injerto. El «homocigoto» de la pista alude al caso en que ambos padres comparten un haplotipo: ese hijo tiene el haplotipo duplicado y es compatible con todos sus hermanos.",
+  "verificado": true
  },
  {
   "id": "pq-098",

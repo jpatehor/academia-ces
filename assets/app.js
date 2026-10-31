@@ -969,7 +969,7 @@
   let PISTAS = null;
   async function loadPistas() {
     if (PISTAS) return PISTAS;
-    const res = await fetch('data/pistas2025.json', { cache: 'force-cache' });
+    const res = await fetch('data/pistas2025.json', { cache: 'no-cache' });
     const data = await res.json();
     PISTAS = data.tarjetas.map(t => ({
       id: t.id, area: 'pistas', pista: true, img: t.img || null,
