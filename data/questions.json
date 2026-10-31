@@ -3462,7 +3462,7 @@
     "fuente": "Curso cultura general · imagen",
     "anio": 2024,
     "verificado": true,
-    "enunciado": "La bandera de la imagen corresponde a:",
+    "enunciado": "La bandera de la imagen, con escudo ajedrezado, corresponde a:",
     "opciones": [
       "Croacia",
       "Eslovaquia",
@@ -3500,7 +3500,7 @@
     "fuente": "Curso cultura general · imagen",
     "anio": 2024,
     "verificado": true,
-    "enunciado": "La bandera de la imagen corresponde a:",
+    "enunciado": "La bandera de la imagen, con cruz nórdica azul, corresponde a:",
     "opciones": [
       "Islandia",
       "Noruega",
@@ -7538,5 +7538,761 @@
     "correcta": 3,
     "pista": "Cuatro principios.",
     "explicacion": "Beauchamp y Childress definen cuatro principios: autonomía, beneficencia, no maleficencia y justicia."
+  },
+  {
+    "id": "cg-142",
+    "area": "cultura-general",
+    "tema": "Literatura · Autores",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿A qué profesión pertenecía Arthur Conan Doyle, autor de Sherlock Holmes?",
+    "opciones": [
+      "Ingeniero",
+      "Periodista",
+      "Médico",
+      "Abogado"
+    ],
+    "correcta": 2,
+    "pista": "Doctor y escritor.",
+    "explicacion": "Arthur Conan Doyle era médico y se inspiró en su profesor Joseph Bell para crear a Sherlock Holmes."
+  },
+  {
+    "id": "cg-143",
+    "area": "cultura-general",
+    "tema": "Literatura · Obras",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes asociaciones autor–obra es incorrecta?",
+    "opciones": [
+      "J. R. R. Tolkien – Crimen y castigo",
+      "Humberto Eco – El nombre de la rosa",
+      "Herman Melville – Moby Dick",
+      "León Tolstói – Ana Karenina"
+    ],
+    "correcta": 0,
+    "pista": "Ruso, no inglés.",
+    "explicacion": "«Crimen y castigo» es de Fiódor Dostoievski, no de Tolkien, autor de «El señor de los anillos»."
+  },
+  {
+    "id": "cg-144",
+    "area": "cultura-general",
+    "tema": "Arte · Goya",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quién es el autor de La maja desnuda, obra que se encuentra en el Museo del Prado?",
+    "opciones": [
+      "Francisco de Goya",
+      "Diego Velázquez",
+      "Bartolomé Esteban Murillo",
+      "El Greco"
+    ],
+    "correcta": 0,
+    "pista": "Pintor aragonés.",
+    "explicacion": "«La maja desnuda» y «La maja vestida» son de Francisco de Goya y se conservan en el Museo del Prado."
+  },
+  {
+    "id": "cg-145",
+    "area": "cultura-general",
+    "tema": "Geografía · Banderas",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál país tiene una bandera de color vinotinto, a diferencia de su vecino que la tiene roja?",
+    "opciones": [
+      "Omán",
+      "Baréin",
+      "Yemen",
+      "Catar"
+    ],
+    "correcta": 3,
+    "pista": "Vecino de Baréin.",
+    "explicacion": "Catar tiene una bandera vinotinto con franja blanca dentada; su vecino Baréin la tiene roja."
+  },
+  {
+    "id": "cg-146",
+    "area": "cultura-general",
+    "tema": "Geografía · EE. UU.",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es la capital del estado de Alaska (EE. UU.)?",
+    "opciones": [
+      "Sitka",
+      "Anchorage",
+      "Fairbanks",
+      "Juneau"
+    ],
+    "correcta": 3,
+    "pista": "No es Anchorage.",
+    "explicacion": "La capital de Alaska es Juneau, aunque Anchorage es la ciudad más poblada."
+  },
+  {
+    "id": "cg-147",
+    "area": "cultura-general",
+    "tema": "Geografía · Colombia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es el Parque Nacional Natural más grande de Colombia?",
+    "opciones": [
+      "El Tuparro",
+      "Chiribiquete",
+      "Sierra Nevada de Santa Marta",
+      "Amacayacu"
+    ],
+    "correcta": 1,
+    "pista": "Serranía amazónica.",
+    "explicacion": "El Parque Nacional Serranía de Chiribiquete es el más grande de Colombia y Patrimonio de la Humanidad."
+  },
+  {
+    "id": "cg-148",
+    "area": "cultura-general",
+    "tema": "Geopolítica · ONU",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Dónde se encuentra la sede principal de la Organización de las Naciones Unidas (ONU)?",
+    "opciones": [
+      "Ginebra (Suiza)",
+      "París (Francia)",
+      "Viena (Austri",
+      "Nueva York (EE. UU.)"
+    ],
+    "correcta": 3,
+    "pista": "Este de EE. UU.",
+    "explicacion": "La sede principal de la ONU está en Nueva York; Ginebra alberga oficinas europeas."
+  },
+  {
+    "id": "cg-149",
+    "area": "cultura-general",
+    "tema": "Geopolítica · G20",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿En qué ciudad se realizó la Cumbre del G-20 de 2019?",
+    "opciones": [
+      "Roma (Itali",
+      "Buenos Aires (Argentina)",
+      "Riad (Arabia Saudita)",
+      "Osaka (Japón)"
+    ],
+    "correcta": 3,
+    "pista": "Ciudad japonesa.",
+    "explicacion": "La cumbre del G20 de 2019 se celebró en Osaka, Japón."
+  },
+  {
+    "id": "cg-150",
+    "area": "cultura-general",
+    "tema": "Geopolítica · Banco Mundial",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quién era el presidente del Banco Mundial en 2019?",
+    "opciones": [
+      "Jim Yong Kim",
+      "David Malpass",
+      "Paul Wolfowitz",
+      "Kristalina Georgieva"
+    ],
+    "correcta": 1,
+    "pista": "Sucedió a Jim Yong Kim.",
+    "explicacion": "David Malpass asumió la presidencia del Banco Mundial en abril de 2019."
+  },
+  {
+    "id": "cg-151",
+    "area": "cultura-general",
+    "tema": "Historia · Maravillas",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Templo de Artemisa, una de las Siete Maravillas del Mundo Antiguo, se encontraba en",
+    "opciones": [
+      "Grecia",
+      "Italia",
+      "Turquía",
+      "Egipto"
+    ],
+    "correcta": 2,
+    "pista": "Éfeso.",
+    "explicacion": "El Templo de Artemisa estaba en Éfeso, en la actual Turquía."
+  },
+  {
+    "id": "cg-152",
+    "area": "cultura-general",
+    "tema": "Bioética",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuáles son los cuatro principios fundamentales de la bioética médica moderna?",
+    "opciones": [
+      "Empatía, beneficencia, respeto y justicia",
+      "Beneficencia, no maleficencia, autonomía y justicia",
+      "Competencia, equidad, humanidad y autonomía",
+      "Veracidad, confidencialidad, equidad y altruismo"
+    ],
+    "correcta": 1,
+    "pista": "Cuatro principios.",
+    "explicacion": "Los cuatro principios son autonomía, beneficencia, no maleficencia y justicia."
+  },
+  {
+    "id": "cg-153",
+    "area": "cultura-general",
+    "tema": "Literatura · Nobel",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "La poeta Gabriela Mistral, ganadora del Premio Nobel de Literatura (1945), nació en",
+    "opciones": [
+      "Uruguay",
+      "Chile",
+      "Perú",
+      "Argentina"
+    ],
+    "correcta": 1,
+    "pista": "Vicuña.",
+    "explicacion": "Gabriela Mistral nació en Vicuña, Chile, y recibió el Nobel de Literatura en 1945."
+  },
+  {
+    "id": "cg-154",
+    "area": "cultura-general",
+    "tema": "Historia · Maravillas",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes no forma parte de las Siete Maravillas del Mundo Moderno?",
+    "opciones": [
+      "Coliseo Romano",
+      "Petra",
+      "Coloso de Rodas",
+      "Muralla China"
+    ],
+    "correcta": 2,
+    "pista": "Maravilla antigua.",
+    "explicacion": "El Coloso de Rodas pertenece a las siete maravillas del mundo antiguo, no a las modernas."
+  },
+  {
+    "id": "cg-155",
+    "area": "cultura-general",
+    "tema": "Geografía · Estrechos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Estrecho de Bering separa",
+    "opciones": [
+      "Asia y América",
+      "África y Asia",
+      "Europa y África",
+      "América del Norte y Europa"
+    ],
+    "correcta": 0,
+    "pista": "Rusia y Alaska.",
+    "explicacion": "El estrecho de Bering separa Asia (Rusia) de América (Alaska)."
+  },
+  {
+    "id": "cg-156",
+    "area": "cultura-general",
+    "tema": "Geografía · Estrechos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Estrecho de Gibraltar separa",
+    "opciones": [
+      "España y Francia",
+      "España y Marruecos",
+      "Italia y Túnez",
+      "Grecia y Turquía"
+    ],
+    "correcta": 1,
+    "pista": "Europa y África.",
+    "explicacion": "El estrecho de Gibraltar separa España de Marruecos y une el Atlántico con el Mediterráneo."
+  },
+  {
+    "id": "cg-157",
+    "area": "cultura-general",
+    "tema": "Geografía · Estrechos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Estrecho de Magallanes se encuentra en",
+    "opciones": [
+      "Perú",
+      "Argentina",
+      "Chile",
+      "Ecuador"
+    ],
+    "correcta": 2,
+    "pista": "Sur del continente.",
+    "explicacion": "El estrecho de Magallanes está en el sur de Chile y une los océanos Atlántico y Pacífico."
+  },
+  {
+    "id": "cg-158",
+    "area": "cultura-general",
+    "tema": "Geografía · Estrechos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Canal de la Mancha conecta",
+    "opciones": [
+      "El mar Negro con el mar de Mármara",
+      "El mar Rojo con el mar Mediterráneo",
+      "El mar del Norte con el océano Atlántico",
+      "El mar Caspio con el mar Arábigo"
+    ],
+    "correcta": 2,
+    "pista": "Inglaterra y Francia.",
+    "explicacion": "El canal de la Mancha conecta el mar del Norte con el océano Atlántico y separa Inglaterra de Francia."
+  },
+  {
+    "id": "cg-159",
+    "area": "cultura-general",
+    "tema": "Geografía · Estrechos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Canal del Bósforo, ubicado en Turquía, une",
+    "opciones": [
+      "El mar Rojo con el mar Mediterráneo",
+      "El mar Negro con el mar de Mármara",
+      "El mar Caspio con el mar Aral",
+      "El mar Egeo con el mar Jónico"
+    ],
+    "correcta": 1,
+    "pista": "Estambul.",
+    "explicacion": "El Bósforo une el mar Negro con el mar de Mármara y separa Europa de Asia en Estambul."
+  },
+  {
+    "id": "cg-160",
+    "area": "cultura-general",
+    "tema": "Geografía · Estrechos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El Estrecho de Ormuz separa",
+    "opciones": [
+      "Egipto e Israel",
+      "Turquía y Siria",
+      "Irán y Omán",
+      "Arabia Saudita y Yemen"
+    ],
+    "correcta": 2,
+    "pista": "Golfo Pérsico.",
+    "explicacion": "El estrecho de Ormuz separa Irán de Omán y es paso obligado del petróleo del golfo Pérsico."
+  },
+  {
+    "id": "cg-161",
+    "area": "cultura-general",
+    "tema": "Música · Barroco",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "El compositor barroco Johann Pachelbel es célebre por su obra",
+    "opciones": [
+      "Canon en Re mayor",
+      "Concierto de Brandeburgo n.º 3",
+      "Sinfonía n.º 40",
+      "Las cuatro estaciones"
+    ],
+    "correcta": 0,
+    "pista": "Canon.",
+    "explicacion": "Pachelbel es célebre por su «Canon en re mayor», obra barroca muy popular en bodas."
+  },
+  {
+    "id": "cg-162",
+    "area": "cultura-general",
+    "tema": "Ciencia · Nobel",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quiénes ganaron el Premio Nobel de Medicina en 2018 por sus estudios sobre inmunoterapia contra el cáncer?",
+    "opciones": [
+      "James P. Allison y Tasuku Honjo",
+      "Svante Pääbo y Richard Axel",
+      "Emmanuelle Charpentier y Jennifer Doudna",
+      "William Kaelin, Gregg Semenza y Peter Ratcliffe"
+    ],
+    "correcta": 0,
+    "pista": "Inmunoterapia.",
+    "explicacion": "Allison y Honjo recibieron el Nobel 2018 por la inmunoterapia con inhibidores de puntos de control."
+  },
+  {
+    "id": "cg-163",
+    "area": "cultura-general",
+    "tema": "Cine · Clásicos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quién dirigió la película clásica “Casablanca” (1942)?",
+    "opciones": [
+      "Alfred Hitchcock",
+      "Billy Wilder",
+      "Michael Curtiz",
+      "Orson Welles"
+    ],
+    "correcta": 2,
+    "pista": "Director húngaro-estadounidense.",
+    "explicacion": "«Casablanca» (1942) fue dirigida por Michael Curtiz y protagonizada por Bogart y Bergman."
+  },
+  {
+    "id": "cg-164",
+    "area": "cultura-general",
+    "tema": "Arte · Latinoamérica",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál de los siguientes no era pintor ni escultor colombiano?",
+    "opciones": [
+      "Roberto Matta",
+      "Omar Rayo",
+      "Feliza Bursztyn",
+      "Pedro Nel Gómez"
+    ],
+    "correcta": 0,
+    "pista": "Chileno.",
+    "explicacion": "Roberto Matta era chileno y perteneció al surrealismo; los otros tres son colombianos."
+  },
+  {
+    "id": "cg-165",
+    "area": "cultura-general",
+    "tema": "Mitología · Medicina",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quién es el dios griego de la medicina?",
+    "opciones": [
+      "Hermes",
+      "Asclepio",
+      "Apolo",
+      "Dionisio"
+    ],
+    "correcta": 1,
+    "pista": "Bastón con serpiente.",
+    "explicacion": "Asclepio (Esculapio) es el dios griego de la medicina; su bastón con serpiente es símbolo médico."
+  },
+  {
+    "id": "cg-166",
+    "area": "cultura-general",
+    "tema": "Historia · Rusia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quién fue el fundador de San Petersburgo (actual San Petersburgo, Rusia)?",
+    "opciones": [
+      "Pedro el Grande",
+      "Alejandro I",
+      "Iván el Terrible",
+      "Nicolás II"
+    ],
+    "correcta": 0,
+    "pista": "Zar reformador.",
+    "explicacion": "Pedro el Grande fundó San Petersburgo en 1703 como «ventana a Europa»."
+  },
+  {
+    "id": "cg-167",
+    "area": "cultura-general",
+    "tema": "Geopolítica · Brasil",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Quién era el presidente de Brasil en 2019?",
+    "opciones": [
+      "Michel Temer",
+      "Jair Bolsonaro",
+      "Dilma Rousseff",
+      "Luiz Inácio Lula da Silva"
+    ],
+    "correcta": 1,
+    "pista": "Sucedió a Temer.",
+    "explicacion": "Jair Bolsonaro asumió la presidencia de Brasil el 1 de enero de 2019."
+  },
+  {
+    "id": "cg-168",
+    "area": "cultura-general",
+    "tema": "Geografía · Europa",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "La Visa Schengen permite viajar libremente entre",
+    "opciones": [
+      "20 países de la zona euro",
+      "Todos los países de Europa",
+      "26 países del espacio Schengen",
+      "15 países de la Unión Europea"
+    ],
+    "correcta": 2,
+    "pista": "No todos son UE.",
+    "explicacion": "El espacio Schengen reúne 26 países europeos con libre circulación, no todos de la UE."
+  },
+  {
+    "id": "cg-169",
+    "area": "cultura-general",
+    "tema": "Geografía · Colombia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es la capital musical de Colombia, conocida por su festival folclórico y conservatorio?",
+    "opciones": [
+      "Ibagué",
+      "Cali",
+      "Popayán",
+      "Medellín"
+    ],
+    "correcta": 0,
+    "pista": "Tolima.",
+    "explicacion": "Ibagué es conocida como la capital musical de Colombia por su conservatorio y festival folclórico."
+  },
+  {
+    "id": "cg-170",
+    "area": "cultura-general",
+    "tema": "Física · Fluidos",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Según el principio de Arquímedes, todo cuerpo sumergido en un fluido",
+    "opciones": [
+      "Aumenta su masa aparente",
+      "Pierde totalmente su peso real",
+      "Se hunde si su volumen disminuye",
+      "Experimenta un empuje vertical hacia arriba igual al peso del fluido desalojado"
+    ],
+    "correcta": 3,
+    "pista": "Empuje hacia arriba.",
+    "explicacion": "Todo cuerpo sumergido recibe un empuje vertical hacia arriba igual al peso del fluido desalojado."
+  },
+  {
+    "id": "cb-104",
+    "area": "ciencias-basicas",
+    "tema": "Genética · Herencia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Una mujer hipoacúsica se casa con un hombre sin antecedentes familiares. Tienen dos hijos varones (uno con hipoacusia y otro con sordera) y una hija también sorda. El hermano de la madre era hipoacúsico, pero sus tres hijos son sanos. ¿Cuál es el patrón de herencia más probable?",
+    "opciones": [
+      "Autosómico dominante",
+      "Mitocondrial",
+      "Ligado al cromosoma X",
+      "Autosómico recesivo"
+    ],
+    "correcta": 2,
+    "pista": "Hijos varones.",
+    "explicacion": "Solo los hijos varones afectados, con madre portadora y padre sano, es el patrón típico de herencia ligada al X recesiva."
+  },
+  {
+    "id": "cb-105",
+    "area": "ciencias-basicas",
+    "tema": "Fisiología · Potencial de acción",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En una neurona se registra el potencial de acción y se observa que los canales de sodio (Na⁺) se cierran más lentamente que los de potasio (K⁺). ¿Qué cambio se esperaría en la forma de la gráfica del potencial de acción?",
+    "opciones": [
+      "Disminuye la amplitud del potencial de acción",
+      "La fase de despolarización se acorta",
+      "No se modifica la duración total del potencial",
+      "La fase de repolarización se prolonga y se hace más lenta"
+    ],
+    "correcta": 0,
+    "pista": "Menos Na+ entra.",
+    "explicacion": "Si se bloquean los canales de sodio, el ingreso de Na+ disminuye y la amplitud del potencial de acción cae."
+  },
+  {
+    "id": "cl-175",
+    "area": "clinicas",
+    "tema": "Neumología · DLCO",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿En cuál situación la DLCO está aumentada?",
+    "opciones": [
+      "EPOC",
+      "Asma bronquial",
+      "Enfermedad intersticial pulmonar",
+      "Hemorragia alveolar"
+    ],
+    "correcta": 3,
+    "pista": "Sangre en el alvéolo.",
+    "explicacion": "La hemorragia alveolar aumenta la difusión por el hierro de la hemoglobina libre; asma, EPOC e intersticiales la disminuyen."
+  },
+  {
+    "id": "cl-176",
+    "area": "clinicas",
+    "tema": "Obstetricia · Plaquetas",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En una embarazada, ¿a partir de qué valor plaquetario debe iniciarse estudio por trombocitopenia?",
+    "opciones": [
+      "50.000",
+      "100.000",
+      "150.000",
+      "400.000"
+    ],
+    "correcta": 1,
+    "pista": "Seis cifras.",
+    "explicacion": "En el embarazo se estudia trombocitopenia por debajo de 100.000/µL; entre 100.000 y 150.000 suele ser gestacional benigna."
+  },
+  {
+    "id": "cl-177",
+    "area": "clinicas",
+    "tema": "Infectología · Acinetobacter",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál es el principal factor de riesgo para neumonía por Acinetobacter baumannii?",
+    "opciones": [
+      "Edad >65 años",
+      "Alcoholismo",
+      "Uso prolongado de esteroides (>3 meses)",
+      "EPOC estable"
+    ],
+    "correcta": 2,
+    "pista": "Inmunosupresión.",
+    "explicacion": "El uso prolongado de corticoides y la estancia en UCI son factores de riesgo para Acinetobacter multirresistente."
+  },
+  {
+    "id": "cl-178",
+    "area": "clinicas",
+    "tema": "Infectología · Psitacosis",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Trabajador avícola con neumonía atípica por patógeno intracelular. ¿Cuál es el agente causal más probable?",
+    "opciones": [
+      "Coxiella burnetii",
+      "Legionella pneumophila",
+      "Mycoplasma pneumoniae",
+      "Chlamydophila psittaci"
+    ],
+    "correcta": 3,
+    "pista": "Aves.",
+    "explicacion": "La psitacosis por Chlamydophila psittaci se adquiere por inhalación de excretas de aves."
+  },
+  {
+    "id": "cl-179",
+    "area": "clinicas",
+    "tema": "Hematología · Trombofilia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Hombre de 40 años con tres eventos trombóticos inexplicados. ¿Cuál mutación o defecto podría explicarlo?",
+    "opciones": [
+      "Mutación de la protrombina G20210A",
+      "Factor V Leiden",
+      "Elevación del factor VIII",
+      "Déficit del inhibidor del activador tisular del plasminógeno"
+    ],
+    "correcta": 1,
+    "pista": "Resistencia a proteína C.",
+    "explicacion": "La trombofilia hereditaria más frecuente es el factor V Leiden, que causa resistencia a la proteína C activada."
+  },
+  {
+    "id": "cl-180",
+    "area": "clinicas",
+    "tema": "Hematología · Hemofilia",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Niño con hemofilia A presenta hematoma duodenal tras trauma leve. ¿Manejo definitivo?",
+    "opciones": [
+      "Crioprecipitado",
+      "Reposición de factor VIII",
+      "Laparoscopia exploradora",
+      "Plasma fresco congelado"
+    ],
+    "correcta": 1,
+    "pista": "Factor faltante.",
+    "explicacion": "En la hemofilia A el tratamiento es la reposición de factor VIII; el crioprecipitado y el plasma son alternativas históricas."
+  },
+  {
+    "id": "cl-181",
+    "area": "clinicas",
+    "tema": "Infectología · Micobacterias",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Hombre con lesión ulcerada tras limpiar un acuario. ¿Cuál es el agente etiológico más probable?",
+    "opciones": [
+      "Aeromonas hydrophila",
+      "Vibrio vulnificus",
+      "Erysipelothrix rhusiopathiae",
+      "Mycobacterium marinum"
+    ],
+    "correcta": 3,
+    "pista": "Acuario.",
+    "explicacion": "Mycobacterium marinum produce lesiones cutáneas tras contacto con agua de acuarios o peces."
+  },
+  {
+    "id": "cl-182",
+    "area": "clinicas",
+    "tema": "Neurología · NF2",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Paciente con neurofibromatosis tipo 2 y síntomas auditivos progresivos. ¿Qué nervio está comprometido?",
+    "opciones": [
+      "V par (trigémino)",
+      "VII par (facial)",
+      "IX par (glosofaríngeo)",
+      "VIII par (vestibulococlear)"
+    ],
+    "correcta": 3,
+    "pista": "Schwannoma vestibular.",
+    "explicacion": "La NF2 produce schwannomas vestibulares bilaterales con hipoacusia y tinnitus progresivos (VIII par)."
+  },
+  {
+    "id": "cl-183",
+    "area": "clinicas",
+    "tema": "Reumatología · Ojo seco",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "¿Cuál de las siguientes no es una complicación ocular de la artritis reumatoide?",
+    "opciones": [
+      "Escleritis",
+      "Queratitis seca",
+      "Blefaritis",
+      "Uveítis"
+    ],
+    "correcta": 2,
+    "pista": "Párpado.",
+    "explicacion": "La AR causa queratoconjuntivitis seca, escleritis y uveítis; la blefaritis no es complicación típica."
+  },
+  {
+    "id": "cl-184",
+    "area": "clinicas",
+    "tema": "Gastroenterología · Vía biliar",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "En una pancreatitis biliar, ¿cuál hallazgo indica obstrucción persistente?",
+    "opciones": [
+      "Amilasa elevada",
+      "Aumento de bilirrubina total",
+      "Lipasa normal",
+      "Colédoco dilatado en ecografía"
+    ],
+    "correcta": 3,
+    "pista": "Vía biliar dilatada.",
+    "explicacion": "La dilatación del colédoco indica obstrucción biliar persistente y orienta a CPRE."
+  },
+  {
+    "id": "cl-185",
+    "area": "clinicas",
+    "tema": "Hematología · Hemólisis",
+    "fuente": "CES 2019 · reconstruido",
+    "anio": 2019,
+    "verificado": true,
+    "enunciado": "Con base en los hallazgos anteriores en anemia hemolítica, ¿qué resultados se esperan?",
+    "opciones": [
+      "Haptoglobina aumentada, bilirrubina total baja",
+      "Haptoglobina disminuida, bilirrubina indirecta aumentada",
+      "Haptoglobina aumentada, bilirrubina indirecta normal",
+      "Haptoglobina normal, bilirrubina directa aumentada"
+    ],
+    "correcta": 1,
+    "pista": "Haptoglobina baja.",
+    "explicacion": "En la hemólisis la haptoglobina baja por consumo y la bilirrubina indirecta sube."
   }
 ]
