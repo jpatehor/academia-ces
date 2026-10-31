@@ -467,7 +467,147 @@
     }).join('') || '<li class="muted">Aún no hay respuestas registradas.</li>';
 
     $('#dueCount').textContent = dueIds().length;
+    renderWeak();
+    renderPlan();
   }
+
+  /* ---------- estadísticas por tema ---------- */
+  function topicOf(q) {
+    const t = (q.tema || 'Sin tema').split('·')[0].trim();
+    return t || 'Sin tema';
+  }
+
+  function topicStats() {
+    const map = new Map();
+    for (const q of BANK) {
+      const m = meta(q.id);
+      if (!m.seen) continue;
+      const t = topicOf(q);
+      const row = map.get(t) || { topic: t, seen: 0, ok: 0, bad: 0 };
+      row.seen += m.seen;
+      row.ok += m.ok;
+      row.bad += m.bad;
+      map.set(t, row);
+    }
+    return [...map.values()].map(r => ({ ...r, acc: r.ok + r.bad ? r.ok / (r.ok + r.bad) : 0 }));
+  }
+
+  function renderWeak() {
+    const box = $('#weakList');
+    const rows = topicStats().sort((a, b) => a.acc - b.acc || b.seen - a.seen).slice(0, 8);
+    if (!rows.length) {
+      box.innerHTML = '<p class="muted">Aún no hay datos. Responde algunas preguntas.</p>';
+      return;
+    }
+    box.innerHTML = rows.map(r => `
+      <div class="bar-row">
+        <span>${esc(r.topic)}</span>
+        <span>${Math.round(r.acc * 100)}% <em class="muted">(${r.seen})</em></span>
+        <div class="bar-track"><i class="weak" style="width:${Math.round(r.acc * 100)}%"></i></div>
+      </div>`).join('');
+  }
+
+  /* ---------- plan semanal ---------- */
+  function weekKey() {
+    const d = new Date();
+    const day = (d.getDay() + 6) % 7;
+    const monday = new Date(d);
+    monday.setDate(d.getDate() - day);
+    return monday.toISOString().slice(0, 10);
+  }
+
+  function ensurePlan(force) {
+    const week = weekKey();
+    if (!force && state.plan && state.plan.week === week) return state.plan;
+
+    const stats = topicStats();
+    let topics;
+    if (stats.length) {
+      topics = stats.sort((a, b) => a.acc - b.acc || b.seen - a.seen).slice(0, 5).map(s => s.topic);
+    } else {
+      // sin historial: arranca por los temas con más preguntas
+      const count = new Map();
+      for (const q of BANK) {
+        const t = topicOf(q);
+        count.set(t, (count.get(t) || 0) + 1);
+      }
+      topics = [...count.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(e => e[0]);
+    }
+
+    const days = topics.map((topic, i) => ({ day: i + 1, kind: 'topic', topic }));
+    days.push({ day: 6, kind: 'review', topic: 'Repaso de tus errores' });
+    days.push({ day: 7, kind: 'simulacro', topic: 'Simulacro libre' });
+
+    state.plan = { week, days, created: Date.now() };
+    save();
+    return state.plan;
+  }
+
+  function idsForPlanDay(d) {
+    if (d.kind === 'review') return dueIds().slice(0, 15);
+    if (d.kind === 'simulacro') return shuffle(BANK.map(q => q.id)).slice(0, 20);
+    return BANK.filter(q => topicOf(q) === d.topic).map(q => q.id).slice(0, 15);
+  }
+
+  function renderPlan() {
+    const plan = ensurePlan(false);
+    const box = $('#planList');
+    box.innerHTML = plan.days.map(d => {
+      const ids = idsForPlanDay(d);
+      return `<div class="plan-row">
+        <span class="plan-day">D${d.day}</span>
+        <span class="plan-topic">${esc(d.topic)}<em>${ids.length} preguntas</em></span>
+        <button class="btn subtle small" data-day="${d.day}" ${ids.length ? '' : 'disabled'}>Practicar</button>
+      </div>`;
+    }).join('');
+    box.querySelectorAll('button[data-day]').forEach(b => {
+      b.addEventListener('click', () => {
+        const d = plan.days.find(x => String(x.day) === b.dataset.day);
+        const ids = idsForPlanDay(d);
+        const qs = ids.map(id => byId.get(id)).filter(Boolean);
+        if (qs.length) startSession(d.kind === 'simulacro' ? shuffle(qs) : qs, { mode: d.kind === 'simulacro' ? 'simulacro' : 'quiz', minutes: 20 });
+      });
+    });
+  }
+
+  $('#planRegen').addEventListener('click', () => {
+    ensurePlan(true);
+    renderPlan();
+  });
+
+  /* ---------- exportar / importar ---------- */
+  $('#exportBtn').addEventListener('click', () => {
+    const payload = { app: 'academia-ces', version: 1, exported: new Date().toISOString(), state };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `academia-ces-progreso-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+
+  $('#importBtn').addEventListener('click', () => $('#importFile').click());
+  $('#importFile').addEventListener('change', async e => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    try {
+      const data = JSON.parse(await file.text());
+      const incoming = data.state && data.state.cards ? data.state : data;
+      if (!incoming.cards || typeof incoming.cards !== 'object') throw new Error('formato');
+      const n = Object.keys(incoming.cards).length;
+      if (!confirm(`Importar ${n} preguntas con avance. Esto reemplaza tu progreso actual. ¿Continuar?`)) return;
+      state = Object.assign(defaultState(), incoming);
+      save();
+      renderDashboard();
+      renderProgress();
+      alert('Progreso importado.');
+    } catch (err) {
+      alert('No se pudo importar: el archivo no tiene el formato esperado.');
+    } finally {
+      e.target.value = '';
+    }
+  });
   $('#reviewBtn').addEventListener('click', () => {
     const ids = new Set(dueIds());
     const qs = BANK.filter(q => ids.has(q.id));

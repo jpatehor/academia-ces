@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=20261031g" />
+<link rel="stylesheet" href="assets/styles.css?v=20261031h" />
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>" />
 </head>
 <body>
@@ -188,6 +188,24 @@
         <p class="muted">Las preguntas que fallas vuelven a aparecer con más frecuencia. Cada acierto las aleja.</p>
         <button class="btn primary" id="reviewBtn">Repasar pendientes (<span id="dueCount">0</span>)</button>
       </div>
+      <div class="panel">
+        <h3>Tus temas más débiles</h3>
+        <div id="weakList" class="bars"><p class="muted">Aún no hay datos. Responde algunas preguntas.</p></div>
+      </div>
+      <div class="panel">
+        <h3>Plan de la semana</h3>
+        <div id="planList" class="plan"></div>
+        <button class="btn subtle small" id="planRegen">Recalcular plan</button>
+      </div>
+      <div class="panel">
+        <h3>Respaldo del progreso</h3>
+        <p class="muted">Tu avance vive solo en este navegador. Exportalo para pasarlo a otro dispositivo o guardarlo.</p>
+        <div class="fb-actions">
+          <button class="btn subtle" id="exportBtn">⬇ Exportar</button>
+          <button class="btn subtle" id="importBtn">⬆ Importar</button>
+          <input type="file" id="importFile" accept="application/json,.json" hidden />
+        </div>
+      </div>
       <div class="panel danger">
         <h3>Zona de reinicio</h3>
         <p class="muted">Borra tu avance local. No se puede deshacer.</p>
@@ -296,6 +314,6 @@
   <span id="footStats"></span>
 </footer>
 
-<script src="assets/app.js?v=20261031g"></script>
+<script src="assets/app.js?v=20261031h"></script>
 </body>
 </html>
