@@ -3738,5 +3738,138 @@
     "pista": "Nobel 1957, argelino-francés.",
     "explicacion": "Albert Camus (1913-1960), nacido en Argelia, escribió «El extranjero», «La peste» y «El mito de Sísifo». Recibió el Nobel de Literatura en 1957.",
     "img": "assets/img/5154908a0ced7064.webp"
+  },
+  {
+    "id": "cg-068",
+    "area": "cultura-general",
+    "tema": "Arte · Simbolismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, del simbolismo vienés, se titula «El beso» y su autor es:",
+    "opciones": [
+      "Gustav Klimt",
+      "Egon Schiele",
+      "Edvard Munch",
+      "Alfons Mucha"
+    ],
+    "correcta": 0,
+    "pista": "Dorados y mosaicos, Viena.",
+    "explicacion": "«El beso» (1907-1908) es la obra más conocida de Gustav Klimt y pertenece al simbolismo vienés. Se conserva en la Galería Belvedere de Viena.",
+    "img": "assets/img/729bf1150cabbffc.webp"
+  },
+  {
+    "id": "cg-069",
+    "area": "cultura-general",
+    "tema": "Arte · Postimpresionismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "¿Quién pintó «El dormitorio en Arlés», que aparece en la imagen?",
+    "opciones": [
+      "Vincent van Gogh",
+      "Paul Gauguin",
+      "Paul Cézanne",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "correcta": 0,
+    "pista": "Casa amarilla, 1888.",
+    "explicacion": "Van Gogh pintó «El dormitorio en Arlés» en 1888, durante su estancia en la casa amarilla con Gauguin. Existen tres versiones.",
+    "img": "assets/img/2a8b34153948bdee.webp"
+  },
+  {
+    "id": "cg-070",
+    "area": "cultura-general",
+    "tema": "Arte · Impresionismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La pintura de la imagen pertenece a la serie «Nenúfares», obra de:",
+    "opciones": [
+      "Claude Monet",
+      "Pierre-Auguste Renoir",
+      "Camille Pissarro",
+      "Edgar Degas"
+    ],
+    "correcta": 0,
+    "pista": "Jardín de Giverny.",
+    "explicacion": "Claude Monet pintó más de 250 lienzos de nenúfares en su jardín de Giverny. Es el máximo representante del impresionismo y del estudio de la luz.",
+    "img": "assets/img/37fafac9fab7164c.webp"
+  },
+  {
+    "id": "cg-071",
+    "area": "cultura-general",
+    "tema": "Arte · Cubismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, que denuncia el bombardeo de Guernica, es de:",
+    "opciones": [
+      "Pablo Picasso",
+      "Joan Miró",
+      "Salvador Dalí",
+      "Juan Gris"
+    ],
+    "correcta": 0,
+    "pista": "Museo Reina Sofía, Madrid.",
+    "explicacion": "«Guernica» (1937) de Pablo Picasso conmemora el bombardeo de la ciudad vasca por la aviación alemana. Se exhibe en el Museo Reina Sofía.",
+    "img": "assets/img/595874ff3ae70457.webp"
+  },
+  {
+    "id": "cg-072",
+    "area": "cultura-general",
+    "tema": "Arte · Renacimiento",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El personaje de la imagen, autor de «La última cena» y «La Gioconda», es:",
+    "opciones": [
+      "Leonardo da Vinci",
+      "Miguel Ángel",
+      "Rafael",
+      "Donatello"
+    ],
+    "correcta": 0,
+    "pista": "El hombre del Renacimiento.",
+    "explicacion": "Leonardo da Vinci (1452-1519) fue pintor, ingeniero y anatomista; es el arquetipo del hombre del Renacimiento. Murió en Amboise, Francia.",
+    "img": "assets/img/e625c1886fff421c.webp"
+  },
+  {
+    "id": "cg-073",
+    "area": "cultura-general",
+    "tema": "Arte · Renacimiento",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "El mural de la imagen, en el refectorio de Santa Maria delle Grazie (Milán), es obra de:",
+    "opciones": [
+      "Leonardo da Vinci",
+      "Miguel Ángel",
+      "Rafael",
+      "Tiziano"
+    ],
+    "correcta": 0,
+    "pista": "Milán, refectorio dominico.",
+    "explicacion": "«La última cena» (1495-1498) de Leonardo da Vinci está en el refectorio de Santa Maria delle Grazie, Milán. Es una pintura mural de técnica mixta.",
+    "img": "assets/img/fb0826b8e76ff484.webp"
+  },
+  {
+    "id": "cg-074",
+    "area": "cultura-general",
+    "tema": "Arte · Cubismo",
+    "fuente": "Curso cultura general · imagen",
+    "anio": 2024,
+    "verificado": true,
+    "enunciado": "La obra de la imagen, «Las señoritas de Avignon», es de:",
+    "opciones": [
+      "Pablo Picasso",
+      "Georges Braque",
+      "Henri Matisse",
+      "Amedeo Modigliani"
+    ],
+    "correcta": 0,
+    "pista": "MoMA, 1907.",
+    "explicacion": "«Las señoritas de Avignon» (1907) de Picasso inaugura el cubismo y rompe con la perspectiva renacentista. Se conserva en el MoMA de Nueva York.",
+    "img": "assets/img/279682eff377364e.webp"
   }
 ]
